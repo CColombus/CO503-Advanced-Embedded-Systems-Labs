@@ -1,0 +1,146 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=D:/SEM6/CO503/Lab02/crc_ci_lab/ --output-directory=D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/ --report-file=bsf:D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC.qsys
+Progress: Loading crc_ci_lab/CRC_SoC.qsys
+Progress: Reading input file
+Progress: Adding clock [clock_source 13.1]
+Progress: Parameterizing module clock
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding cpu [altera_nios2_qsys 13.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.1]
+Progress: Parameterizing module sysid
+Progress: Adding CRC_0 [CRC 1.0]
+Progress: Parameterizing module CRC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: CRC_SoC.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: CRC_SoC.sysid: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:/SEM6/CO503/Lab02/crc_ci_lab/ --output-directory=D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/synthesis/ --file-set=QUARTUS_SYNTH --report-file=html:D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC.html --report-file=sopcinfo:D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC.sopcinfo --report-file=cmp:D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC.cmp --report-file=qip:D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/synthesis/CRC_SoC.qip --report-file=svd --report-file=regmap:D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/synthesis/CRC_SoC.regmap --report-file=debuginfo:D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/synthesis/CRC_SoC.debuginfo --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC.qsys --language=VERILOG
+Progress: Loading crc_ci_lab/CRC_SoC.qsys
+Progress: Reading input file
+Progress: Adding clock [clock_source 13.1]
+Progress: Parameterizing module clock
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding cpu [altera_nios2_qsys 13.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding timer [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.1]
+Progress: Parameterizing module sysid
+Progress: Adding CRC_0 [CRC 1.0]
+Progress: Parameterizing module CRC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: CRC_SoC.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: CRC_SoC.sysid: Time stamp will be automatically updated when this component is generated.
+Info: CRC_SoC: Generating CRC_SoC "CRC_SoC" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 7 modules, 25 connections
+Info: merlin_custom_instruction_transform: After transform: 10 modules, 28 connections
+Info: merlin_initial_interconnect_transform: After transform: 6 modules, 22 connections
+Info: merlin_translator_transform: After transform: 13 modules, 50 connections
+Info: merlin_domain_transform: After transform: 26 modules, 136 connections
+Info: merlin_router_transform: After transform: 33 modules, 164 connections
+Info: merlin_network_to_switch_transform: After transform: 46 modules, 199 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 48 modules, 246 connections
+Info: merlin_hierarchy_transform: After transform: 11 modules, 31 connections
+Info: merlin_mm_transform: After transform: 11 modules, 31 connections
+Info: merlin_interrupt_mapper_transform: After transform: 12 modules, 35 connections
+Info: reset_adaptation_transform: After transform: 14 modules, 37 connections
+Warning: CRC_SoC: "No matching role found for cpu_custom_instruction_master_translator:ci_slave:ci_slave_ipending (ipending)"
+Warning: CRC_SoC: "No matching role found for cpu_custom_instruction_master_translator:ci_slave:ci_slave_estatus (estatus)"
+Warning: CRC_SoC: "No matching role found for cpu_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_ipending (ipending)"
+Warning: CRC_SoC: "No matching role found for cpu_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_estatus (estatus)"
+Info: onchip_mem: Starting RTL generation for module 'CRC_SoC_onchip_mem'
+Info: onchip_mem:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=CRC_SoC_onchip_mem --dir=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0025_onchip_mem_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0025_onchip_mem_gen//CRC_SoC_onchip_mem_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_mem: Done RTL generation for module 'CRC_SoC_onchip_mem'
+Info: onchip_mem: "CRC_SoC" instantiated altera_avalon_onchip_memory2 "onchip_mem"
+Info: cpu: Starting RTL generation for module 'CRC_SoC_cpu'
+Info: cpu:   Generation command is [exec C:/altera/13.1/quartus/bin/eperlcmd.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=CRC_SoC_cpu --dir=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0026_cpu_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0026_cpu_gen//CRC_SoC_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.04.22 19:18:33 (*) Starting Nios II generation
+Info: cpu: # 2024.04.22 19:18:33 (*)   Checking for plaintext license.
+Info: cpu: # 2024.04.22 19:18:36 (*)   Plaintext license not found.
+Info: cpu: # 2024.04.22 19:18:36 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.04.22 19:18:36 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.04.22 19:18:36 (*)   Creating all objects for CPU
+Info: cpu: # 2024.04.22 19:18:37 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.04.22 19:18:37 (*)   Creating plain-text RTL
+Info: cpu: # 2024.04.22 19:18:38 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'CRC_SoC_cpu'
+Info: cpu: "CRC_SoC" instantiated altera_nios2_qsys "cpu"
+Info: jtag_uart_0: Starting RTL generation for module 'CRC_SoC_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/13.1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.1/quartus/bin/perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=CRC_SoC_jtag_uart_0 --dir=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0027_jtag_uart_0_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0027_jtag_uart_0_gen//CRC_SoC_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'CRC_SoC_jtag_uart_0'
+Info: jtag_uart_0: "CRC_SoC" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: timer: Starting RTL generation for module 'CRC_SoC_timer'
+Info: timer:   Generation command is [exec C:/altera/13.1/quartus/bin//perl/bin/perl.exe -I C:/altera/13.1/quartus/bin//perl/lib -I C:/altera/13.1/quartus/sopc_builder/bin/europa -I C:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.1/quartus/sopc_builder/bin -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=CRC_SoC_timer --dir=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0028_timer_gen/ --quartus_dir=C:/altera/13.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9835_4200968417875917564.dir/0028_timer_gen//CRC_SoC_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: timer: Done RTL generation for module 'CRC_SoC_timer'
+Info: timer: "CRC_SoC" instantiated altera_avalon_timer "timer"
+Info: sysid: "CRC_SoC" instantiated altera_avalon_sysid_qsys "sysid"
+Info: CRC_0: "CRC_SoC" instantiated CRC "CRC_0"
+Info: cpu_custom_instruction_master_translator: "CRC_SoC" instantiated altera_customins_master_translator "cpu_custom_instruction_master_translator"
+Info: cpu_custom_instruction_master_multi_xconnect: "CRC_SoC" instantiated altera_customins_xconnect "cpu_custom_instruction_master_multi_xconnect"
+Info: cpu_custom_instruction_master_multi_slave_translator0: "CRC_SoC" instantiated altera_customins_slave_translator "cpu_custom_instruction_master_multi_slave_translator0"
+Info: pipeline_bridge_swap_transform: After transform: 42 modules, 138 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 42 modules, 138 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 42 modules, 138 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 42 modules, 138 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 42 modules, 138 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 42 modules, 138 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 42 modules, 138 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 42 modules, 138 connections
+Info: mm_interconnect_0: "CRC_SoC" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_0"
+Info: irq_mapper: "CRC_SoC" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "CRC_SoC" instantiated altera_reset_controller "rst_controller"
+Info: cpu_instruction_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info: cpu_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info: cpu_instruction_master_translator_avalon_universal_master_0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "mm_interconnect_0" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "mm_interconnect_0" instantiated altera_merlin_router "id_router"
+Info: id_router_002: "mm_interconnect_0" instantiated altera_merlin_router "id_router_002"
+Info: cmd_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux_002"
+Info: Reusing file D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file D:/SEM6/CO503/Lab02/crc_ci_lab/CRC_SoC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: CRC_SoC: Done "CRC_SoC" with 29 modules, 44 files, 1195846 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
