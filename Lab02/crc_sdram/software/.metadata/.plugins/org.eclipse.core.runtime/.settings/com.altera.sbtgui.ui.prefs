@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=D\:\\SEM6\\CO503\\Lab02\\crc_sdram\\software\\CRC_SD
+newSoftwareExampleWizardPage.sopcinfoFile=D\:\\SEM6\\CO503\\Lab02\\crc_sdram\\CRCSDSoC.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=D\:\\SEM6\\CO503\\Lab02\\crc_sdram\\software\\CRC_SD_bsp
