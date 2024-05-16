@@ -1,0 +1,35 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <altera_avalon_fifo_regs.h>
+#include <altera_avalon_fifo_util.h>
+#include <stdlib.h>
+
+#define MEM_BASE 0x00041050
+#define CTRL_BASE 0x00041000
+
+int main()
+{
+  for (int var = 0; var < 40; ++var) {
+	int num = altera_avalon_fifo_read_fifo(MEM_BASE,CTRL_BASE);
+	int full_s = altera_avalon_fifo_read_status(CTRL_BASE,1<<0);
+	int empty_s = altera_avalon_fifo_read_status(CTRL_BASE,1<<1);
+	printf("Read:%d Full:%d Empty:%d\n",num,full_s,empty_s);
+}
+
+  return 0;
+}

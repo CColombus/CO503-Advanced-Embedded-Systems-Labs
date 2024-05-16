@@ -105,13 +105,13 @@ int main()
   unsigned long sw_fast_results[NUMBER_OF_BUFFERS];
   unsigned long ci_results[NUMBER_OF_BUFFERS];
   unsigned char random_data = 0x5A;
-  //unsigned long sw_slow_timeA, sw_slow_timeB;
- // unsigned long sw_fast_timeA, sw_fast_timeB;
- // unsigned long ci_timeA, ci_timeB;
+  unsigned long sw_slow_timeA, sw_slow_timeB;
+  unsigned long sw_fast_timeA, sw_fast_timeB;
+  unsigned long ci_timeA, ci_timeB;
 
-  alt_u32 sw_slow_timeA, sw_slow_timeB;
-  alt_u32 sw_fast_timeA, sw_fast_timeB;
-  alt_u32 ci_timeA, ci_timeB;
+  //alt_u32 sw_slow_timeA, sw_slow_timeB;
+  //alt_u32 sw_fast_timeA, sw_fast_timeB;
+  //alt_u32 ci_timeA, ci_timeB;
 
 
   printf("+-----------------------------------------------------------+\n");
@@ -201,24 +201,25 @@ int main()
   }
   printf("All CRC implementations produced the same results\n\n\n");
 
+  unsigned long alt_t_freq = alt_timestamp_freq();
 
   // Report processing times
   printf("Processing time for each implementation\n");
   printf("---------------------------------------\n");
-  printf("Software CRC = %.2lu ms\n", 1000*((unsigned long)(sw_slow_timeB-sw_slow_timeA))/((unsigned long)alt_timestamp_freq()));
-  printf("Optimized software CRC = %.2lu ms\n", 1000*((unsigned long)(sw_fast_timeB-sw_fast_timeA))/((unsigned long)alt_timestamp_freq()));
-  printf("Custom instruction CRC = %.2lu ms\n\n\n", 1000*((unsigned long)(ci_timeB-ci_timeA))/((unsigned long)alt_timestamp_freq()));
+  printf("Software CRC = %.3f ms\n", 1000*(float)(sw_slow_timeB-sw_slow_timeA)/alt_t_freq);
+  printf("Optimized software CRC = %.3f ms\n", 1000*(float)(sw_fast_timeB-sw_fast_timeA)/alt_t_freq);
+  printf("Custom instruction CRC = %.3f ms\n\n\n", 1000*(float)(ci_timeB-ci_timeA)/alt_t_freq);
 
   printf("Processing throughput for each implementation\n"); // throughput = total bits / (time(s) * 1000000)
   printf("---------------------------------------------\n");
-  printf("Software CRC = %.2lu Mbps\n", (8 * NUMBER_OF_BUFFERS * BUFFER_SIZE)/(1000000*(unsigned long)(sw_slow_timeB-sw_slow_timeA)/((unsigned long)alt_timestamp_freq())));
-  printf("Optimized software CRC = %.2lu Mbps\n", (8 * NUMBER_OF_BUFFERS * BUFFER_SIZE)/(1000000*(unsigned long)(sw_fast_timeB-sw_fast_timeA)/((unsigned long)alt_timestamp_freq())));
-  printf("Custom instruction CRC = %.2lu Mbps\n\n\n", (8 * NUMBER_OF_BUFFERS * BUFFER_SIZE)/(1000000*(unsigned long)(ci_timeB-ci_timeA)/((unsigned long)alt_timestamp_freq())));
+  printf("Software CRC = %.2f Mbps\n", (8 * NUMBER_OF_BUFFERS * BUFFER_SIZE)/(1000000*(float)(sw_slow_timeB-sw_slow_timeA)/alt_t_freq));
+  printf("Optimized software CRC = %.2f Mbps\n", (8 * NUMBER_OF_BUFFERS * BUFFER_SIZE)/(1000000*(float)(sw_fast_timeB-sw_fast_timeA)/alt_t_freq));
+  printf("Custom instruction CRC = %.2f Mbps\n\n\n", (8 * NUMBER_OF_BUFFERS * BUFFER_SIZE)/(1000000*(float)(ci_timeB-ci_timeA)/alt_t_freq));
 
   printf("Speedup ratio\n");
   printf("-------------\n");
-  printf("Custom instruction CRC vs software CRC = %lu\n", ((unsigned long)(sw_slow_timeB-sw_slow_timeA))/((unsigned long)(ci_timeB-ci_timeA)));
-  printf("Custom instruction CRC vs optimized software CRC = %lu\n", ((unsigned long)(sw_fast_timeB-sw_fast_timeA))/((unsigned long)(ci_timeB-ci_timeA)));
-  printf("Optimized software CRC vs software CRC= %lu\n", ((unsigned long)(sw_slow_timeB-sw_slow_timeA))/((unsigned long)(sw_fast_timeB-sw_fast_timeA)));
+  printf("Custom instruction CRC vs software CRC = %.2f\n", ((float)(sw_slow_timeB-sw_slow_timeA))/((float)(ci_timeB-ci_timeA)));
+  printf("Custom instruction CRC vs optimized software CRC = %.2f\n", ((float)(sw_fast_timeB-sw_fast_timeA))/((float)(ci_timeB-ci_timeA)));
+  printf("Optimized software CRC vs software CRC= %.2f\n", ((float)(sw_slow_timeB-sw_slow_timeA))/((float)(sw_fast_timeB-sw_fast_timeA)));
   return 0;
 }

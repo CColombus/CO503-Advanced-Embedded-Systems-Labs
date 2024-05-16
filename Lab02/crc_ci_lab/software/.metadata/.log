@@ -359,3 +359,133 @@ Caused by: org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY com.altera.sbtgui.launch 1 0 2024-04-25 15:32:19.638
 !MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+!SESSION 2024-05-02 15:36:13.294 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:37:57.076
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:38:00.070
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:38:54.277
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:38:55.253
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:38:58.061
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:43:01.934
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:43:02.913
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:43:05.751
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:47:10.221
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:47:11.195
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:47:13.977
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:49:26.793
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:49:27.770
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:49:30.583
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:50:27.029
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:50:28.004
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:50:30.788
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:52:46.644
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:52:47.621
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:52:50.431
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:57:38.358
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:57:39.636
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:57:42.495
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:59:47.360
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:59:48.320
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 15:59:51.121
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:00:52.528
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:00:53.487
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:00:56.295
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:02:38.148
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:02:39.147
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:02:42.246
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:04:28.723
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:04:29.697
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:04:32.512
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:08:44.739
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:08:45.712
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:08:48.503
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:10:25.868
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:10:26.837
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x81020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-02 16:10:29.630
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x81020 /cygdrive/d/SEM6/CO503/Lab02/crc_ci_lab/software/crc_ci_lab/crc_ci_lab.elf]

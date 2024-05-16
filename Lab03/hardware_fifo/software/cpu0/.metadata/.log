@@ -1,0 +1,79 @@
+!SESSION 2024-05-16 15:49:32.173 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-16 15:51:31.841
+!MESSAGE Indexed 'producer_bsp' (83 sources, 63 headers) in 0.81 sec: 1,058 declarations; 2,590 references; 117 unresolved inclusions; 5 syntax errors; 218 unresolved names (5.64%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-16 15:51:34.243
+!MESSAGE Indexed 'producer' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 15:54:43.742
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41040 --id=0xc0 --timestamp=1715854711]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 15:54:46.149
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41040 --id=0xc0 --timestamp=1715854711 /cygdrive/d/SEM6/CO503/Lab03/hardware_fifo/software/producer/producer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:18:21.708
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41040 --id=0xc0 --timestamp=1715854711]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:18:23.991
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41040 --id=0xc0 --timestamp=1715854711 /cygdrive/d/SEM6/CO503/Lab03/hardware_fifo/software/producer/producer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:33:16.410
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41040 --id=0xc0 --timestamp=1715854711]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:33:18.540
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41040 --id=0xc0 --timestamp=1715854711 /cygdrive/d/SEM6/CO503/Lab03/hardware_fifo/software/producer/producer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:34:08.673
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:34:09.195
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41040 --id=0xc0 --timestamp=1715854711]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:34:11.300
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41040 --id=0xc0 --timestamp=1715854711 /cygdrive/d/SEM6/CO503/Lab03/hardware_fifo/software/producer/producer.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:37:25.748
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:37:26.287
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41040 --id=0xc0 --timestamp=1715854711]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:37:28.481
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41040 --id=0xc0 --timestamp=1715854711 /cygdrive/d/SEM6/CO503/Lab03/hardware_fifo/software/producer/producer.elf]
+
+!ENTRY org.eclipse.cdt.ui 4 0 2024-05-16 16:41:11.995
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element FIFO_1.h does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:538)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:339)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:602)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:630)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:403)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:88)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:73)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:396)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2024-05-16 16:41:11.996
+!MESSAGE Element FIFO_1.h does not exist.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:51:13.454
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:51:14.299
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41040 --id=0xc0 --timestamp=1715854711]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-16 16:51:16.556
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41040 --id=0xc0 --timestamp=1715854711 /cygdrive/d/SEM6/CO503/Lab03/hardware_fifo/software/producer/producer.elf]
