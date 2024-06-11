@@ -47,12 +47,12 @@ module mpsoc_mm_interconnect_0_id_router_009_default_decode
      parameter DEFAULT_CHANNEL = 0,
                DEFAULT_WR_CHANNEL = -1,
                DEFAULT_RD_CHANNEL = -1,
-               DEFAULT_DESTID = 3 
+               DEFAULT_DESTID = 0 
    )
   (output [84 - 81 : 0] default_destination_id,
-   output [10-1 : 0] default_wr_channel,
-   output [10-1 : 0] default_rd_channel,
-   output [10-1 : 0] default_src_channel
+   output [13-1 : 0] default_wr_channel,
+   output [13-1 : 0] default_rd_channel,
+   output [13-1 : 0] default_src_channel
   );
 
   assign default_destination_id = 
@@ -63,7 +63,7 @@ module mpsoc_mm_interconnect_0_id_router_009_default_decode
       assign default_src_channel = '0;
     end
     else begin
-      assign default_src_channel = 10'b1 << DEFAULT_CHANNEL;
+      assign default_src_channel = 13'b1 << DEFAULT_CHANNEL;
     end
   end
   endgenerate
@@ -74,8 +74,8 @@ module mpsoc_mm_interconnect_0_id_router_009_default_decode
       assign default_rd_channel = '0;
     end
     else begin
-      assign default_wr_channel = 10'b1 << DEFAULT_WR_CHANNEL;
-      assign default_rd_channel = 10'b1 << DEFAULT_RD_CHANNEL;
+      assign default_wr_channel = 13'b1 << DEFAULT_WR_CHANNEL;
+      assign default_rd_channel = 13'b1 << DEFAULT_RD_CHANNEL;
     end
   end
   endgenerate
@@ -105,7 +105,7 @@ module mpsoc_mm_interconnect_0_id_router_009
     // -------------------
     output                          src_valid,
     output reg [98-1    : 0] src_data,
-    output reg [10-1 : 0] src_channel,
+    output reg [13-1 : 0] src_channel,
     output                          src_startofpacket,
     output                          src_endofpacket,
     input                           src_ready
@@ -121,7 +121,7 @@ module mpsoc_mm_interconnect_0_id_router_009
     localparam PKT_PROTECTION_H = 88;
     localparam PKT_PROTECTION_L = 86;
     localparam ST_DATA_W = 98;
-    localparam ST_CHANNEL_W = 10;
+    localparam ST_CHANNEL_W = 13;
     localparam DECODER_TYPE = 1;
 
     localparam PKT_TRANS_WRITE = 58;
@@ -160,16 +160,11 @@ module mpsoc_mm_interconnect_0_id_router_009
     assign src_valid         = sink_valid;
     assign src_startofpacket = sink_startofpacket;
     assign src_endofpacket   = sink_endofpacket;
-    wire [10-1 : 0] default_src_channel;
+    wire [13-1 : 0] default_src_channel;
 
 
 
 
-    // -------------------------------------------------------
-    // Write and read transaction signals
-    // -------------------------------------------------------
-    wire read_transaction;
-    assign read_transaction  = sink_data[PKT_TRANS_READ];
 
 
     mpsoc_mm_interconnect_0_id_router_009_default_decode the_default_decode(
@@ -191,8 +186,8 @@ module mpsoc_mm_interconnect_0_id_router_009
 
 
 
-        if (destid == 3  && read_transaction) begin
-            src_channel = 10'b1;
+        if (destid == 0 ) begin
+            src_channel = 13'b1;
         end
 
 

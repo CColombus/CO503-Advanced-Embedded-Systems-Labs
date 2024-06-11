@@ -10,16 +10,23 @@
 
 #include <io.h>
 #include "system.h"
+#include "sys/alt_timestamp.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 
-void delay(int n);
+//void delay(int n);
 int producer();
 
 
 int main()
 {
+  if(alt_timestamp_start() < 0) // starts the timestamp timer
+  {
+	printf("Please add the high resolution timer to the timestamp timer setting in the syslib properties page.\n");
+	exit(1);
+  }
+
 	producer();
 
 	while(1) { }
@@ -30,31 +37,45 @@ int main()
 
 int producer()
 {
+
+	alt_u32 start_time, stop_time;
+
 	printf("Producer starting..\n");
 
 	FIFO_1_INIT(); // Initialize the FIFO
 
 	int j = 5;
-	while(j<=500)
+	int count = 0;
+
+
+	while(count <= 5000)
 	{
-		delay(100000);
+		// we ignore the first 100 or so packets because of human error when starting
+		if (count == 100) {
+			start_time = alt_timestamp();
+		}
+//		delay(100000);
+		count++;
 		WRITE_FIFO_1(&j); // Write to the producer-consumer fifo
-		delay(100000);
+//		delay(100000);
 
 		printf("Producer sent [%i]\n",j);
 		j+=11;
 	}
+	stop_time = alt_timestamp();
 
 	printf("Producer finished..\n");
+
+	printf("Produced %d data in %.2f ms.\n", count-1, 1000*((float)(stop_time-start_time)) /((float)alt_timestamp_freq()));
 	return 0;
 }
 
 
-void delay(int n)
-{
-	int i;
-	for(i=n; i>0; i--)
-	{
-		continue;
-	}
-}
+//void delay(int n)
+//{
+//	int i;
+//	for(i=n; i>0; i--)
+//	{
+//		continue;
+//	}
+//}

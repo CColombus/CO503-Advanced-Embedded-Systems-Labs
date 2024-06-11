@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu1' in SOPC Builder design 'fifo_mpsoc'
  * SOPC Builder design path: D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
  *
- * Generated: Thu May 16 16:21:02 IST 2024
+ * Generated: Fri May 24 20:04:30 IST 2024
  */
 
 /*
@@ -72,6 +72,7 @@ ALTERA_NIOS2_QSYS_IRQ_INSTANCE ( CPU1, cpu1);
 ALTERA_AVALON_FIFO_INSTANCE ( FIFO_SHARED, fifo_shared);
 ALTERA_AVALON_JTAG_UART_INSTANCE ( JTAG_UART_1, jtag_uart_1);
 ALTERA_AVALON_SYSID_QSYS_INSTANCE ( SYSID_1, sysid_1);
+ALTERA_AVALON_TIMER_INSTANCE ( ALT_TIMER_1, alt_timer_1);
 ALTERA_AVALON_TIMER_INSTANCE ( TIMER_1, timer_1);
 
 /*
@@ -95,6 +96,7 @@ void alt_irq_init ( const void* base )
 
 void alt_sys_init( void )
 {
+    ALTERA_AVALON_TIMER_INIT ( ALT_TIMER_1, alt_timer_1);
     ALTERA_AVALON_TIMER_INIT ( TIMER_1, timer_1);
     ALTERA_AVALON_FIFO_INIT ( FIFO_SHARED, fifo_shared);
     ALTERA_AVALON_JTAG_UART_INIT ( JTAG_UART_1, jtag_uart_1);

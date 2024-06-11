@@ -2,24 +2,24 @@
 **** Build of configuration Nios II for project consumer ****
 
 make all 
-      0 [main] sh 16524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] sh 19740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      1 [main] sh 9316 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] sh 18420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      0 [main] echo 28668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] echo 7256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Building ../consumer_bsp/
-the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../consumer_bsp/
-      1 [main] pwd 26764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] pwd 20252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      0 [main] sh 26916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] sh 17060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      0 [main] sh 10004 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] sh 20864 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
 [BSP build complete]
-      0 [main] true 28344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] true 1220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
-      0 [main] sh 4564 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+      0 [main] sh 23732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 the public mailing list cygwin@cygwin.com
 [consumer build complete]
 

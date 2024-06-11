@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu1' in SOPC Builder design 'fifo_mpsoc'
  * SOPC Builder design path: D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
  *
- * Generated: Thu May 16 16:21:32 IST 2024
+ * Generated: Fri May 24 20:04:30 IST 2024
  */
 
 /*
@@ -168,6 +168,32 @@
 
 
 /*
+ * alt_timer_1 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_alt_timer_1 altera_avalon_timer
+#define ALT_TIMER_1_ALWAYS_RUN 0
+#define ALT_TIMER_1_BASE 0x0
+#define ALT_TIMER_1_COUNTER_SIZE 32
+#define ALT_TIMER_1_FIXED_PERIOD 0
+#define ALT_TIMER_1_FREQ 50000000
+#define ALT_TIMER_1_IRQ 20
+#define ALT_TIMER_1_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define ALT_TIMER_1_LOAD_VALUE 49
+#define ALT_TIMER_1_MULT 1.0E-6
+#define ALT_TIMER_1_NAME "/dev/alt_timer_1"
+#define ALT_TIMER_1_PERIOD 1
+#define ALT_TIMER_1_PERIOD_UNITS "us"
+#define ALT_TIMER_1_RESET_OUTPUT 0
+#define ALT_TIMER_1_SNAPSHOT 1
+#define ALT_TIMER_1_SPAN 32
+#define ALT_TIMER_1_TICKS_PER_SEC 1000000.0
+#define ALT_TIMER_1_TIMEOUT_PULSE_OUTPUT 0
+#define ALT_TIMER_1_TYPE "altera_avalon_timer"
+
+
+/*
  * fifo_shared_in_csr configuration
  *
  */
@@ -238,7 +264,7 @@
 
 #define ALT_MAX_FD 32
 #define ALT_SYS_CLK TIMER_1
-#define ALT_TIMESTAMP_CLK TIMER_1
+#define ALT_TIMESTAMP_CLK ALT_TIMER_1
 
 
 /*
@@ -300,7 +326,7 @@
 #define SYSID_1_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_1_NAME "/dev/sysid_1"
 #define SYSID_1_SPAN 8
-#define SYSID_1_TIMESTAMP 1715854711
+#define SYSID_1_TIMESTAMP 1716560993
 #define SYSID_1_TYPE "altera_avalon_sysid_qsys"
 
 

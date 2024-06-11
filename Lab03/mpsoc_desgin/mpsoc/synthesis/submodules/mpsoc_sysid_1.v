@@ -36,7 +36,7 @@ module mpsoc_sysid_1 (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1715517271 : 193;
+  assign readdata = address ? 1716558762 : 193;
 
 endmodule
 

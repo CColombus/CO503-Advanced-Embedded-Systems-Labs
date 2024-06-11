@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu0' in SOPC Builder design 'mpsoc'
  * SOPC Builder design path: D:/SEM6/CO503/Lab03/mpsoc_desgin/mpsoc.sopcinfo
  *
- * Generated: Sun May 12 18:16:48 IST 2024
+ * Generated: Fri May 24 19:26:36 IST 2024
  */
 
 /*
@@ -70,6 +70,7 @@
 ALTERA_NIOS2_QSYS_IRQ_INSTANCE ( CPU0, cpu0);
 ALTERA_AVALON_JTAG_UART_INSTANCE ( JTAG_UART_0, jtag_uart_0);
 ALTERA_AVALON_SYSID_QSYS_INSTANCE ( SYSID_0, sysid_0);
+ALTERA_AVALON_TIMER_INSTANCE ( ALT_TIMER_0, alt_timer_0);
 ALTERA_AVALON_TIMER_INSTANCE ( TIMER_0, timer_0);
 
 /*
@@ -93,6 +94,7 @@ void alt_irq_init ( const void* base )
 
 void alt_sys_init( void )
 {
+    ALTERA_AVALON_TIMER_INIT ( ALT_TIMER_0, alt_timer_0);
     ALTERA_AVALON_TIMER_INIT ( TIMER_0, timer_0);
     ALTERA_AVALON_JTAG_UART_INIT ( JTAG_UART_0, jtag_uart_0);
     ALTERA_AVALON_SYSID_QSYS_INIT ( SYSID_0, sysid_0);

@@ -1214,3 +1214,2208 @@ the public mailing list cygwin@cygwin.com
 [consumer build complete]
 
 **** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 32636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 28096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 31836 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 23160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 30488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 32692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 28896 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 30564 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 33064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 24244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 20044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 32040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 17388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 480 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 23464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 22912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 21764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 11956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 21624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 22876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_alarm_start.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 1736 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+      1 [main] echo 25900 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_busy_sleep.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 14036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_busy_sleep.o HAL/src/alt_busy_sleep.c
+      1 [main] echo 21460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_close.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 10512 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_close.o HAL/src/alt_close.c
+      1 [main] echo 13040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dcache_flush.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 27064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush.o HAL/src/alt_dcache_flush.c
+      1 [main] echo 22212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dcache_flush_all.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush_all.o HAL/src/alt_dcache_flush_all.c
+      1 [main] echo 7476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dcache_flush_no_writeback.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush_no_writeback.o HAL/src/alt_dcache_flush_no_writeback.c
+      0 [main] echo 27028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dev.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 21108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dev.o HAL/src/alt_dev.c
+      0 [main] echo 25788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dma_rxchan_open.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dma_rxchan_open.o HAL/src/alt_dma_rxchan_open.c
+      0 [main] echo 16076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_dma_txchan_open.c...
+      1 [main] mkdir 21816 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dma_txchan_open.o HAL/src/alt_dma_txchan_open.c
+      1 [main] echo 9748 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_ecc_fatal_exception.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 23208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_ecc_fatal_exception.o HAL/src/alt_ecc_fatal_exception.c
+      1 [main] echo 4728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_exception_entry.S...
+      0 [main] mkdir 25228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_entry.o HAL/src/alt_exception_entry.S
+      1 [main] echo 18060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_exit.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 23072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_exit.o HAL/src/alt_exit.c
+      1 [main] echo 3496 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fcntl.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 5596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fcntl.o HAL/src/alt_fcntl.c
+      0 [main] echo 18528 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fd_lock.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 5176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fd_lock.o HAL/src/alt_fd_lock.c
+      0 [main] echo 19120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fd_unlock.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 26148 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fd_unlock.o HAL/src/alt_fd_unlock.c
+      0 [main] echo 2548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_find_dev.c...
+      0 [main] mkdir 13264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_find_dev.o HAL/src/alt_find_dev.c
+      1 [main] echo 9400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_find_file.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 12476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_find_file.o HAL/src/alt_find_file.c
+      0 [main] echo 6644 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_flash_dev.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 27624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_flash_dev.o HAL/src/alt_flash_dev.c
+      0 [main] echo 2960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fs_reg.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 22812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fs_reg.o HAL/src/alt_fs_reg.c
+      0 [main] echo 26456 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fstat.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 22140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fstat.o HAL/src/alt_fstat.c
+      0 [main] echo 11208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_get_fd.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 14344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_get_fd.o HAL/src/alt_get_fd.c
+      1 [main] echo 24496 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_gmon.c...
+      0 [main] mkdir 7812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_gmon.o HAL/src/alt_gmon.c
+      0 [main] echo 15136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_icache_flush.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_icache_flush.o HAL/src/alt_icache_flush.c
+      1 [main] echo 15576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_icache_flush_all.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 4768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_icache_flush_all.o HAL/src/alt_icache_flush_all.c
+      1 [main] echo 23216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iic.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 13992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_iic.o HAL/src/alt_iic.c
+      1 [main] echo 24752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iic_isr_register.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15284 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_iic_isr_register.o HAL/src/alt_iic_isr_register.c
+      1 [main] echo 10520 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_instruction_exception_entry.c...
+      0 [main] mkdir 24176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_instruction_exception_entry.o HAL/src/alt_instruction_exception_entry.c
+      1 [main] echo 4204 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_instruction_exception_register.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 18764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_instruction_exception_register.o HAL/src/alt_instruction_exception_register.c
+      0 [main] echo 26812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_io_redirect.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 27616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_io_redirect.o HAL/src/alt_io_redirect.c
+      0 [main] echo 25544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_ioctl.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 4452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_ioctl.o HAL/src/alt_ioctl.c
+      1 [main] echo 12404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_irq_entry.S...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 27472 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_irq_entry.o HAL/src/alt_irq_entry.S
+      1 [main] echo 13452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_irq_handler.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10192 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_handler.o HAL/src/alt_irq_handler.c
+      1 [main] echo 18648 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_irq_register.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 21232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_register.o HAL/src/alt_irq_register.c
+      0 [main] echo 12276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_irq_vars.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 9368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_vars.o HAL/src/alt_irq_vars.c
+      1 [main] echo 27560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_isatty.c...
+      0 [main] mkdir 6656 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_isatty.o HAL/src/alt_isatty.c
+      0 [main] echo 23664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_lseek.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 17876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_lseek.o HAL/src/alt_lseek.c
+      1 [main] echo 9588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_main.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 26572 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_main.o HAL/src/alt_main.c
+      0 [main] echo 23464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_open.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 20244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_open.o HAL/src/alt_open.c
+      0 [main] echo 22912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_read.c...
+      1 [main] mkdir 22104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_read.o HAL/src/alt_read.c
+      0 [main] echo 26960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_release_fd.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 11956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_release_fd.o HAL/src/alt_release_fd.c
+      1 [main] echo 4776 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_remap_cached.c...
+      0 [main] mkdir 9120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_remap_cached.o HAL/src/alt_remap_cached.c
+      0 [main] echo 20120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_remap_uncached.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 17144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_remap_uncached.o HAL/src/alt_remap_uncached.c
+      0 [main] echo 24544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_sbrk.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19112 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_sbrk.o HAL/src/alt_sbrk.c
+      0 [main] echo 14360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_software_exception.S...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 9728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_software_exception.o HAL/src/alt_software_exception.S
+      1 [main] echo 7776 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_tick.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 7692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_tick.o HAL/src/alt_tick.c
+      0 [main] echo 22068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_uncached_free.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 24648 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_uncached_free.o HAL/src/alt_uncached_free.c
+      0 [main] echo 22020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_uncached_malloc.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 4516 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_uncached_malloc.o HAL/src/alt_uncached_malloc.c
+      1 [main] echo 27324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_write.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15996 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_write.o HAL/src/alt_write.c
+      1 [main] echo 24224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_nios2_qsys_irq.c...
+      1 [main] mkdir 19984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/altera_nios2_qsys_irq.o HAL/src/altera_nios2_qsys_irq.c
+      0 [main] echo 2632 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling crt0.S...
+      0 [main] mkdir 21176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/crt0.o HAL/src/crt0.S
+      1 [main] echo 24384 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_sys_init.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/alt_sys_init.o alt_sys_init.c
+      0 [main] echo 1096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_fd.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 26376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_fd.o drivers/src/altera_avalon_jtag_uart_fd.c
+      1 [main] echo 19104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_init.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 25980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_init.o drivers/src/altera_avalon_jtag_uart_init.c
+      0 [main] echo 19068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_ioctl.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 26396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o drivers/src/altera_avalon_jtag_uart_ioctl.c
+      0 [main] echo 25512 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_jtag_uart_read.c...
+      1 [main] mkdir 24172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_read.o drivers/src/altera_avalon_jtag_uart_read.c
+      0 [main] echo 21828 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_write.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 24344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_write.o drivers/src/altera_avalon_jtag_uart_write.c
+      0 [main] echo 6180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_sysid_qsys.c...
+      0 [main] mkdir 24112 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_sysid_qsys.o drivers/src/altera_avalon_sysid_qsys.c
+      0 [main] echo 19996 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_timer_sc.c...
+      0 [main] mkdir 20464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_sc.o drivers/src/altera_avalon_timer_sc.c
+      1 [main] echo 25252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_timer_ts.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13236 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_ts.o drivers/src/altera_avalon_timer_ts.c
+drivers/src/altera_avalon_timer_ts.c: In function 'alt_timestamp':
+drivers/src/altera_avalon_timer_ts.c:108:9: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+drivers/src/altera_avalon_timer_ts.c:122:9: warning: left shift count >= width of type [enabled by default]
+drivers/src/altera_avalon_timer_ts.c:122:9: warning: left shift count >= width of type [enabled by default]
+      1 [main] echo 23656 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_timer_vars.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 21980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_vars.o drivers/src/altera_avalon_timer_vars.c
+      1 [main] echo 21948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Creating libhal_bsp.a...
+rm -f -f libhal_bsp.a
+      0 [main] rm 20992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-ar -src libhal_bsp.a obj/HAL/src/alt_alarm_start.o obj/HAL/src/alt_busy_sleep.o obj/HAL/src/alt_close.o obj/HAL/src/alt_dcache_flush.o obj/HAL/src/alt_dcache_flush_all.o obj/HAL/src/alt_dcache_flush_no_writeback.o obj/HAL/src/alt_dev.o obj/HAL/src/alt_dev_llist_insert.o obj/HAL/src/alt_dma_rxchan_open.o obj/HAL/src/alt_dma_txchan_open.o obj/HAL/src/alt_do_ctors.o obj/HAL/src/alt_do_dtors.o obj/HAL/src/alt_ecc_fatal_entry.o obj/HAL/src/alt_ecc_fatal_exception.o obj/HAL/src/alt_env_lock.o obj/HAL/src/alt_environ.o obj/HAL/src/alt_errno.o obj/HAL/src/alt_exception_entry.o obj/HAL/src/alt_exception_muldiv.o obj/HAL/src/alt_exception_trap.o obj/HAL/src/alt_execve.o obj/HAL/src/alt_exit.o obj/HAL/src/alt_fcntl.o obj/HAL/src/alt_fd_lock.o obj/HAL/src/alt_fd_unlock.o obj/HAL/src/alt_find_dev.o obj/HAL/src/alt_find_file.o obj/HAL/src/alt_flash_dev.o obj/HAL/src/alt_fork.o obj/HAL/src/alt_fs_reg.o obj/HAL/src/alt_fstat.o obj/HAL/src/alt_get_fd.o obj/HAL/src/alt_getchar.o obj/HAL/src/alt_getpid.o obj/HAL/src/alt_gettod.o obj/HAL/src/alt_gmon.o obj/HAL/src/alt_icache_flush.o obj/HAL/src/alt_icache_flush_all.o obj/HAL/src/alt_iic.o obj/HAL/src/alt_iic_isr_register.o obj/HAL/src/alt_instruction_exception_entry.o obj/HAL/src/alt_instruction_exception_register.o obj/HAL/src/alt_io_redirect.o obj/HAL/src/alt_ioctl.o obj/HAL/src/alt_irq_entry.o obj/HAL/src/alt_irq_handler.o obj/HAL/src/alt_irq_register.o obj/HAL/src/alt_irq_vars.o obj/HAL/src/alt_isatty.o obj/HAL/src/alt_kill.o obj/HAL/src/alt_link.o obj/HAL/src/alt_load.o obj/HAL/src/alt_log_macro.o obj/HAL/src/alt_log_printf.o obj/HAL/src/alt_lseek.o obj/HAL/src/alt_main.o obj/HAL/src/alt_malloc_lock.o obj/HAL/src/alt_mcount.o obj/HAL/src/alt_open.o obj/HAL/src/alt_printf.o obj/HAL/src/alt_putchar.o obj/HAL/src/alt_putstr.o obj/HAL/src/alt_read.o obj/HAL/src/alt_release_fd.o obj/HAL/src/alt_remap_cached.o obj/HAL/src/alt_remap_uncached.o obj/HAL/src/alt_rename.o obj/HAL/src/alt_sbrk.o obj/HAL/src/alt_settod.o obj/HAL/src/alt_software_exception.o obj/HAL/src/alt_stat.o obj/HAL/src/alt_tick.o obj/HAL/src/alt_times.o obj/HAL/src/alt_uncached_free.o obj/HAL/src/alt_uncached_malloc.o obj/HAL/src/alt_unlink.o obj/HAL/src/alt_usleep.o obj/HAL/src/alt_wait.o obj/HAL/src/alt_write.o obj/HAL/src/altera_nios2_qsys_irq.o obj/HAL/src/crt0.o obj/alt_sys_init.o obj/drivers/src/altera_avalon_fifo_util.o obj/drivers/src/altera_avalon_jtag_uart_fd.o obj/drivers/src/altera_avalon_jtag_uart_init.o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o obj/drivers/src/altera_avalon_jtag_uart_read.o obj/drivers/src/altera_avalon_jtag_uart_write.o obj/drivers/src/altera_avalon_sysid_qsys.o obj/drivers/src/altera_avalon_timer_sc.o obj/drivers/src/altera_avalon_timer_ts.o obj/drivers/src/altera_avalon_timer_vars.o
+      0 [main] sh 22792 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 8828 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling FIFO_1.c to obj/default/FIFO_1.o
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 3692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../consumer_bsp//HAL/inc -I../consumer_bsp/ -I../consumer_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/FIFO_1.o FIFO_1.c
+      0 [main] echo 21816 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling consumer.c to obj/default/consumer.o
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 20028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../consumer_bsp//HAL/inc -I../consumer_bsp/ -I../consumer_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/consumer.o consumer.c
+      0 [main] true 6208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 3288 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking consumer.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 19076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 13508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (12960) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11C08D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      1 [main] pwd 14200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 12780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 19164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 23216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 24852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 20748 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22204 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 27368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 9832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 3476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking consumer.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 21548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 26016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (20080) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11108D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 10712 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 3680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 20752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 21196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 23800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 26696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 22552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 23428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 24760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 27432 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 3580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (11916) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11508D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      0 [main] perl 13492 fork: child -1 - forked process 11916 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      0 [main] perl (6384) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x12108D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+5098273 [main] perl 13492 fork: child -1 - forked process 6384 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      0 [main] perl (16060) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11408D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+10201233 [main] perl 13492 fork: child -1 - forked process 16060 died unexpectedly, retry 0, exit code -1073741502, errno 11
+
+**** Build of configuration Nios II for project consumer ****
+
+Error: Command canceled
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 22696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 26436 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 18880 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 14788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 26404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 1112 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 10604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating consumer.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source consumer.elf >consumer.objdump
+      1 [main] sh 25488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 17780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 25764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25940 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11336 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 12192 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 21968 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 1788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 23876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27392 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 5096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 18520 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 3928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 20840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 3692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 26896 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 8756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 18752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 17904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 1876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 21220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19676 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 21932 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 23224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 6580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 18160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 2156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 22740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 13616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 7504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 3780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 5216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 16076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 10820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 18604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 9624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 17196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 21064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 19804 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 19396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 20120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 17756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 6440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 24772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 23992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 19044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 21376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 5036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 6440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 17200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22792 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 408 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 9560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24900 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 4768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 14268 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 8504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 19704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 3712 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26924 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 13852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 11096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 1728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 4720 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 3476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 14976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 22792 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 26784 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 24856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 16180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 14028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 8132 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 1628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 10720 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 12836 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 22996 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 20668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 24992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 24852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 5184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] echo 23168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling consumer.c to obj/default/consumer.o
+      0 [main] mkdir 25192 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../consumer_bsp//HAL/inc -I../consumer_bsp/ -I../consumer_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/consumer.o consumer.c
+      0 [main] true 20120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 23636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 13456 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 4844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 21472 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] perl (11596) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11208D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 1704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 20324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 24928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 22984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 13168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 13832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 13252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      1 [main] sh 24120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 27108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25796 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (25088) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11108D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      1 [main] perl 18136 fork: child -1 - forked process 25088 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      0 [main] perl (23488) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x13008D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+5101835 [main] perl 18136 fork: child -1 - forked process 23488 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      0 [main] perl (8040) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11408D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+10199688 [main] perl 18136 fork: child -1 - forked process 8040 died unexpectedly, retry 0, exit code -1073741502, errno 11
+
+**** Build of configuration Nios II for project consumer ****
+
+Error: Command canceled
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 18376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 11696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 20228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 25372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 20320 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 7312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating consumer.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source consumer.elf >consumer.objdump
+      0 [main] sh 9992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 16620 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 17656 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 24380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 2904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 23900 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 4720 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 6468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 19780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 20508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 16156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 23428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 18092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 18960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 26228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 23680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 10068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 27312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 18184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 26192 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 24544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 7256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 11528 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 23892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling consumer.c to obj/default/consumer.o
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../consumer_bsp//HAL/inc -I../consumer_bsp/ -I../consumer_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/consumer.o consumer.c
+the public mailing list cygwin@cygwin.com
+      0 [main] true 14156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 26244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking consumer.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 23292 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 20180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 11868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (8540) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11208D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 23740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20836 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 22984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25536 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 2972 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 12104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 17200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 18904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 20152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 22292 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 22852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (22220) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11808D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      0 [main] perl 5344 fork: child -1 - forked process 22220 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      0 [main] perl (24008) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x12008D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+5093930 [main] perl 5344 fork: child -1 - forked process 24008 died unexpectedly, retry 0, exit code -1073741502, errno 11
+
+**** Build of configuration Nios II for project consumer ****
+
+Error: Command canceled
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 22484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 12196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 8116 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 2376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27432 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 8056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 25220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating consumer.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source consumer.elf >consumer.objdump
+      0 [main] sh 17752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 3580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 11924 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 13976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 4452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 8040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] echo 3168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling consumer.c to obj/default/consumer.o
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 1124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../consumer_bsp//HAL/inc -I../consumer_bsp/ -I../consumer_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/consumer.o consumer.c
+      0 [main] true 25528 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 19936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      1 [main] sh 17680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 25168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] perl (13840) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x15908D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 3848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 26732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 17360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 20644 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 3228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 23684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 19428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 19400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 18868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 22068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 25872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      1 [main] sh 22676 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 3168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23260 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] perl (21824) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11508D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      0 [main] perl 14428 fork: child -1 - forked process 21824 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      0 [main] perl (2264) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11108D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+5103844 [main] perl 14428 fork: child -1 - forked process 2264 died unexpectedly, retry 0, exit code -1073741502, errno 11
+
+**** Build of configuration Nios II for project consumer ****
+
+Error: Command canceled
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 20376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 20500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 18008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 4484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 20608 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 24848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating consumer.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source consumer.elf >consumer.objdump
+      0 [main] sh 24120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 8976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 12504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 12340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 21740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 20448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 14148 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 23588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] echo 20464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling consumer.c to obj/default/consumer.o
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../consumer_bsp//HAL/inc -I../consumer_bsp/ -I../consumer_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/consumer.o consumer.c
+      0 [main] true 3724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 20152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking consumer.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      2 [main] sh 18884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 19808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (22452) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11108D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      0 [main] perl 17316 fork: child -1 - forked process 22452 died unexpectedly, retry 0, exit code -1073741502, errno 11
+
+**** Build of configuration Nios II for project consumer ****
+
+Error: Command canceled
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 24772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25296 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 23812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 8064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12116 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 19020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 1612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 26404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating consumer.objdump
+the public mailing list cygwin@cygwin.com
+nios2-elf-objdump --disassemble --syms --all-header --source consumer.elf >consumer.objdump
+      1 [main] sh 13168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 20612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 12892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 13700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 12688 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 27548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 25456 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 9976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 14992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26032 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 26340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22260 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 11276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 23604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 12092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 16604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 1220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 24760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 27176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25528 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 13012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 11596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 15040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 16012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 3460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27296 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 22300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 21372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 25616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 21848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 16228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22796 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 14968 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 24156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 11936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 3720 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22132 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 17180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 24240 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 19676 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 19680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 18516 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 12960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 24540 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24828 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 20556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 3612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26032 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 16228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 26916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 21992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26424 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 24524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 21056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 27592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 27092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling consumer.c to obj/default/consumer.o
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../consumer_bsp//HAL/inc -I../consumer_bsp/ -I../consumer_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/consumer.o consumer.c
+      0 [main] true 27448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 11796 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking consumer.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 24168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 6756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (23696) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x12408D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 12812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 19276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 7728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 17700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 23288 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 20612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 27328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 11380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] uname 25064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 26448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] perl (15348) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11508D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 21680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 3232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 17068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 20468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 4768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 12460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      1 [main] pwd 6172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 16444 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 8068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 22984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 13116 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking consumer.elf
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      0 [main] sh 9648 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 17908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 6952 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (24208) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11708D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+make: *** [consumer.elf] Error 127
+make: *** Deleting file `consumer.elf'
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      1 [main] pwd 1384 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 7916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 17696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 11336 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 12076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 12776 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 9688 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 8376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 1728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking consumer.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../consumer_bsp//linker.x' -msys-crt0='../consumer_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../consumer_bsp/   -Wl,-Map=consumer.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o consumer.elf obj/default/FIFO_1.o obj/default/consumer.o -lm 
+nios2-elf-insert consumer.elf --thread_model hal --cpu_name cpu1 --qsys true --simulation_enabled false --id 193 --sidp 0x41040 --timestamp 1716560993 --stderr_dev jtag_uart_1 --stdin_dev jtag_uart_1 --stdout_dev jtag_uart_1 --sopc_system_name fifo_mpsoc --quartus_project_dir "D:/SEM6/CO503/Lab03/hardware_fifo" --sopcinfo D:/SEM6/CO503/Lab03/hardware_fifo/fifo_mpsoc.sopcinfo
+      1 [main] sh 9588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 10448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 20588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] perl (24780) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11308D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+      0 [main] perl 23452 fork: child -1 - forked process 24780 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      1 [main] perl (21548) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11108D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+5107629 [main] perl 23452 fork: child -1 - forked process 21548 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      0 [main] perl (20292) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x12208D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+10200335 [main] perl 23452 fork: child -1 - forked process 20292 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      1 [main] perl (19660) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x10F08D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+15303594 [main] perl 23452 fork: child -1 - forked process 19660 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      1 [main] perl (27240) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x15608D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+20409992 [main] perl 23452 fork: child -1 - forked process 27240 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      1 [main] perl (13912) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11308D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+25509026 [main] perl 23452 fork: child -1 - forked process 13912 died unexpectedly, retry 0, exit code -1073741502, errno 11
+      1 [main] perl (19960) C:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x11208D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+30609880 [main] perl 23452 fork: child -1 - forked process 19960 died unexpectedly, retry 0, exit code -1073741502, errno 11
+
+**** Build of configuration Nios II for project consumer ****
+
+Error: Command canceled
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 26060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 10488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 3528 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 20448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 16596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 24776 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 24004 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 11212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating consumer.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source consumer.elf >consumer.objdump
+      0 [main] sh 9200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 11508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 5056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 23832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 24932 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 14552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 15556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 26968 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 6940 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 19008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 1080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 26052 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer_bsp ****
+
+make all 
+      0 [main] pwd 22540 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 21372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 16148 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 3292 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 14732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 18152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 6768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 22140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 12036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 26784 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 9680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 1220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 1956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 5656 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 25152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 18724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 23908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23004 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 6972 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../consumer_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 21388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 6832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 19368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] true 13900 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      1 [main] sh 21552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 24860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 20244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 16988 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 6100 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 2636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 5484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project consumer ****
+
+make all 
+      0 [main] sh 19740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 18420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 7256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../consumer_bsp/
+make --no-print-directory -C ../consumer_bsp/
+      0 [main] pwd 20252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 17060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 20864 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] true 1220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 23732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[consumer build complete]
+
+**** Build Finished ****
