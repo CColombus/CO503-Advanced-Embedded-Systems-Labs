@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+#include "queue.h"
+
+int INIT_USAGE_ENQ = 0;
+int INIT_USAGE_DEQ = 0;
+
+int enqueueINT32(Queue queue, int data)
+{
+
+    // Wait if the fifo is full
+	while (altera_avalon_fifo_read_status(queue.ctrl_base,1<<0) != 0)
+	{
+		printf("Queue full!\n")
+	}
+
+    if (INIT_USAGE_ENQ == 0){
+        INIT_USAGE_ENQ = 1;
+        printf("First time using enqueueINT32\n");
+    }
+
+	// Write the data to FIFO
+	return altera_avalon_fifo_write_fifo(queue.mem_base_in,queue.ctrl_base,(int)data);
+}
+
+
+int dequeueINT32(Queue queue)
+{
+
+	// Wait if the fifo is empty
+	while (altera_avalon_fifo_read_status(queue.ctrl_base,1<<1) != 0)
+	{}
+
+    if (INIT_USAGE_DEQ == 0){
+        INIT_USAGE_DEQ = 1;
+        printf("First time using dequeueINT32\n");
+    }
+
+	// Read the data
+	int data = altera_avalon_fifo_read_fifo(queue.mem_base_out,queue.ctrl_base);
+
+	return data;
+}

@@ -1,0 +1,71 @@
+#include <stdio.h>
+
+#include "queue.h"
+
+int INIT_USAGE_ENQ = 0;
+int INIT_USAGE_DEQ = 0;
+
+int enqueueINT32(Queue queue, int n)
+{
+
+    // Wait if the fifo is full
+//	while (altera_avalon_fifo_read_status(queue.ctrl_base,1<<0) != 0)
+//	{}
+
+//    if (INIT_USAGE_ENQ == 0){
+//        INIT_USAGE_ENQ = 1;
+//        printf("First time using enqueueINT32\n");
+//    }
+
+//    printf("Dump: %i\n",data);
+    char buffer[20];
+    int i = 0, sign;
+
+    if ((sign = n) < 0)  // Record sign
+        n = -n;          // Make n positive
+
+    do {  // Generate digits in reverse order
+        buffer[i++] = n % 10 + '0';  // Get next digit
+    } while ((n /= 10) > 0);         // Delete it
+
+    if (sign < 0)
+        buffer[i++] = '-';
+
+    buffer[i] = '\0';
+
+    // Reverse the string
+    int start = 0, end = i - 1;
+    char temp;
+    while (start < end) {
+        temp = buffer[start];
+        buffer[start] = buffer[end];
+        buffer[end] = temp;
+        start++;
+        end--;
+    }
+
+    puts(buffer);  // Print string to stdout followed by a newline
+
+	// Write the data to FIFO
+//	return altera_avalon_fifo_write_fifo(queue.mem_base_in,queue.ctrl_base,(int)data);
+    return 0;
+}
+
+
+int dequeueINT32(Queue queue)
+{
+
+	// Wait if the fifo is empty
+	while (altera_avalon_fifo_read_status(queue.ctrl_base,1<<1) != 0)
+	{}
+
+    if (INIT_USAGE_DEQ == 0){
+        INIT_USAGE_DEQ = 1;
+        printf("First time using dequeueINT32\n");
+    }
+
+	// Read the data
+	int data = altera_avalon_fifo_read_fifo(queue.mem_base_out,queue.ctrl_base);
+
+	return data;
+}

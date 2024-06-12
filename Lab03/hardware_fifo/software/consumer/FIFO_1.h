@@ -31,8 +31,12 @@
 //CHANGE THE NAME FOR DIFFERENT FIFOS
 void WRITE_FIFO_1(int *buffer);
 
+void alt_write_fifo(int data);
+
 //CHANGE THE NAME FOR DIFFERENT FIFOS
 void READ_FIFO_1(int *buffer);
+
+int alt_read_fifo();
 
 
 #endif /* FIFO_1_H_ */

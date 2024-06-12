@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TopLevel
-Thu Mar 21 16:29:33 2024
+Tue Jun 11 10:45:51 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -183,13 +183,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 21 16:29:32 2024      ;
+; Analysis & Synthesis Status        ; Successful - Tue Jun 11 10:45:51 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; TopLevel                                   ;
 ; Top-level Entity Name              ; TopLevel                                   ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 2,121                                      ;
-;     Total combinational functions  ; 1,869                                      ;
+; Total logic elements               ; 2,120                                      ;
+;     Total combinational functions  ; 1,868                                      ;
 ;     Dedicated logic registers      ; 1,071                                      ;
 ; Total registers                    ; 1071                                       ;
 ; Total pins                         ; 9                                          ;
@@ -298,85 +298,81 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                              ;
-+----------------------------------------------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                     ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                                             ; Library ;
-+----------------------------------------------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------------------+---------+
-; SoC/synthesis/SoC.v                                                  ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/SoC.v                                                  ; SoC     ;
-; SoC/synthesis/submodules/altera_reset_controller.v                   ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_reset_controller.v                   ; SoC     ;
-; SoC/synthesis/submodules/altera_reset_synchronizer.v                 ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_reset_synchronizer.v                 ; SoC     ;
-; SoC/synthesis/submodules/SoC_irq_mapper.sv                           ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_irq_mapper.sv                           ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0.v                     ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0.v                     ; SoC     ;
-; SoC/synthesis/submodules/altera_merlin_arbitrator.sv                 ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_merlin_arbitrator.sv                 ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux_001.sv   ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux_001.sv   ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux.sv       ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux.sv       ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_demux_002.sv ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_demux_002.sv ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux_002.sv   ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux_002.sv   ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux.sv       ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux.sv       ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux_001.sv ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux_001.sv ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux.sv     ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux.sv     ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router_002.sv      ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router_002.sv      ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router.sv          ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router.sv          ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router_001.sv    ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router_001.sv    ; SoC     ;
-; SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router.sv        ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router.sv        ; SoC     ;
-; SoC/synthesis/submodules/altera_avalon_sc_fifo.v                     ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_avalon_sc_fifo.v                     ; SoC     ;
-; SoC/synthesis/submodules/altera_merlin_slave_agent.sv                ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_merlin_slave_agent.sv                ; SoC     ;
-; SoC/synthesis/submodules/altera_merlin_burst_uncompressor.sv         ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_merlin_burst_uncompressor.sv         ; SoC     ;
-; SoC/synthesis/submodules/altera_merlin_master_agent.sv               ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_merlin_master_agent.sv               ; SoC     ;
-; SoC/synthesis/submodules/altera_merlin_slave_translator.sv           ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_merlin_slave_translator.sv           ; SoC     ;
-; SoC/synthesis/submodules/altera_merlin_master_translator.sv          ; yes             ; User SystemVerilog HDL File           ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/altera_merlin_master_translator.sv          ; SoC     ;
-; SoC/synthesis/submodules/SoC_led_out.v                               ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_led_out.v                               ; SoC     ;
-; SoC/synthesis/submodules/SoC_sysid.v                                 ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_sysid.v                                 ; SoC     ;
-; SoC/synthesis/submodules/SoC_timer.v                                 ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_timer.v                                 ; SoC     ;
-; SoC/synthesis/submodules/SoC_jtag_uart_0.v                           ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_jtag_uart_0.v                           ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu.v                                   ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu.v                                   ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_sysclk.v          ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_sysclk.v          ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_tck.v             ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_tck.v             ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_wrapper.v         ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_wrapper.v         ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_ociram_default_contents.mif         ; yes             ; User Memory Initialization File       ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_ociram_default_contents.mif         ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_oci_test_bench.v                    ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_oci_test_bench.v                    ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_rf_ram_a.mif                        ; yes             ; User Memory Initialization File       ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_rf_ram_a.mif                        ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_rf_ram_b.mif                        ; yes             ; User Memory Initialization File       ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_rf_ram_b.mif                        ; SoC     ;
-; SoC/synthesis/submodules/SoC_cpu_test_bench.v                        ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_cpu_test_bench.v                        ; SoC     ;
-; SoC/synthesis/submodules/SoC_onchip_mem.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_onchip_mem.hex                          ; SoC     ;
-; SoC/synthesis/submodules/SoC_onchip_mem.v                            ; yes             ; User Verilog HDL File                 ; D:/SEM6/CO503/Lab01/SoC/synthesis/submodules/SoC_onchip_mem.v                            ; SoC     ;
-; TopLevel.bdf                                                         ; yes             ; User Block Diagram/Schematic File     ; D:/SEM6/CO503/Lab01/TopLevel.bdf                                                         ;         ;
-; altsyncram.tdf                                                       ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                            ;         ;
-; stratix_ram_block.inc                                                ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc                     ;         ;
-; lpm_mux.inc                                                          ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                               ;         ;
-; lpm_decode.inc                                                       ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                            ;         ;
-; aglobal131.inc                                                       ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                            ;         ;
-; a_rdenreg.inc                                                        ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                             ;         ;
-; altrom.inc                                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                                ;         ;
-; altram.inc                                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                                ;         ;
-; altdpram.inc                                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                              ;         ;
-; db/altsyncram_k8c1.tdf                                               ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/altsyncram_k8c1.tdf                                               ;         ;
-; db/decode_rsa.tdf                                                    ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/decode_rsa.tdf                                                    ;         ;
-; db/mux_oob.tdf                                                       ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/mux_oob.tdf                                                       ;         ;
-; db/altsyncram_6of1.tdf                                               ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/altsyncram_6of1.tdf                                               ;         ;
-; db/altsyncram_7of1.tdf                                               ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/altsyncram_7of1.tdf                                               ;         ;
-; altera_std_synchronizer.v                                            ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altera_std_synchronizer.v                 ;         ;
-; db/altsyncram_pu71.tdf                                               ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/altsyncram_pu71.tdf                                               ;         ;
-; sld_virtual_jtag_basic.v                                             ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/sld_virtual_jtag_basic.v                  ;         ;
-; scfifo.tdf                                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/scfifo.tdf                                ;         ;
-; a_regfifo.inc                                                        ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/a_regfifo.inc                             ;         ;
-; a_dpfifo.inc                                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/a_dpfifo.inc                              ;         ;
-; a_i2fifo.inc                                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/a_i2fifo.inc                              ;         ;
-; a_fffifo.inc                                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/a_fffifo.inc                              ;         ;
-; a_f2fifo.inc                                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/a_f2fifo.inc                              ;         ;
-; db/scfifo_jr21.tdf                                                   ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/scfifo_jr21.tdf                                                   ;         ;
-; db/a_dpfifo_q131.tdf                                                 ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/a_dpfifo_q131.tdf                                                 ;         ;
-; db/a_fefifo_7cf.tdf                                                  ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/a_fefifo_7cf.tdf                                                  ;         ;
-; db/cntr_do7.tdf                                                      ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/cntr_do7.tdf                                                      ;         ;
-; db/dpram_nl21.tdf                                                    ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/dpram_nl21.tdf                                                    ;         ;
-; db/altsyncram_r1m1.tdf                                               ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/altsyncram_r1m1.tdf                                               ;         ;
-; db/cntr_1ob.tdf                                                      ; yes             ; Auto-Generated Megafunction           ; D:/SEM6/CO503/Lab01/db/cntr_1ob.tdf                                                      ;         ;
-; alt_jtag_atlantic.v                                                  ; yes             ; Encrypted Megafunction                ; c:/altera/13.1/quartus/libraries/megafunctions/alt_jtag_atlantic.v                       ;         ;
-; sld_hub.vhd                                                          ; yes             ; Encrypted Megafunction                ; c:/altera/13.1/quartus/libraries/megafunctions/sld_hub.vhd                               ;         ;
-; sld_jtag_hub.vhd                                                     ; yes             ; Encrypted Megafunction                ; c:/altera/13.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                          ;         ;
-; sld_rom_sr.vhd                                                       ; yes             ; Encrypted Megafunction                ; c:/altera/13.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                            ;         ;
-+----------------------------------------------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                   ;
++----------------------------------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                     ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                     ; Library ;
++----------------------------------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; SoC/synthesis/SoC.v                                                  ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/SoC.v                                                  ; SoC     ;
+; SoC/synthesis/submodules/altera_reset_controller.v                   ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_reset_controller.v                   ; SoC     ;
+; SoC/synthesis/submodules/altera_reset_synchronizer.v                 ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_reset_synchronizer.v                 ; SoC     ;
+; SoC/synthesis/submodules/SoC_irq_mapper.sv                           ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_irq_mapper.sv                           ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0.v                     ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0.v                     ; SoC     ;
+; SoC/synthesis/submodules/altera_merlin_arbitrator.sv                 ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_merlin_arbitrator.sv                 ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux_001.sv   ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux_001.sv   ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux.sv       ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_mux.sv       ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_demux_002.sv ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_rsp_xbar_demux_002.sv ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux_002.sv   ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux_002.sv   ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux.sv       ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_mux.sv       ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux_001.sv ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux_001.sv ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux.sv     ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_cmd_xbar_demux.sv     ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router_002.sv      ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router_002.sv      ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router.sv          ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_id_router.sv          ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router_001.sv    ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router_001.sv    ; SoC     ;
+; SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router.sv        ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_mm_interconnect_0_addr_router.sv        ; SoC     ;
+; SoC/synthesis/submodules/altera_avalon_sc_fifo.v                     ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_avalon_sc_fifo.v                     ; SoC     ;
+; SoC/synthesis/submodules/altera_merlin_slave_agent.sv                ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_merlin_slave_agent.sv                ; SoC     ;
+; SoC/synthesis/submodules/altera_merlin_burst_uncompressor.sv         ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_merlin_burst_uncompressor.sv         ; SoC     ;
+; SoC/synthesis/submodules/altera_merlin_master_agent.sv               ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_merlin_master_agent.sv               ; SoC     ;
+; SoC/synthesis/submodules/altera_merlin_slave_translator.sv           ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_merlin_slave_translator.sv           ; SoC     ;
+; SoC/synthesis/submodules/altera_merlin_master_translator.sv          ; yes             ; User SystemVerilog HDL File        ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/altera_merlin_master_translator.sv          ; SoC     ;
+; SoC/synthesis/submodules/SoC_led_out.v                               ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_led_out.v                               ; SoC     ;
+; SoC/synthesis/submodules/SoC_sysid.v                                 ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_sysid.v                                 ; SoC     ;
+; SoC/synthesis/submodules/SoC_timer.v                                 ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_timer.v                                 ; SoC     ;
+; SoC/synthesis/submodules/SoC_jtag_uart_0.v                           ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_jtag_uart_0.v                           ; SoC     ;
+; SoC/synthesis/submodules/SoC_cpu.v                                   ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_cpu.v                                   ; SoC     ;
+; SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_sysclk.v          ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_sysclk.v          ; SoC     ;
+; SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_tck.v             ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_tck.v             ; SoC     ;
+; SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_wrapper.v         ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_cpu_jtag_debug_module_wrapper.v         ; SoC     ;
+; SoC/synthesis/submodules/SoC_cpu_oci_test_bench.v                    ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_cpu_oci_test_bench.v                    ; SoC     ;
+; SoC/synthesis/submodules/SoC_cpu_test_bench.v                        ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_cpu_test_bench.v                        ; SoC     ;
+; SoC/synthesis/submodules/SoC_onchip_mem.v                            ; yes             ; User Verilog HDL File              ; D:/SEM6/CO503/Lab01/COUNTER/SoC/synthesis/submodules/SoC_onchip_mem.v                            ; SoC     ;
+; TopLevel.bdf                                                         ; yes             ; User Block Diagram/Schematic File  ; D:/SEM6/CO503/Lab01/COUNTER/TopLevel.bdf                                                         ;         ;
+; altsyncram.tdf                                                       ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                                    ;         ;
+; stratix_ram_block.inc                                                ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc                             ;         ;
+; lpm_mux.inc                                                          ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                                       ;         ;
+; lpm_decode.inc                                                       ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                                    ;         ;
+; aglobal131.inc                                                       ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                                    ;         ;
+; a_rdenreg.inc                                                        ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                                     ;         ;
+; altrom.inc                                                           ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                                        ;         ;
+; altram.inc                                                           ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                                        ;         ;
+; altdpram.inc                                                         ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                                      ;         ;
+; db/altsyncram_k8c1.tdf                                               ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/altsyncram_k8c1.tdf                                               ;         ;
+; db/decode_rsa.tdf                                                    ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/decode_rsa.tdf                                                    ;         ;
+; db/mux_oob.tdf                                                       ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/mux_oob.tdf                                                       ;         ;
+; db/altsyncram_6of1.tdf                                               ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/altsyncram_6of1.tdf                                               ;         ;
+; db/altsyncram_7of1.tdf                                               ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/altsyncram_7of1.tdf                                               ;         ;
+; altera_std_synchronizer.v                                            ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/altera_std_synchronizer.v                         ;         ;
+; db/altsyncram_pu71.tdf                                               ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/altsyncram_pu71.tdf                                               ;         ;
+; sld_virtual_jtag_basic.v                                             ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/sld_virtual_jtag_basic.v                          ;         ;
+; scfifo.tdf                                                           ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/scfifo.tdf                                        ;         ;
+; a_regfifo.inc                                                        ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/a_regfifo.inc                                     ;         ;
+; a_dpfifo.inc                                                         ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/a_dpfifo.inc                                      ;         ;
+; a_i2fifo.inc                                                         ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/a_i2fifo.inc                                      ;         ;
+; a_fffifo.inc                                                         ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/a_fffifo.inc                                      ;         ;
+; a_f2fifo.inc                                                         ; yes             ; Megafunction                       ; c:/altera/13.1/quartus/libraries/megafunctions/a_f2fifo.inc                                      ;         ;
+; db/scfifo_jr21.tdf                                                   ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/scfifo_jr21.tdf                                                   ;         ;
+; db/a_dpfifo_q131.tdf                                                 ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/a_dpfifo_q131.tdf                                                 ;         ;
+; db/a_fefifo_7cf.tdf                                                  ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/a_fefifo_7cf.tdf                                                  ;         ;
+; db/cntr_do7.tdf                                                      ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/cntr_do7.tdf                                                      ;         ;
+; db/dpram_nl21.tdf                                                    ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/dpram_nl21.tdf                                                    ;         ;
+; db/altsyncram_r1m1.tdf                                               ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/altsyncram_r1m1.tdf                                               ;         ;
+; db/cntr_1ob.tdf                                                      ; yes             ; Auto-Generated Megafunction        ; D:/SEM6/CO503/Lab01/COUNTER/db/cntr_1ob.tdf                                                      ;         ;
+; alt_jtag_atlantic.v                                                  ; yes             ; Encrypted Megafunction             ; c:/altera/13.1/quartus/libraries/megafunctions/alt_jtag_atlantic.v                               ;         ;
+; sld_hub.vhd                                                          ; yes             ; Encrypted Megafunction             ; c:/altera/13.1/quartus/libraries/megafunctions/sld_hub.vhd                                       ;         ;
+; sld_jtag_hub.vhd                                                     ; yes             ; Encrypted Megafunction             ; c:/altera/13.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                  ;         ;
+; sld_rom_sr.vhd                                                       ; yes             ; Encrypted Megafunction             ; c:/altera/13.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                    ;         ;
++----------------------------------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------------+
@@ -384,16 +380,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------------+
 ; Resource                                    ; Usage             ;
 +---------------------------------------------+-------------------+
-; Estimated Total logic elements              ; 2,121             ;
+; Estimated Total logic elements              ; 2,120             ;
 ;                                             ;                   ;
-; Total combinational functions               ; 1869              ;
+; Total combinational functions               ; 1868              ;
 ; Logic element usage by number of LUT inputs ;                   ;
-;     -- 4 input functions                    ; 1033              ;
-;     -- 3 input functions                    ; 509               ;
-;     -- <=2 input functions                  ; 327               ;
+;     -- 4 input functions                    ; 1030              ;
+;     -- 3 input functions                    ; 512               ;
+;     -- <=2 input functions                  ; 326               ;
 ;                                             ;                   ;
 ; Logic elements by mode                      ;                   ;
-;     -- normal mode                          ; 1695              ;
+;     -- normal mode                          ; 1694              ;
 ;     -- arithmetic mode                      ; 174               ;
 ;                                             ;                   ;
 ; Total registers                             ; 1071              ;
@@ -405,7 +401,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 0                 ;
 ; Maximum fan-out node                        ; INPUT_CLOCK~input ;
 ; Maximum fan-out                             ; 1256              ;
-; Total fan-out                               ; 16216             ;
+; Total fan-out                               ; 16211             ;
 ; Average fan-out                             ; 4.86              ;
 +---------------------------------------------+-------------------+
 
@@ -415,7 +411,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                        ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                        ; Library Name ;
 +-------------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |TopLevel                                                                                                         ; 1869 (1)          ; 1071 (0)     ; 2108416     ; 0            ; 0       ; 0         ; 9    ; 0            ; |TopLevel                                                                                                                                                                                                                                                                  ; work         ;
+; |TopLevel                                                                                                         ; 1868 (1)          ; 1071 (0)     ; 2108416     ; 0            ; 0       ; 0         ; 9    ; 0            ; |TopLevel                                                                                                                                                                                                                                                                  ; work         ;
 ;    |SoC:inst2|                                                                                                    ; 1707 (0)          ; 974 (0)      ; 2108416     ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|SoC:inst2                                                                                                                                                                                                                                                        ; SoC          ;
 ;       |SoC_cpu:cpu|                                                                                               ; 980 (692)         ; 581 (311)    ; 10240       ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|SoC:inst2|SoC_cpu:cpu                                                                                                                                                                                                                                            ; SoC          ;
 ;          |SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci|                                                                ; 288 (32)          ; 270 (80)     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|SoC:inst2|SoC_cpu:cpu|SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci                                                                                                                                                                                                    ; SoC          ;
@@ -505,9 +501,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |altera_reset_controller:rst_controller|                                                                    ; 6 (5)             ; 16 (10)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|SoC:inst2|altera_reset_controller:rst_controller                                                                                                                                                                                                                 ; SoC          ;
 ;          |altera_reset_synchronizer:alt_rst_req_sync_uq1|                                                         ; 1 (1)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|SoC:inst2|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_req_sync_uq1                                                                                                                                                                  ; SoC          ;
 ;          |altera_reset_synchronizer:alt_rst_sync_uq1|                                                             ; 0 (0)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|SoC:inst2|altera_reset_controller:rst_controller|altera_reset_synchronizer:alt_rst_sync_uq1                                                                                                                                                                      ; SoC          ;
-;    |sld_hub:auto_hub|                                                                                             ; 161 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|sld_hub:auto_hub                                                                                                                                                                                                                                                 ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                              ; 160 (119)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                    ; work         ;
-;          |sld_rom_sr:hub_info_reg|                                                                                ; 24 (24)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                            ; work         ;
+;    |sld_hub:auto_hub|                                                                                             ; 160 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|sld_hub:auto_hub                                                                                                                                                                                                                                                 ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                              ; 159 (117)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                    ; work         ;
+;          |sld_rom_sr:hub_info_reg|                                                                                ; 25 (25)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                            ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                                                                              ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                                                                                          ; work         ;
 +-------------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -1080,7 +1076,7 @@ Encoding Type:  One-Hot
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[2][1]                                                                                                                           ;
 ; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|shadow_irf_reg[1][3]                                                                                                                           ;
 ; 8:1                ; 5 bits    ; 25 LEs        ; 10 LEs               ; 15 LEs                 ; Yes        ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|irsr_reg[3]                                                                                                                                    ;
-; 34:1               ; 4 bits    ; 88 LEs        ; 56 LEs               ; 32 LEs                 ; Yes        ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                                                                                                                             ;
+; 34:1               ; 4 bits    ; 88 LEs        ; 60 LEs               ; 28 LEs                 ; Yes        ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[1]                                                                                                                             ;
 ; 28:1               ; 4 bits    ; 72 LEs        ; 48 LEs               ; 24 LEs                 ; Yes        ; |TopLevel|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]                                                                                                             ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -3711,7 +3707,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------+--------------+
 ; Partition Name   ; Elapsed Time ;
 +------------------+--------------+
-; Top              ; 00:00:05     ;
+; Top              ; 00:00:03     ;
 ; sld_hub:auto_hub ; 00:00:00     ;
 +------------------+--------------+
 
@@ -3722,7 +3718,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Mar 21 16:29:09 2024
+    Info: Processing started: Tue Jun 11 10:45:38 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FirstSOC -c TopLevel
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file soc/synthesis/soc.v
@@ -3930,7 +3926,6 @@ Info (12128): Elaborating entity "SoC_cpu_nios2_oci_compute_input_tm_cnt" for hi
 Info (12128): Elaborating entity "SoC_cpu_nios2_oci_fifo_wrptr_inc" for hierarchy "SoC:inst2|SoC_cpu:cpu|SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci|SoC_cpu_nios2_oci_fifo:the_SoC_cpu_nios2_oci_fifo|SoC_cpu_nios2_oci_fifo_wrptr_inc:the_SoC_cpu_nios2_oci_fifo_wrptr_inc"
 Info (12128): Elaborating entity "SoC_cpu_nios2_oci_fifo_cnt_inc" for hierarchy "SoC:inst2|SoC_cpu:cpu|SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci|SoC_cpu_nios2_oci_fifo:the_SoC_cpu_nios2_oci_fifo|SoC_cpu_nios2_oci_fifo_cnt_inc:the_SoC_cpu_nios2_oci_fifo_cnt_inc"
 Info (12128): Elaborating entity "SoC_cpu_oci_test_bench" for hierarchy "SoC:inst2|SoC_cpu:cpu|SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci|SoC_cpu_nios2_oci_fifo:the_SoC_cpu_nios2_oci_fifo|SoC_cpu_oci_test_bench:the_SoC_cpu_oci_test_bench"
-Warning (12158): Entity "SoC_cpu_oci_test_bench" contains only dangling pins
 Info (12128): Elaborating entity "SoC_cpu_nios2_oci_pib" for hierarchy "SoC:inst2|SoC_cpu:cpu|SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci|SoC_cpu_nios2_oci_pib:the_SoC_cpu_nios2_oci_pib"
 Info (12128): Elaborating entity "SoC_cpu_nios2_oci_im" for hierarchy "SoC:inst2|SoC_cpu:cpu|SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci|SoC_cpu_nios2_oci_im:the_SoC_cpu_nios2_oci_im"
 Info (12128): Elaborating entity "SoC_cpu_jtag_debug_module_wrapper" for hierarchy "SoC:inst2|SoC_cpu:cpu|SoC_cpu_nios2_oci:the_SoC_cpu_nios2_oci|SoC_cpu_jtag_debug_module_wrapper:the_SoC_cpu_jtag_debug_module_wrapper"
@@ -4044,24 +4039,24 @@ Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal 
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "sld_hub:auto_hub|receive[0][0]" is stuck at GND
 Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub"
-Info (144001): Generated suppressed messages file D:/SEM6/CO503/Lab01/output_files/TopLevel.map.smsg
+Info (144001): Generated suppressed messages file D:/SEM6/CO503/Lab01/COUNTER/output_files/TopLevel.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2556 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2555 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 4 input pins
     Info (21059): Implemented 9 output pins
-    Info (21061): Implemented 2174 logic cells
+    Info (21061): Implemented 2173 logic cells
     Info (21064): Implemented 368 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4762 megabytes
-    Info: Processing ended: Thu Mar 21 16:29:33 2024
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:00:07
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4776 megabytes
+    Info: Processing ended: Tue Jun 11 10:45:51 2024
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:08
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in D:/SEM6/CO503/Lab01/output_files/TopLevel.map.smsg.
+The suppressed messages can be found in D:/SEM6/CO503/Lab01/COUNTER/output_files/TopLevel.map.smsg.
 
 

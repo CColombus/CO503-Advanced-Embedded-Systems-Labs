@@ -34,3 +34,23 @@ void READ_FIFO_1(int *buffer)
 	*buffer = altera_avalon_fifo_read_fifo(MEM_BASE,CTRL_BASE);
 
 }
+
+void alt_write_fifo(int data){
+	// Wait if the fifo is full
+	while (altera_avalon_fifo_read_status(CTRL_BASE,1<<0) != 0)
+	{}
+
+	// Write the data to FIFO
+	altera_avalon_fifo_write_fifo(MEM_BASE,CTRL_BASE,(int)data);
+}
+
+int alt_read_fifo(){
+	// Wait if the fifo is empty
+	while (altera_avalon_fifo_read_status(CTRL_BASE,1<<1) != 0)
+	{}
+
+	int data = altera_avalon_fifo_read_fifo(MEM_BASE,CTRL_BASE);
+
+	// Read the data
+	return data;
+}

@@ -1,0 +1,50 @@
+#include "queue_wrapper.h"
+#include "queue.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "q_mem_obj_def.h"
+
+void printInteger(int n);
+
+int RECV()
+{
+
+    return dequeueINT32(q1b);
+}
+
+void SEND(int data)
+{
+	printInteger(data);
+//	enqueueINT32(q1c, data);
+}
+
+void printInteger(int n) {
+    char buffer[20];
+    int i = 0, sign;
+
+    if ((sign = n) < 0)  // Record sign
+        n = -n;          // Make n positive
+
+    do {  // Generate digits in reverse order
+        buffer[i++] = n % 10 + '0';  // Get next digit
+    } while ((n /= 10) > 0);         // Delete it
+
+    if (sign < 0)
+        buffer[i++] = '-';
+
+    buffer[i] = '\0';
+
+    // Reverse the string
+    int start = 0, end = i - 1;
+    char temp;
+    while (start < end) {
+        temp = buffer[start];
+        buffer[start] = buffer[end];
+        buffer[end] = temp;
+        start++;
+        end--;
+    }
+
+    puts(buffer);  // Print string to stdout followed by a newline
+}

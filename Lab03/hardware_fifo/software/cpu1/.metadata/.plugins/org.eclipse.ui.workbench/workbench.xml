@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="34" version="2.0">
 <workbenchAdvisor/>
-<window height="1028" width="976" x="952" y="0">
+<window height="1088" width="976" x="952" y="0">
 <fastViewData fastViewLocation="1024"/>
 <intro standby="true"/>
 <perspectiveBar>
@@ -39,15 +39,15 @@
 </editorArea>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="FIFO_1.c" partName="FIFO_1.c" path="D:/SEM6/CO503/Lab03/hardware_fifo/software/consumer/FIFO_1.c" title="FIFO_1.c" tooltip="consumer/FIFO_1.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/consumer/FIFO_1.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="903" selectionTopPixel="213"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1356" selectionTopPixel="553"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FIFO_1.h" partName="FIFO_1.h" path="D:/SEM6/CO503/Lab03/hardware_fifo/software/consumer/FIFO_1.h" title="FIFO_1.h" tooltip="consumer/FIFO_1.h" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="FIFO_1.h" partName="FIFO_1.h" path="D:/SEM6/CO503/Lab03/hardware_fifo/software/consumer/FIFO_1.h" title="FIFO_1.h" tooltip="consumer/FIFO_1.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/consumer/FIFO_1.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="639" selectionTopPixel="234"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1015" selectionTopPixel="273"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="consumer.c" partName="consumer.c" path="D:/SEM6/CO503/Lab03/hardware_fifo/software/consumer/consumer.c" title="consumer.c" tooltip="consumer/consumer.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="consumer.c" partName="consumer.c" path="D:/SEM6/CO503/Lab03/hardware_fifo/software/consumer/consumer.c" title="consumer.c" tooltip="consumer/consumer.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/consumer/consumer.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="733" selectionTopPixel="940"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1119" selectionTopPixel="843"/>
 </editor>
 </editors>
 <views>
@@ -62,7 +62,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (2 items)"/>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Errors (3 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -87,7 +88,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.1" activePerspective="com.altera.sbtgui.ui.cPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.altera.sbtgui.ui.cPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -251,7 +252,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -309,6 +310,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/consumer/FIFO_1.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/consumer/consumer.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/consumer/FIFO_1.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/consumer/FIFO_1.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/consumer/FIFO_1.h"/>
 </editors>
 <item historyLabel="hello_world.c" index="0">
 <position info="not_deleted" x="717" y="0"/>
@@ -340,8 +343,23 @@
 <item historyLabel="FIFO_1.c" index="5">
 <position info="not_deleted" x="903" y="0"/>
 </item>
-<item active="true" historyLabel="consumer.c" index="4">
+<item historyLabel="consumer.c" index="4">
 <position info="not_deleted" x="733" y="0"/>
+</item>
+<item historyLabel="consumer.c" index="4">
+<position/>
+</item>
+<item historyLabel="FIFO_1.c" index="6">
+<position info="not_deleted" x="1356" y="0"/>
+</item>
+<item historyLabel="FIFO_1.h" index="7">
+<position info="not_deleted" x="1015" y="0"/>
+</item>
+<item historyLabel="consumer.c" index="4">
+<position info="not_deleted" x="1119" y="0"/>
+</item>
+<item active="true" historyLabel="FIFO_1.h" index="7">
+<position info="not_deleted" x="1015" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

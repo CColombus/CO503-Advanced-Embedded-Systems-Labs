@@ -1,0 +1,94 @@
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_053.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_053.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_052.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_052.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_051.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_051.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_045.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_045.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_044.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_044.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_042.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_042.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_037.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_037.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_035.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_035.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_033.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_033.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_027.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_027.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_026.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_026.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_024.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_024.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_020.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_020.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_018.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_018.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_017.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_017.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_015.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_015.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_013.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_013.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_007.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_007.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_005.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_005.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_002.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router_002.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_id_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_011.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_011.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_010.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_010.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_009.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_009.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_008.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_008.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_007.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_007.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_006.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_006.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_005.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_005.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_004.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_004.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_003.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_003.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_002.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_002.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_001.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router_001.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at Mega_JSoC_mm_interconnect_0_addr_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu.v(1605): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu.v(1607): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu.v(1763): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu.v(2587): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_sdram_controller.v(316): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_sdram_controller.v(326): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_sdram_controller.v(336): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_sdram_controller.v(680): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1b.v(1605): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1b.v(1607): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1b.v(1763): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1b.v(2587): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1c.v(1605): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1c.v(1607): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1c.v(1763): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1c.v(2587): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1d.v(1605): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1d.v(1607): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1d.v(1763): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1d.v(2587): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1e.v(1605): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1e.v(1607): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1e.v(1763): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1e.v(2587): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1f.v(1605): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1f.v(1607): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1f.v(1763): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at Mega_JSoC_cpu_1f.v(2587): conditional expression evaluates to a constant
