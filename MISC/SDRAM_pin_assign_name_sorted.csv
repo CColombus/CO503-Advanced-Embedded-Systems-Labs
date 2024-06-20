@@ -1,0 +1,87 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# File: D:\SEM6\CO503\SDRAM_pin_assign_name_sorted.csv
+# Generated on: Sun Mar 24 14:25:33 2024
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+INPUT_CLOCK,Input,,,,,,,,
+LED[0],Output,,,,,,,,
+LED[1],Output,,,,,,,,
+LED[2],Output,,,,,,,,
+LED[3],Output,,,,,,,,
+LED[4],Output,,,,,,,,
+LED[5],Output,,,,,,,,
+LED[6],Output,,,,,,,,
+LED[7],Output,,,,,,,,
+SDRAM_ADDR[0],Output,PIN_R6,2,B2_N0,,,,,
+SDRAM_ADDR[1],Output,PIN_V8,2,B2_N1,,,,,
+SDRAM_ADDR[2],Output,PIN_U8,2,B2_N1,,,,,
+SDRAM_ADDR[3],Output,PIN_P1,1,B1_N2,,,,,
+SDRAM_ADDR[4],Output,PIN_V5,2,B2_N1,,,,,
+SDRAM_ADDR[5],Output,PIN_W8,2,B2_N2,,,,,
+SDRAM_ADDR[6],Output,PIN_W7,2,B2_N2,,,,,
+SDRAM_ADDR[7],Output,PIN_AA7,2,B2_N2,,,,,
+SDRAM_ADDR[8],Output,PIN_Y5,2,B2_N2,,,,,
+SDRAM_ADDR[9],Output,PIN_Y6,2,B2_N2,,,,,
+SDRAM_ADDR[10],Output,PIN_R5,2,B2_N0,,,,,
+SDRAM_ADDR[11],Output,PIN_AA5,2,B2_N2,,,,,
+SDRAM_ADDR[12],Output,PIN_Y7,2,B2_N2,,,,,
+SDRAM_BA[0],Output,PIN_U7,2,B2_N1,,,,,
+SDRAM_BA[1],Output,PIN_R4,2,B2_N0,,,,,
+SDRAM_CAS_N,Output,PIN_V7,2,B2_N1,,,,,
+SDRAM_CKE,Output,PIN_AA6,2,B2_N2,,,,,
+SDRAM_CLK,Output,PIN_AE5,3,B3_N2,,,,,
+SDRAM_CS_N,Output,PIN_T4,2,B2_N0,,,,,
+SDRAM_DQM[0],Output,PIN_U2,2,B2_N0,,,,,
+SDRAM_DQM[1],Output,PIN_W4,2,B2_N2,,,,,
+SDRAM_DQM[2],Output,PIN_K8,1,B1_N2,,,,,
+SDRAM_DQM[3],Output,PIN_N8,1,B1_N2,,,,,
+SDRAM_DQ[0],Bidir,PIN_W3,2,B2_N2,,,,,
+SDRAM_DQ[1],Bidir,PIN_W2,2,B2_N0,,,,,
+SDRAM_DQ[2],Bidir,PIN_V4,2,B2_N0,,,,,
+SDRAM_DQ[3],Bidir,PIN_W1,2,B2_N1,,,,,
+SDRAM_DQ[4],Bidir,PIN_V3,2,B2_N0,,,,,
+SDRAM_DQ[5],Bidir,PIN_V2,2,B2_N0,,,,,
+SDRAM_DQ[6],Bidir,PIN_V1,2,B2_N0,,,,,
+SDRAM_DQ[7],Bidir,PIN_U3,2,B2_N0,,,,,
+SDRAM_DQ[8],Bidir,PIN_Y3,2,B2_N1,,,,,
+SDRAM_DQ[9],Bidir,PIN_Y4,2,B2_N1,,,,,
+SDRAM_DQ[10],Bidir,PIN_AB1,2,B2_N0,,,,,
+SDRAM_DQ[11],Bidir,PIN_AA3,2,B2_N1,,,,,
+SDRAM_DQ[12],Bidir,PIN_AB2,2,B2_N0,,,,,
+SDRAM_DQ[13],Bidir,PIN_AC1,2,B2_N1,,,,,
+SDRAM_DQ[14],Bidir,PIN_AB3,2,B2_N1,,,,,
+SDRAM_DQ[15],Bidir,PIN_AC2,2,B2_N1,,,,,
+SDRAM_DQ[16],Bidir,PIN_M8,1,B1_N2,,,,,
+SDRAM_DQ[17],Bidir,PIN_L8,1,B1_N2,,,,,
+SDRAM_DQ[18],Bidir,PIN_P2,1,B1_N2,,,,,
+SDRAM_DQ[19],Bidir,PIN_N3,1,B1_N2,,,,,
+SDRAM_DQ[20],Bidir,PIN_N4,1,B1_N2,,,,,
+SDRAM_DQ[21],Bidir,PIN_M4,1,B1_N1,,,,,
+SDRAM_DQ[22],Bidir,PIN_M7,1,B1_N2,,,,,
+SDRAM_DQ[23],Bidir,PIN_L7,1,B1_N2,,,,,
+SDRAM_DQ[24],Bidir,PIN_U5,2,B2_N1,,,,,
+SDRAM_DQ[25],Bidir,PIN_R7,2,B2_N0,,,,,
+SDRAM_DQ[26],Bidir,PIN_R1,2,B2_N0,,,,,
+SDRAM_DQ[27],Bidir,PIN_R2,2,B2_N0,,,,,
+SDRAM_DQ[28],Bidir,PIN_R3,2,B2_N0,,,,,
+SDRAM_DQ[29],Bidir,PIN_T3,2,B2_N0,,,,,
+SDRAM_DQ[30],Bidir,PIN_U4,2,B2_N0,,,,,
+SDRAM_DQ[31],Bidir,PIN_U1,2,B2_N0,,,,,
+SDRAM_RAS_N,Output,PIN_U6,2,B2_N1,,,,,
+SDRAM_WE_N,Output,PIN_V6,2,B2_N1,,,,,

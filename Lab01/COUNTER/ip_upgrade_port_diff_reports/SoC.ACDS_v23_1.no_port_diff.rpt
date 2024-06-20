@@ -1,0 +1,23 @@
+IP Ports Diff Report for SoC
+Mon Jun 17 20:08:13 2024
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++--------------------------------------------+
+; IP Information                             ;
++----------------------+---------------------+
+; IP Variation Name    ; SoC                 ;
+; Prior Version        ; ACDS_v13.1          ;
+; New Version          ; ACDS_v23.1          ;
+; New File             ; SoC/synthesis/SoC.v ;
+; Has Port Differences ; No                  ;
++----------------------+---------------------+
+
+
