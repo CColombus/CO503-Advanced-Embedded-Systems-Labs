@@ -20,6 +20,22 @@
          type = "String";
       }
    }
+   element jtag_uart_1f.avalon_jtag_slave
+   {
+      datum baseAddress
+      {
+         value = "135240";
+         type = "String";
+      }
+   }
+   element jtag_uart_1c.avalon_jtag_slave
+   {
+      datum baseAddress
+      {
+         value = "135272";
+         type = "String";
+      }
+   }
    element jtag_uart_1d.avalon_jtag_slave
    {
       datum baseAddress
@@ -36,27 +52,11 @@
          type = "String";
       }
    }
-   element jtag_uart_1c.avalon_jtag_slave
-   {
-      datum baseAddress
-      {
-         value = "135272";
-         type = "String";
-      }
-   }
-   element jtag_uart_1f.avalon_jtag_slave
-   {
-      datum baseAddress
-      {
-         value = "135240";
-         type = "String";
-      }
-   }
    element jtag_uart.avalon_jtag_slave
    {
       datum baseAddress
       {
-         value = "134221880";
+         value = "134222072";
          type = "String";
       }
    }
@@ -91,24 +91,13 @@
          value = "0";
          type = "int";
       }
-   }
-   element sysid_1e.control_slave
-   {
-      datum baseAddress
+      datum sopceditor_expanded
       {
-         value = "135264";
-         type = "String";
+         value = "0";
+         type = "boolean";
       }
    }
-   element sysid_1f.control_slave
-   {
-      datum baseAddress
-      {
-         value = "135232";
-         type = "String";
-      }
-   }
-   element sysid_1c.control_slave
+   element sysid_1d.control_slave
    {
       datum baseAddress
       {
@@ -124,15 +113,31 @@
          type = "String";
       }
    }
+   element sysid_1c.control_slave
+   {
+      datum baseAddress
+      {
+         value = "135264";
+         type = "String";
+      }
+   }
    element sys_id.control_slave
    {
       datum baseAddress
       {
-         value = "134221872";
+         value = "134222064";
          type = "String";
       }
    }
-   element sysid_1d.control_slave
+   element sysid_1f.control_slave
+   {
+      datum baseAddress
+      {
+         value = "135232";
+         type = "String";
+      }
+   }
+   element sysid_1e.control_slave
    {
       datum baseAddress
       {
@@ -218,14 +223,6 @@
          type = "boolean";
       }
    }
-   element cpu_1e.custom_instruction_master
-   {
-      datum color
-      {
-         value = "-6711040";
-         type = "int";
-      }
-   }
    element cpu_1f.custom_instruction_master
    {
       datum color
@@ -234,11 +231,19 @@
          type = "int";
       }
    }
-   element cpu_1c.custom_instruction_master
+   element cpu_1d.custom_instruction_master
    {
       datum color
       {
-         value = "-16737997";
+         value = "-6737152";
+         type = "int";
+      }
+   }
+   element cpu_1e.custom_instruction_master
+   {
+      datum color
+      {
+         value = "-6711040";
          type = "int";
       }
    }
@@ -250,19 +255,35 @@
          type = "int";
       }
    }
-   element cpu_1d.custom_instruction_master
-   {
-      datum color
-      {
-         value = "-16737895";
-         type = "int";
-      }
-   }
    element cpu_1b.custom_instruction_master
    {
       datum color
       {
          value = "-39169";
+         type = "int";
+      }
+   }
+   element cpu_1c.custom_instruction_master
+   {
+      datum color
+      {
+         value = "-16737997";
+         type = "int";
+      }
+   }
+   element cpu_1c.data_master
+   {
+      datum color
+      {
+         value = "-16737997";
+         type = "int";
+      }
+   }
+   element cpu_1f.data_master
+   {
+      datum color
+      {
+         value = "-6750055";
          type = "int";
       }
    }
@@ -278,23 +299,7 @@
    {
       datum color
       {
-         value = "-16737895";
-         type = "int";
-      }
-   }
-   element cpu_1c.data_master
-   {
-      datum color
-      {
-         value = "-16737997";
-         type = "int";
-      }
-   }
-   element cpu_1b.data_master
-   {
-      datum color
-      {
-         value = "-39169";
+         value = "-6737152";
          type = "int";
       }
    }
@@ -306,11 +311,11 @@
          type = "int";
       }
    }
-   element cpu_1f.data_master
+   element cpu_1b.data_master
    {
       datum color
       {
-         value = "-6750055";
+         value = "-39169";
          type = "int";
       }
    }
@@ -366,92 +371,342 @@
          type = "boolean";
       }
    }
-   element fifo_1b.in
+   element fifo_q_1
    {
+      datum _sortIndex
+      {
+         value = "36";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element fifo_q_2
+   {
+      datum _sortIndex
+      {
+         value = "37";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element fifo_q_3
+   {
+      datum _sortIndex
+      {
+         value = "38";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element fifo_q_4
+   {
+      datum _sortIndex
+      {
+         value = "39";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element fifo_q_5
+   {
+      datum _sortIndex
+      {
+         value = "40";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element fifo_q_6
+   {
+      datum _sortIndex
+      {
+         value = "41";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "0";
+         type = "boolean";
+      }
+   }
+   element fifo_q_6.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "135248";
+         value = "134222080";
          type = "String";
       }
    }
    element fifo_1d.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "135284";
+         value = "135288";
+         type = "String";
+      }
+   }
+   element fifo_q_1.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134222100";
          type = "String";
       }
    }
    element fifo_1e.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "135284";
+         value = "135288";
+         type = "String";
+      }
+   }
+   element fifo_1b.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135260";
+         type = "String";
+      }
+   }
+   element fifo_q_4.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134222088";
+         type = "String";
+      }
+   }
+   element fifo_q_5.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134222084";
+         type = "String";
+      }
+   }
+   element fifo_q_2.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134222096";
+         type = "String";
+      }
+   }
+   element fifo_q_3.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134222092";
          type = "String";
       }
    }
    element fifo_1c.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "135284";
          type = "String";
       }
    }
-   element fifo_1b.in_csr
+   element fifo_q_3.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "135168";
+         value = "134221920";
+         type = "String";
+      }
+   }
+   element fifo_q_5.in_csr
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134221856";
+         type = "String";
+      }
+   }
+   element fifo_q_1.in_csr
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134221984";
          type = "String";
       }
    }
    element fifo_1c.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "135200";
+         type = "String";
+      }
+   }
+   element fifo_q_4.in_csr
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134221888";
          type = "String";
       }
    }
    element fifo_1e.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "135200";
          type = "String";
       }
    }
-   element fifo_1d.in_csr
+   element fifo_1b.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "135168";
          type = "String";
       }
    }
-   element cpu_1f.instruction_master
+   element fifo_q_6.in_csr
    {
-      datum color
+      datum _lockedAddress
       {
-         value = "-6750055";
-         type = "int";
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134221824";
+         type = "String";
       }
    }
-   element cpu.instruction_master
+   element fifo_1d.in_csr
    {
-      datum color
+      datum _lockedAddress
       {
-         value = "-13421569";
-         type = "int";
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135168";
+         type = "String";
       }
    }
-   element cpu_1d.instruction_master
+   element fifo_q_2.in_csr
    {
-      datum color
+      datum _lockedAddress
       {
-         value = "-16737895";
-         type = "int";
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134221952";
+         type = "String";
       }
    }
    element cpu_1e.instruction_master
@@ -478,6 +733,30 @@
          type = "int";
       }
    }
+   element cpu_1d.instruction_master
+   {
+      datum color
+      {
+         value = "-6737152";
+         type = "int";
+      }
+   }
+   element cpu.instruction_master
+   {
+      datum color
+      {
+         value = "-13421569";
+         type = "int";
+      }
+   }
+   element cpu_1f.instruction_master
+   {
+      datum color
+      {
+         value = "-6750055";
+         type = "int";
+      }
+   }
    element cpu_1c.jtag_debug_module
    {
       datum baseAddress
@@ -486,7 +765,23 @@
          type = "String";
       }
    }
+   element cpu_1b.jtag_debug_module
+   {
+      datum baseAddress
+      {
+         value = "133120";
+         type = "String";
+      }
+   }
    element cpu_1e.jtag_debug_module
+   {
+      datum baseAddress
+      {
+         value = "133120";
+         type = "String";
+      }
+   }
+   element cpu_1f.jtag_debug_module
    {
       datum baseAddress
       {
@@ -510,30 +805,6 @@
          type = "String";
       }
    }
-   element cpu_1b.jtag_debug_module
-   {
-      datum baseAddress
-      {
-         value = "133120";
-         type = "String";
-      }
-   }
-   element cpu_1f.jtag_debug_module
-   {
-      datum baseAddress
-      {
-         value = "133120";
-         type = "String";
-      }
-   }
-   element cpu_1d.jtag_debug_module_reset
-   {
-      datum color
-      {
-         value = "-16737895";
-         type = "int";
-      }
-   }
    element cpu_1e.jtag_debug_module_reset
    {
       datum color
@@ -550,14 +821,6 @@
          type = "int";
       }
    }
-   element cpu_1c.jtag_debug_module_reset
-   {
-      datum color
-      {
-         value = "-16737997";
-         type = "int";
-      }
-   }
    element cpu.jtag_debug_module_reset
    {
       datum color
@@ -571,6 +834,22 @@
       datum color
       {
          value = "-6750055";
+         type = "int";
+      }
+   }
+   element cpu_1d.jtag_debug_module_reset
+   {
+      datum color
+      {
+         value = "-6737152";
+         type = "int";
+      }
+   }
+   element cpu_1c.jtag_debug_module_reset
+   {
+      datum color
+      {
+         value = "-16737997";
          type = "int";
       }
    }
@@ -717,35 +996,133 @@
          type = "boolean";
       }
    }
+   element fifo_q_2.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135252";
+         type = "String";
+      }
+   }
    element fifo_1c.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
-         value = "135280";
+         value = "135284";
          type = "String";
       }
    }
-   element fifo_1b.out
+   element fifo_q_3.out
    {
-      datum baseAddress
+      datum _lockedAddress
       {
-         value = "135280";
-         type = "String";
+         value = "1";
+         type = "boolean";
       }
-   }
-   element fifo_1e.out
-   {
       datum baseAddress
       {
          value = "135248";
          type = "String";
       }
    }
-   element fifo_1d.out
+   element fifo_1b.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "135280";
+         type = "String";
+      }
+   }
+   element fifo_q_4.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135280";
+         type = "String";
+      }
+   }
+   element fifo_q_1.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135256";
+         type = "String";
+      }
+   }
+   element fifo_q_5.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135280";
+         type = "String";
+      }
+   }
+   element fifo_q_6.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135248";
+         type = "String";
+      }
+   }
+   element fifo_1e.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135252";
+         type = "String";
+      }
+   }
+   element fifo_1d.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135284";
          type = "String";
       }
    }
@@ -758,7 +1135,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
    }
@@ -766,7 +1143,31 @@
    {
       datum baseAddress
       {
-         value = "134221856";
+         value = "134222048";
+         type = "String";
+      }
+   }
+   element timer_1d.s1
+   {
+      datum baseAddress
+      {
+         value = "135232";
+         type = "String";
+      }
+   }
+   element onchip_mem_1b.s1
+   {
+      datum baseAddress
+      {
+         value = "65536";
+         type = "String";
+      }
+   }
+   element onchip_mem_1c.s1
+   {
+      datum baseAddress
+      {
+         value = "65536";
          type = "String";
       }
    }
@@ -783,6 +1184,22 @@
          type = "String";
       }
    }
+   element timer.s1
+   {
+      datum baseAddress
+      {
+         value = "134222016";
+         type = "String";
+      }
+   }
+   element timer_1f.s1
+   {
+      datum baseAddress
+      {
+         value = "135168";
+         type = "String";
+      }
+   }
    element timer_1e.s1
    {
       datum baseAddress
@@ -791,43 +1208,11 @@
          type = "String";
       }
    }
-   element timer_1d.s1
-   {
-      datum baseAddress
-      {
-         value = "135232";
-         type = "String";
-      }
-   }
-   element onchip_mem_1c.s1
-   {
-      datum baseAddress
-      {
-         value = "65536";
-         type = "String";
-      }
-   }
    element timer_1b.s1
    {
       datum baseAddress
       {
          value = "135200";
-         type = "String";
-      }
-   }
-   element onchip_mem_1f.s1
-   {
-      datum baseAddress
-      {
-         value = "65536";
-         type = "String";
-      }
-   }
-   element timer.s1
-   {
-      datum baseAddress
-      {
-         value = "134221824";
          type = "String";
       }
    }
@@ -847,23 +1232,15 @@
          type = "String";
       }
    }
-   element timer_1f.s1
+   element onchip_mem_1f.s1
    {
       datum baseAddress
       {
-         value = "135168";
+         value = "262144";
          type = "String";
       }
    }
    element onchip_mem_1d.s1
-   {
-      datum baseAddress
-      {
-         value = "65536";
-         type = "String";
-      }
-   }
-   element onchip_mem_1b.s1
    {
       datum baseAddress
       {
@@ -1052,7 +1429,7 @@
  <parameter name="globalResetBus" value="false" />
  <parameter name="hdlLanguage" value="VERILOG" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="JSoC.qpf" />
+ <parameter name="projectName" value="JSoc.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="0" />
  <parameter name="timeStamp" value="0" />
@@ -1237,7 +1614,7 @@
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
   <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='sdram_controller.s1' start='0x0' end='0x8000000' /><slave name='cpu.jtag_debug_module' start='0x8000800' end='0x8001000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram_controller.s1' start='0x0' end='0x8000000' /><slave name='cpu.jtag_debug_module' start='0x8000800' end='0x8001000' /><slave name='timer.s1' start='0x8001000' end='0x8001020' /><slave name='pll.pll_slave' start='0x8001020' end='0x8001030' /><slave name='sys_id.control_slave' start='0x8001030' end='0x8001038' /><slave name='jtag_uart.avalon_jtag_slave' start='0x8001038' end='0x8001040' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram_controller.s1' start='0x0' end='0x8000000' /><slave name='cpu.jtag_debug_module' start='0x8000800' end='0x8001000' /><slave name='fifo_q_6.in_csr' start='0x8001000' end='0x8001020' /><slave name='fifo_q_5.in_csr' start='0x8001020' end='0x8001040' /><slave name='fifo_q_4.in_csr' start='0x8001040' end='0x8001060' /><slave name='fifo_q_3.in_csr' start='0x8001060' end='0x8001080' /><slave name='fifo_q_2.in_csr' start='0x8001080' end='0x80010A0' /><slave name='fifo_q_1.in_csr' start='0x80010A0' end='0x80010C0' /><slave name='timer.s1' start='0x80010C0' end='0x80010E0' /><slave name='pll.pll_slave' start='0x80010E0' end='0x80010F0' /><slave name='sys_id.control_slave' start='0x80010F0' end='0x80010F8' /><slave name='jtag_uart.avalon_jtag_slave' start='0x80010F8' end='0x8001100' /><slave name='fifo_q_6.in' start='0x8001100' end='0x8001104' /><slave name='fifo_q_5.in' start='0x8001104' end='0x8001108' /><slave name='fifo_q_4.in' start='0x8001108' end='0x800110C' /><slave name='fifo_q_3.in' start='0x800110C' end='0x8001110' /><slave name='fifo_q_2.in' start='0x8001110' end='0x8001114' /><slave name='fifo_q_1.in' start='0x8001114' end='0x8001118' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="75000000" />
   <parameter name="deviceFamilyName" value="Cyclone IV E" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -1549,7 +1926,7 @@
   <parameter name="mmu_ramBlockType" value="Automatic" />
   <parameter name="bht_ramBlockType" value="Automatic" />
   <parameter name="instAddrWidth" value="18" />
-  <parameter name="dataAddrWidth" value="18" />
+  <parameter name="dataAddrWidth" value="28" />
   <parameter name="tightlyCoupledDataMaster0AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster2AddrWidth" value="1" />
@@ -1559,7 +1936,7 @@
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
   <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1b.s1' start='0x10000' end='0x20000' /><slave name='cpu_1b.jtag_debug_module' start='0x20800' end='0x21000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1b.s1' start='0x10000' end='0x20000' /><slave name='cpu_1b.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='fifo_1b.in_csr' start='0x21000' end='0x21020' /><slave name='timer_1b.s1' start='0x21020' end='0x21040' /><slave name='sysid_1b.control_slave' start='0x21040' end='0x21048' /><slave name='jtag_uart_1b.avalon_jtag_slave' start='0x21048' end='0x21050' /><slave name='fifo_1b.in' start='0x21050' end='0x21054' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1b.s1' start='0x10000' end='0x20000' /><slave name='cpu_1b.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='fifo_1b.in_csr' start='0x21000' end='0x21020' /><slave name='timer_1b.s1' start='0x21020' end='0x21040' /><slave name='sysid_1b.control_slave' start='0x21040' end='0x21048' /><slave name='jtag_uart_1b.avalon_jtag_slave' start='0x21048' end='0x21050' /><slave name='fifo_q_3.out' start='0x21050' end='0x21054' /><slave name='fifo_q_2.out' start='0x21054' end='0x21058' /><slave name='fifo_q_1.out' start='0x21058' end='0x2105C' /><slave name='fifo_1b.in' start='0x2105C' end='0x21060' /><slave name='fifo_q_3.in_csr' start='0x8001060' end='0x8001080' /><slave name='fifo_q_2.in_csr' start='0x8001080' end='0x80010A0' /><slave name='fifo_q_1.in_csr' start='0x80010A0' end='0x80010C0' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="75000000" />
   <parameter name="deviceFamilyName" value="Cyclone IV E" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -1975,7 +2352,7 @@
   <parameter name="mmu_ramBlockType" value="Automatic" />
   <parameter name="bht_ramBlockType" value="Automatic" />
   <parameter name="instAddrWidth" value="18" />
-  <parameter name="dataAddrWidth" value="18" />
+  <parameter name="dataAddrWidth" value="28" />
   <parameter name="tightlyCoupledDataMaster0AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster2AddrWidth" value="1" />
@@ -1985,7 +2362,7 @@
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
   <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1d.s1' start='0x10000' end='0x20000' /><slave name='cpu_1d.jtag_debug_module' start='0x20800' end='0x21000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1d.s1' start='0x10000' end='0x20000' /><slave name='cpu_1d.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='fifo_1d.in_csr' start='0x21000' end='0x21020' /><slave name='fifo_1c.in_csr' start='0x21020' end='0x21040' /><slave name='timer_1d.s1' start='0x21040' end='0x21060' /><slave name='sysid_1d.control_slave' start='0x21060' end='0x21068' /><slave name='jtag_uart_1d.avalon_jtag_slave' start='0x21068' end='0x21070' /><slave name='fifo_1c.out' start='0x21070' end='0x21074' /><slave name='fifo_1d.in' start='0x21074' end='0x21078' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1d.s1' start='0x10000' end='0x20000' /><slave name='cpu_1d.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='fifo_1d.in_csr' start='0x21000' end='0x21020' /><slave name='fifo_1c.in_csr' start='0x21020' end='0x21040' /><slave name='timer_1d.s1' start='0x21040' end='0x21060' /><slave name='sysid_1d.control_slave' start='0x21060' end='0x21068' /><slave name='jtag_uart_1d.avalon_jtag_slave' start='0x21068' end='0x21070' /><slave name='fifo_q_4.out' start='0x21070' end='0x21074' /><slave name='fifo_1c.out' start='0x21074' end='0x21078' /><slave name='fifo_1d.in' start='0x21078' end='0x2107C' /><slave name='fifo_q_4.in_csr' start='0x8001040' end='0x8001060' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="75000000" />
   <parameter name="deviceFamilyName" value="Cyclone IV E" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -2188,7 +2565,7 @@
   <parameter name="mmu_ramBlockType" value="Automatic" />
   <parameter name="bht_ramBlockType" value="Automatic" />
   <parameter name="instAddrWidth" value="18" />
-  <parameter name="dataAddrWidth" value="18" />
+  <parameter name="dataAddrWidth" value="28" />
   <parameter name="tightlyCoupledDataMaster0AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster2AddrWidth" value="1" />
@@ -2198,7 +2575,7 @@
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
   <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1e.s1' start='0x10000' end='0x20000' /><slave name='cpu_1e.jtag_debug_module' start='0x20800' end='0x21000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1e.s1' start='0x10000' end='0x20000' /><slave name='cpu_1e.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='fifo_1d.in_csr' start='0x21000' end='0x21020' /><slave name='fifo_1e.in_csr' start='0x21020' end='0x21040' /><slave name='timer_1e.s1' start='0x21040' end='0x21060' /><slave name='sysid_1e.control_slave' start='0x21060' end='0x21068' /><slave name='jtag_uart_1e.avalon_jtag_slave' start='0x21068' end='0x21070' /><slave name='fifo_1d.out' start='0x21070' end='0x21074' /><slave name='fifo_1e.in' start='0x21074' end='0x21078' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1e.s1' start='0x10000' end='0x20000' /><slave name='cpu_1e.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='fifo_1d.in_csr' start='0x21000' end='0x21020' /><slave name='fifo_1e.in_csr' start='0x21020' end='0x21040' /><slave name='timer_1e.s1' start='0x21040' end='0x21060' /><slave name='sysid_1e.control_slave' start='0x21060' end='0x21068' /><slave name='jtag_uart_1e.avalon_jtag_slave' start='0x21068' end='0x21070' /><slave name='fifo_q_5.out' start='0x21070' end='0x21074' /><slave name='fifo_1d.out' start='0x21074' end='0x21078' /><slave name='fifo_1e.in' start='0x21078' end='0x2107C' /><slave name='fifo_q_5.in_csr' start='0x8001020' end='0x8001040' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="75000000" />
   <parameter name="deviceFamilyName" value="Cyclone IV E" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -2400,8 +2777,8 @@
   <parameter name="ocimem_ramBlockType" value="Automatic" />
   <parameter name="mmu_ramBlockType" value="Automatic" />
   <parameter name="bht_ramBlockType" value="Automatic" />
-  <parameter name="instAddrWidth" value="18" />
-  <parameter name="dataAddrWidth" value="18" />
+  <parameter name="instAddrWidth" value="19" />
+  <parameter name="dataAddrWidth" value="28" />
   <parameter name="tightlyCoupledDataMaster0AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster2AddrWidth" value="1" />
@@ -2410,8 +2787,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1f.s1' start='0x10000' end='0x20000' /><slave name='cpu_1f.jtag_debug_module' start='0x20800' end='0x21000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_mem_1f.s1' start='0x10000' end='0x20000' /><slave name='cpu_1f.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='timer_1f.s1' start='0x21000' end='0x21020' /><slave name='fifo_1e.in_csr' start='0x21020' end='0x21040' /><slave name='sysid_1f.control_slave' start='0x21040' end='0x21048' /><slave name='jtag_uart_1f.avalon_jtag_slave' start='0x21048' end='0x21050' /><slave name='fifo_1e.out' start='0x21050' end='0x21054' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='cpu_1f.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='onchip_mem_1f.s1' start='0x40000' end='0x60000' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='cpu_1f.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='timer_1f.s1' start='0x21000' end='0x21020' /><slave name='fifo_1e.in_csr' start='0x21020' end='0x21040' /><slave name='sysid_1f.control_slave' start='0x21040' end='0x21048' /><slave name='jtag_uart_1f.avalon_jtag_slave' start='0x21048' end='0x21050' /><slave name='fifo_q_6.out' start='0x21050' end='0x21054' /><slave name='fifo_1e.out' start='0x21054' end='0x21058' /><slave name='onchip_mem_1f.s1' start='0x40000' end='0x60000' /><slave name='fifo_q_6.in_csr' start='0x8001000' end='0x8001020' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="75000000" />
   <parameter name="deviceFamilyName" value="Cyclone IV E" />
   <parameter name="internalIrqMaskSystemInfo" value="65538" />
@@ -2449,7 +2826,7 @@
   <parameter name="initMemContent" value="true" />
   <parameter name="initializationFileName" value="onchip_mem.hex" />
   <parameter name="instanceID" value="NONE" />
-  <parameter name="memorySize" value="65536" />
+  <parameter name="memorySize" value="131072" />
   <parameter name="readDuringWriteMode" value="DONT_CARE" />
   <parameter name="simAllowMRAMContentsFile" value="false" />
   <parameter name="simMemInitOnlyFilename" value="0" />
@@ -2491,6 +2868,132 @@
   <parameter name="timestamp" value="0" />
   <parameter name="AUTO_CLK_CLOCK_RATE" value="75000000" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
+ </module>
+ <module kind="altera_avalon_fifo" version="13.1" enabled="1" name="fifo_q_1">
+  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
+  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
+  <parameter name="bitsPerSymbol" value="16" />
+  <parameter name="channelWidth" value="8" />
+  <parameter name="errorWidth" value="8" />
+  <parameter name="fifoDepth" value="256" />
+  <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
+  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
+  <parameter name="showHiddenFeatures" value="false" />
+  <parameter name="singleClockMode" value="true" />
+  <parameter name="singleResetMode" value="false" />
+  <parameter name="symbolsPerBeat" value="2" />
+  <parameter name="useBackpressure" value="true" />
+  <parameter name="useIRQ" value="false" />
+  <parameter name="usePacket" value="true" />
+  <parameter name="useReadControl" value="false" />
+  <parameter name="useRegister" value="false" />
+  <parameter name="useWriteControl" value="true" />
+  <parameter name="deviceFamilyString" value="Cyclone IV E" />
+ </module>
+ <module kind="altera_avalon_fifo" version="13.1" enabled="1" name="fifo_q_2">
+  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
+  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
+  <parameter name="bitsPerSymbol" value="16" />
+  <parameter name="channelWidth" value="8" />
+  <parameter name="errorWidth" value="8" />
+  <parameter name="fifoDepth" value="256" />
+  <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
+  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
+  <parameter name="showHiddenFeatures" value="false" />
+  <parameter name="singleClockMode" value="true" />
+  <parameter name="singleResetMode" value="false" />
+  <parameter name="symbolsPerBeat" value="2" />
+  <parameter name="useBackpressure" value="true" />
+  <parameter name="useIRQ" value="false" />
+  <parameter name="usePacket" value="true" />
+  <parameter name="useReadControl" value="false" />
+  <parameter name="useRegister" value="false" />
+  <parameter name="useWriteControl" value="true" />
+  <parameter name="deviceFamilyString" value="Cyclone IV E" />
+ </module>
+ <module kind="altera_avalon_fifo" version="13.1" enabled="1" name="fifo_q_3">
+  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
+  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
+  <parameter name="bitsPerSymbol" value="16" />
+  <parameter name="channelWidth" value="8" />
+  <parameter name="errorWidth" value="8" />
+  <parameter name="fifoDepth" value="256" />
+  <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
+  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
+  <parameter name="showHiddenFeatures" value="false" />
+  <parameter name="singleClockMode" value="true" />
+  <parameter name="singleResetMode" value="false" />
+  <parameter name="symbolsPerBeat" value="2" />
+  <parameter name="useBackpressure" value="true" />
+  <parameter name="useIRQ" value="false" />
+  <parameter name="usePacket" value="true" />
+  <parameter name="useReadControl" value="false" />
+  <parameter name="useRegister" value="false" />
+  <parameter name="useWriteControl" value="true" />
+  <parameter name="deviceFamilyString" value="Cyclone IV E" />
+ </module>
+ <module kind="altera_avalon_fifo" version="13.1" enabled="1" name="fifo_q_4">
+  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
+  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
+  <parameter name="bitsPerSymbol" value="16" />
+  <parameter name="channelWidth" value="8" />
+  <parameter name="errorWidth" value="8" />
+  <parameter name="fifoDepth" value="32" />
+  <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
+  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
+  <parameter name="showHiddenFeatures" value="false" />
+  <parameter name="singleClockMode" value="true" />
+  <parameter name="singleResetMode" value="false" />
+  <parameter name="symbolsPerBeat" value="2" />
+  <parameter name="useBackpressure" value="true" />
+  <parameter name="useIRQ" value="false" />
+  <parameter name="usePacket" value="true" />
+  <parameter name="useReadControl" value="false" />
+  <parameter name="useRegister" value="false" />
+  <parameter name="useWriteControl" value="true" />
+  <parameter name="deviceFamilyString" value="Cyclone IV E" />
+ </module>
+ <module kind="altera_avalon_fifo" version="13.1" enabled="1" name="fifo_q_5">
+  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
+  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
+  <parameter name="bitsPerSymbol" value="16" />
+  <parameter name="channelWidth" value="8" />
+  <parameter name="errorWidth" value="8" />
+  <parameter name="fifoDepth" value="32" />
+  <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
+  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
+  <parameter name="showHiddenFeatures" value="false" />
+  <parameter name="singleClockMode" value="true" />
+  <parameter name="singleResetMode" value="false" />
+  <parameter name="symbolsPerBeat" value="2" />
+  <parameter name="useBackpressure" value="true" />
+  <parameter name="useIRQ" value="false" />
+  <parameter name="usePacket" value="true" />
+  <parameter name="useReadControl" value="false" />
+  <parameter name="useRegister" value="false" />
+  <parameter name="useWriteControl" value="true" />
+  <parameter name="deviceFamilyString" value="Cyclone IV E" />
+ </module>
+ <module kind="altera_avalon_fifo" version="13.1" enabled="1" name="fifo_q_6">
+  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
+  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
+  <parameter name="bitsPerSymbol" value="16" />
+  <parameter name="channelWidth" value="8" />
+  <parameter name="errorWidth" value="8" />
+  <parameter name="fifoDepth" value="32" />
+  <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
+  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
+  <parameter name="showHiddenFeatures" value="false" />
+  <parameter name="singleClockMode" value="true" />
+  <parameter name="singleResetMode" value="false" />
+  <parameter name="symbolsPerBeat" value="2" />
+  <parameter name="useBackpressure" value="true" />
+  <parameter name="useIRQ" value="false" />
+  <parameter name="usePacket" value="true" />
+  <parameter name="useReadControl" value="false" />
+  <parameter name="useRegister" value="false" />
+  <parameter name="useWriteControl" value="true" />
+  <parameter name="deviceFamilyString" value="Cyclone IV E" />
  </module>
  <connection
    kind="avalon"
@@ -2542,7 +3045,7 @@
    start="cpu.data_master"
    end="jtag_uart.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x08001038" />
+  <parameter name="baseAddress" value="0x080010f8" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2587,7 +3090,7 @@
  </connection>
  <connection kind="avalon" version="13.1" start="cpu.data_master" end="timer.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x08001000" />
+  <parameter name="baseAddress" value="0x080010c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2596,7 +3099,7 @@
    start="cpu.data_master"
    end="sys_id.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x08001030" />
+  <parameter name="baseAddress" value="0x080010f0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2615,7 +3118,7 @@
    start="cpu.data_master"
    end="pll.pll_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x08001020" />
+  <parameter name="baseAddress" value="0x080010e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="clock" version="13.1" start="pll.c0" end="timer.clk" />
@@ -2699,7 +3202,7 @@
    start="cpu_1b.data_master"
    end="fifo_1b.in">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00021050" />
+  <parameter name="baseAddress" value="0x0002105c" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2852,7 +3355,7 @@
    start="cpu_1d.data_master"
    end="fifo_1d.in">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00021074" />
+  <parameter name="baseAddress" value="0x00021078" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2933,7 +3436,7 @@
    start="cpu_1e.data_master"
    end="fifo_1e.in">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00021074" />
+  <parameter name="baseAddress" value="0x00021078" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2978,7 +3481,7 @@
    start="cpu_1f.data_master"
    end="onchip_mem_1f.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="baseAddress" value="0x00040000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3023,7 +3526,7 @@
    start="cpu_1f.instruction_master"
    end="onchip_mem_1f.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="baseAddress" value="0x00040000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3050,7 +3553,7 @@
    start="cpu_1d.data_master"
    end="fifo_1c.out">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00021070" />
+  <parameter name="baseAddress" value="0x00021074" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3068,7 +3571,7 @@
    start="cpu_1e.data_master"
    end="fifo_1d.out">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00021070" />
+  <parameter name="baseAddress" value="0x00021074" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3086,7 +3589,7 @@
    start="cpu_1f.data_master"
    end="fifo_1e.out">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00021050" />
+  <parameter name="baseAddress" value="0x00021054" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -4351,6 +4854,438 @@
    end="jtag_uart_1f.irq">
   <parameter name="irqNumber" value="16" />
  </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_1.in">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001114" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_1.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x080010a0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_2.in">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001110" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_2.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001080" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_3.in">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0800110c" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_3.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001060" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_4.in">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001108" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_4.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001040" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_5.in">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001104" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_5.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001020" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_6.in">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001100" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu.data_master"
+   end="fifo_q_6.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1b.data_master"
+   end="fifo_q_1.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00021058" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1b.data_master"
+   end="fifo_q_1.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x080010a0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1b.data_master"
+   end="fifo_q_2.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00021054" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1b.data_master"
+   end="fifo_q_2.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001080" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1b.data_master"
+   end="fifo_q_3.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00021050" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1b.data_master"
+   end="fifo_q_3.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001060" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1d.data_master"
+   end="fifo_q_4.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00021070" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1d.data_master"
+   end="fifo_q_4.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001040" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1e.data_master"
+   end="fifo_q_5.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00021070" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1e.data_master"
+   end="fifo_q_5.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001020" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1f.data_master"
+   end="fifo_q_6.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00021050" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.1"
+   start="cpu_1f.data_master"
+   end="fifo_q_6.in_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x08001000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="reset"
+   version="13.1"
+   start="clock.clk_reset"
+   end="fifo_q_1.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu.jtag_debug_module_reset"
+   end="fifo_q_1.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1b.jtag_debug_module_reset"
+   end="fifo_q_1.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1c.jtag_debug_module_reset"
+   end="fifo_q_1.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1d.jtag_debug_module_reset"
+   end="fifo_q_1.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1e.jtag_debug_module_reset"
+   end="fifo_q_1.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1f.jtag_debug_module_reset"
+   end="fifo_q_1.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="clock.clk_reset"
+   end="fifo_q_2.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu.jtag_debug_module_reset"
+   end="fifo_q_2.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1b.jtag_debug_module_reset"
+   end="fifo_q_2.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1c.jtag_debug_module_reset"
+   end="fifo_q_2.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1d.jtag_debug_module_reset"
+   end="fifo_q_2.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1e.jtag_debug_module_reset"
+   end="fifo_q_2.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1f.jtag_debug_module_reset"
+   end="fifo_q_2.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="clock.clk_reset"
+   end="fifo_q_3.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu.jtag_debug_module_reset"
+   end="fifo_q_3.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1b.jtag_debug_module_reset"
+   end="fifo_q_3.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1c.jtag_debug_module_reset"
+   end="fifo_q_3.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1d.jtag_debug_module_reset"
+   end="fifo_q_3.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1e.jtag_debug_module_reset"
+   end="fifo_q_3.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1f.jtag_debug_module_reset"
+   end="fifo_q_3.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="clock.clk_reset"
+   end="fifo_q_4.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu.jtag_debug_module_reset"
+   end="fifo_q_4.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1b.jtag_debug_module_reset"
+   end="fifo_q_4.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1c.jtag_debug_module_reset"
+   end="fifo_q_4.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1d.jtag_debug_module_reset"
+   end="fifo_q_4.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1e.jtag_debug_module_reset"
+   end="fifo_q_4.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1f.jtag_debug_module_reset"
+   end="fifo_q_4.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="clock.clk_reset"
+   end="fifo_q_5.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu.jtag_debug_module_reset"
+   end="fifo_q_5.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1b.jtag_debug_module_reset"
+   end="fifo_q_5.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1c.jtag_debug_module_reset"
+   end="fifo_q_5.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1d.jtag_debug_module_reset"
+   end="fifo_q_5.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1e.jtag_debug_module_reset"
+   end="fifo_q_5.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1f.jtag_debug_module_reset"
+   end="fifo_q_5.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="clock.clk_reset"
+   end="fifo_q_6.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu.jtag_debug_module_reset"
+   end="fifo_q_6.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1b.jtag_debug_module_reset"
+   end="fifo_q_6.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1c.jtag_debug_module_reset"
+   end="fifo_q_6.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1d.jtag_debug_module_reset"
+   end="fifo_q_6.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1e.jtag_debug_module_reset"
+   end="fifo_q_6.reset_in" />
+ <connection
+   kind="reset"
+   version="13.1"
+   start="cpu_1f.jtag_debug_module_reset"
+   end="fifo_q_6.reset_in" />
+ <connection kind="clock" version="13.1" start="pll.c0" end="fifo_q_1.clk_in" />
+ <connection kind="clock" version="13.1" start="pll.c0" end="fifo_q_2.clk_in" />
+ <connection kind="clock" version="13.1" start="pll.c0" end="fifo_q_3.clk_in" />
+ <connection kind="clock" version="13.1" start="pll.c0" end="fifo_q_4.clk_in" />
+ <connection kind="clock" version="13.1" start="pll.c0" end="fifo_q_5.clk_in" />
+ <connection kind="clock" version="13.1" start="pll.c0" end="fifo_q_6.clk_in" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
  <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="false" />

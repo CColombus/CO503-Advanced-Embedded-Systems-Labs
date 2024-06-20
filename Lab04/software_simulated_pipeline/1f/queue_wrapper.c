@@ -1,45 +1,29 @@
 #include "queue_wrapper.h"
-#include "../lib/queue.c"
 #include <stdio.h>
-#include <stdlib.h>
 
-Queue *q6r; // Queue for receiving filename
-Queue *qi1e;
+Queue *q6;
+Queue *qe;
 
-void QUEUE_INIT()
+void init_queues()
 {
-    q6r = initializeQueue("../queues/q6.txt", "r");
-    qi1e = initializeQueue("../queues/qout1e.txt", "r");
-
-    if (q6r == NULL || qi1e == NULL)
-    {
-        fprintf(stderr, "Failed to initialize queues\n");
-        exit(1);
-    }
-
+    q6 = InitQueue("q6", 'd');
+    qe = InitQueue("qe", 'd');
 }
 
-void QUEUE_CLOSE()
+void close_queues()
 {
-    closeQueue(q6r);
-    closeQueue(qi1e);
-
-    free(q6r);
-    free(qi1e);
+    CloseQueue(q6);
+    CloseQueue(qe);
 }
 
 int RECV1()
 {
-    // dequeue from queue and convert to int
-    // char *c = dequeue(q6r);
-    // printf("  RECV1: %c rep as %d\n", c[0],(int)c[0]);
-    // return (int)c[0];
-    return dequeueINT32(q6r);
+
+    return dequeueINT32(q6);
 }
 
 int RECV2()
 {
-    // dequeue from queue and convert to int
-    // return atoi(dequeue(qi1e));
-    return dequeueINT32(qi1e);
+
+    return dequeueINT32(qe);
 }

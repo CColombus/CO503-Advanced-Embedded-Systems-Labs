@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="Mega_JSoC" kind="system" version="13.1" fabric="QSYS">
  <!-- Format version 13.1 162 (Future versions may contain additional information.) -->
- <!-- 2024.06.12.16:04:26 -->
+ <!-- 2024.06.13.22:43:31 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1718188374</value>
+  <value>1718298719</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -1194,7 +1194,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -1214,7 +1214,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -1230,7 +1230,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1718188374</value>
+   <value>1718298719</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -13126,7 +13126,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -13146,7 +13146,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -13162,7 +13162,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1718188374</value>
+   <value>1718298719</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -19903,7 +19903,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -19923,7 +19923,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -19939,7 +19939,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1718188374</value>
+   <value>1718298719</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -26680,7 +26680,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -26700,7 +26700,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -26716,7 +26716,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1718188374</value>
+   <value>1718298719</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -33457,7 +33457,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -33477,7 +33477,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -33493,7 +33493,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1718188374</value>
+   <value>1718298719</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -40234,7 +40234,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -40254,7 +40254,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1718188374</value>
+   <value>1718298719</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -40270,7 +40270,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1718188374</value>
+   <value>1718298719</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -77885,11 +77885,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>clk_in</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_1d_in/fifo_1d.in"
+   name="mm_interconnect_0.pll_pll_slave/pll.pll_slave"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_1d_in"
-   end="fifo_1d.in">
+   start="mm_interconnect_0.pll_pll_slave"
+   end="pll.pll_slave">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -77931,16 +77931,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1d_in</startConnectionPoint>
-  <endModule>fifo_1d</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
+  <startConnectionPoint>pll_pll_slave</startConnectionPoint>
+  <endModule>pll</endModule>
+  <endConnectionPoint>pll_slave</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_q_6_in/fifo_q_6.in"
+   name="mm_interconnect_0.fifo_q_4_in_csr/fifo_q_4.in_csr"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_q_6_in"
-   end="fifo_q_6.in">
+   start="mm_interconnect_0.fifo_q_4_in_csr"
+   end="fifo_q_4.in_csr">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -77982,60 +77982,9 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_6_in</startConnectionPoint>
-  <endModule>fifo_q_6</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_4_in/fifo_q_4.in"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_4_in"
-   end="fifo_q_4.in">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_4_in</startConnectionPoint>
+  <startConnectionPoint>fifo_q_4_in_csr</startConnectionPoint>
   <endModule>fifo_q_4</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
+  <endConnectionPoint>in_csr</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.fifo_q_3_in_csr/fifo_q_3.in_csr"
@@ -78089,11 +78038,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>in_csr</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.sys_id_control_slave/sys_id.control_slave"
+   name="mm_interconnect_0.fifo_q_5_out/fifo_q_5.out"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.sys_id_control_slave"
-   end="sys_id.control_slave">
+   start="mm_interconnect_0.fifo_q_5_out"
+   end="fifo_q_5.out">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78135,220 +78084,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>sys_id_control_slave</startConnectionPoint>
-  <endModule>sys_id</endModule>
-  <endConnectionPoint>control_slave</endConnectionPoint>
- </connection>
- <connection
-   name="cpu_1b.instruction_master/mm_interconnect_0.cpu_1b_instruction_master"
-   kind="avalon"
-   version="13.1"
-   start="cpu_1b.instruction_master"
-   end="mm_interconnect_0.cpu_1b_instruction_master">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>cpu_1b</startModule>
-  <startConnectionPoint>instruction_master</startConnectionPoint>
-  <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1b_instruction_master</endConnectionPoint>
- </connection>
- <connection
-   name="cpu_1c.instruction_master/mm_interconnect_0.cpu_1c_instruction_master"
-   kind="avalon"
-   version="13.1"
-   start="cpu_1c.instruction_master"
-   end="mm_interconnect_0.cpu_1c_instruction_master">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>cpu_1c</startModule>
-  <startConnectionPoint>instruction_master</startConnectionPoint>
-  <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1c_instruction_master</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.cpu_1e_jtag_debug_module/cpu_1e.jtag_debug_module"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.cpu_1e_jtag_debug_module"
-   end="cpu_1e.jtag_debug_module">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>cpu_1e_jtag_debug_module</startConnectionPoint>
-  <endModule>cpu_1e</endModule>
-  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_4_out/fifo_q_4.out"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_4_out"
-   end="fifo_q_4.out">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_4_out</startConnectionPoint>
-  <endModule>fifo_q_4</endModule>
+  <startConnectionPoint>fifo_q_5_out</startConnectionPoint>
+  <endModule>fifo_q_5</endModule>
   <endConnectionPoint>out</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_q_6_in_csr/fifo_q_6.in_csr"
+   name="mm_interconnect_0.sysid_1b_control_slave/sysid_1b.control_slave"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_q_6_in_csr"
-   end="fifo_q_6.in_csr">
+   start="mm_interconnect_0.sysid_1b_control_slave"
+   end="sysid_1b.control_slave">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78390,94 +78135,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_6_in_csr</startConnectionPoint>
-  <endModule>fifo_q_6</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
+  <startConnectionPoint>sysid_1b_control_slave</startConnectionPoint>
+  <endModule>sysid_1b</endModule>
+  <endConnectionPoint>control_slave</endConnectionPoint>
  </connection>
  <connection
-   name="cpu_1b.data_master/mm_interconnect_0.cpu_1b_data_master"
+   name="mm_interconnect_0.jtag_uart_avalon_jtag_slave/jtag_uart.avalon_jtag_slave"
    kind="avalon"
    version="13.1"
-   start="cpu_1b.data_master"
-   end="mm_interconnect_0.cpu_1b_data_master">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>cpu_1b</startModule>
-  <startConnectionPoint>data_master</startConnectionPoint>
-  <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1b_data_master</endConnectionPoint>
- </connection>
- <connection
-   name="clock.clk/mm_interconnect_0.clock_clk"
-   kind="clock"
-   version="13.1"
-   start="clock.clk"
-   end="mm_interconnect_0.clock_clk">
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>clock</startModule>
-  <startConnectionPoint>clk</startConnectionPoint>
-  <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>clock_clk</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_5_in_csr/fifo_q_5.in_csr"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_5_in_csr"
-   end="fifo_q_5.in_csr">
+   start="mm_interconnect_0.jtag_uart_avalon_jtag_slave"
+   end="jtag_uart.avalon_jtag_slave">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78519,9 +78186,9 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_5_in_csr</startConnectionPoint>
-  <endModule>fifo_q_5</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
+  <startConnectionPoint>jtag_uart_avalon_jtag_slave</startConnectionPoint>
+  <endModule>jtag_uart</endModule>
+  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.fifo_1b_out/fifo_1b.out"
@@ -78575,11 +78242,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>out</endConnectionPoint>
  </connection>
  <connection
-   name="cpu_1f.data_master/mm_interconnect_0.cpu_1f_data_master"
+   name="cpu_1e.data_master/mm_interconnect_0.cpu_1e_data_master"
    kind="avalon"
    version="13.1"
-   start="cpu_1f.data_master"
-   end="mm_interconnect_0.cpu_1f_data_master">
+   start="cpu_1e.data_master"
+   end="mm_interconnect_0.cpu_1e_data_master">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78620,17 +78287,17 @@ parameters are a RESULT of the module parameters. -->
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
-  <startModule>cpu_1f</startModule>
+  <startModule>cpu_1e</startModule>
   <startConnectionPoint>data_master</startConnectionPoint>
   <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1f_data_master</endConnectionPoint>
+  <endConnectionPoint>cpu_1e_data_master</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.cpu_1d_jtag_debug_module/cpu_1d.jtag_debug_module"
+   name="mm_interconnect_0.fifo_q_5_in/fifo_q_5.in"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.cpu_1d_jtag_debug_module"
-   end="cpu_1d.jtag_debug_module">
+   start="mm_interconnect_0.fifo_q_5_in"
+   end="fifo_q_5.in">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78672,8 +78339,416 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>cpu_1d_jtag_debug_module</startConnectionPoint>
-  <endModule>cpu_1d</endModule>
+  <startConnectionPoint>fifo_q_5_in</startConnectionPoint>
+  <endModule>fifo_q_5</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.cpu_1e_jtag_debug_module/cpu_1e.jtag_debug_module"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.cpu_1e_jtag_debug_module"
+   end="cpu_1e.jtag_debug_module">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>cpu_1e_jtag_debug_module</startConnectionPoint>
+  <endModule>cpu_1e</endModule>
+  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_3_out/fifo_q_3.out"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_3_out"
+   end="fifo_q_3.out">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_3_out</startConnectionPoint>
+  <endModule>fifo_q_3</endModule>
+  <endConnectionPoint>out</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_2_in/fifo_q_2.in"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_2_in"
+   end="fifo_q_2.in">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_2_in</startConnectionPoint>
+  <endModule>fifo_q_2</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.sysid_1f_control_slave/sysid_1f.control_slave"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.sysid_1f_control_slave"
+   end="sysid_1f.control_slave">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>sysid_1f_control_slave</startConnectionPoint>
+  <endModule>sysid_1f</endModule>
+  <endConnectionPoint>control_slave</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_6_in/fifo_q_6.in"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_6_in"
+   end="fifo_q_6.in">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_6_in</startConnectionPoint>
+  <endModule>fifo_q_6</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_2_out/fifo_q_2.out"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_2_out"
+   end="fifo_q_2.out">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_2_out</startConnectionPoint>
+  <endModule>fifo_q_2</endModule>
+  <endConnectionPoint>out</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.cpu_1b_jtag_debug_module/cpu_1b.jtag_debug_module"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.cpu_1b_jtag_debug_module"
+   end="cpu_1b.jtag_debug_module">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>cpu_1b_jtag_debug_module</startConnectionPoint>
+  <endModule>cpu_1b</endModule>
+  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.cpu_jtag_debug_module/cpu.jtag_debug_module"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.cpu_jtag_debug_module"
+   end="cpu.jtag_debug_module">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>cpu_jtag_debug_module</startConnectionPoint>
+  <endModule>cpu</endModule>
   <endConnectionPoint>jtag_debug_module</endConnectionPoint>
  </connection>
  <connection
@@ -78728,11 +78803,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>cpu_data_master</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_q_6_out/fifo_q_6.out"
+   name="mm_interconnect_0.jtag_uart_1c_avalon_jtag_slave/jtag_uart_1c.avalon_jtag_slave"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_q_6_out"
-   end="fifo_q_6.out">
+   start="mm_interconnect_0.jtag_uart_1c_avalon_jtag_slave"
+   end="jtag_uart_1c.avalon_jtag_slave">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78774,16 +78849,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_6_out</startConnectionPoint>
-  <endModule>fifo_q_6</endModule>
-  <endConnectionPoint>out</endConnectionPoint>
+  <startConnectionPoint>jtag_uart_1c_avalon_jtag_slave</startConnectionPoint>
+  <endModule>jtag_uart_1c</endModule>
+  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.timer_1b_s1/timer_1b.s1"
+   name="mm_interconnect_0.timer_1f_s1/timer_1f.s1"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.timer_1b_s1"
-   end="timer_1b.s1">
+   start="mm_interconnect_0.timer_1f_s1"
+   end="timer_1f.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78825,8 +78900,8 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>timer_1b_s1</startConnectionPoint>
-  <endModule>timer_1b</endModule>
+  <startConnectionPoint>timer_1f_s1</startConnectionPoint>
+  <endModule>timer_1f</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
@@ -78881,11 +78956,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.pll_pll_slave/pll.pll_slave"
+   name="mm_interconnect_0.jtag_uart_1b_avalon_jtag_slave/jtag_uart_1b.avalon_jtag_slave"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.pll_pll_slave"
-   end="pll.pll_slave">
+   start="mm_interconnect_0.jtag_uart_1b_avalon_jtag_slave"
+   end="jtag_uart_1b.avalon_jtag_slave">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78927,16 +79002,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>pll_pll_slave</startConnectionPoint>
-  <endModule>pll</endModule>
-  <endConnectionPoint>pll_slave</endConnectionPoint>
+  <startConnectionPoint>jtag_uart_1b_avalon_jtag_slave</startConnectionPoint>
+  <endModule>jtag_uart_1b</endModule>
+  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.cpu_1c_jtag_debug_module/cpu_1c.jtag_debug_module"
+   name="mm_interconnect_0.fifo_q_6_in_csr/fifo_q_6.in_csr"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.cpu_1c_jtag_debug_module"
-   end="cpu_1c.jtag_debug_module">
+   start="mm_interconnect_0.fifo_q_6_in_csr"
+   end="fifo_q_6.in_csr">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -78978,9 +79053,9 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>cpu_1c_jtag_debug_module</startConnectionPoint>
-  <endModule>cpu_1c</endModule>
-  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
+  <startConnectionPoint>fifo_q_6_in_csr</startConnectionPoint>
+  <endModule>fifo_q_6</endModule>
+  <endConnectionPoint>in_csr</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.jtag_uart_1f_avalon_jtag_slave/jtag_uart_1f.avalon_jtag_slave"
@@ -79034,11 +79109,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_1c_in_csr/fifo_1c.in_csr"
+   name="mm_interconnect_0.timer_1d_s1/timer_1d.s1"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_1c_in_csr"
-   end="fifo_1c.in_csr">
+   start="mm_interconnect_0.timer_1d_s1"
+   end="timer_1d.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -79080,264 +79155,9 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1c_in_csr</startConnectionPoint>
-  <endModule>fifo_1c</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.jtag_uart_avalon_jtag_slave/jtag_uart.avalon_jtag_slave"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.jtag_uart_avalon_jtag_slave"
-   end="jtag_uart.avalon_jtag_slave">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>jtag_uart_avalon_jtag_slave</startConnectionPoint>
-  <endModule>jtag_uart</endModule>
-  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.cpu_1b_jtag_debug_module/cpu_1b.jtag_debug_module"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.cpu_1b_jtag_debug_module"
-   end="cpu_1b.jtag_debug_module">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>cpu_1b_jtag_debug_module</startConnectionPoint>
-  <endModule>cpu_1b</endModule>
-  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_1c_in/fifo_1c.in"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_1c_in"
-   end="fifo_1c.in">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1c_in</startConnectionPoint>
-  <endModule>fifo_1c</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_1e_in/fifo_1e.in"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_1e_in"
-   end="fifo_1e.in">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1e_in</startConnectionPoint>
-  <endModule>fifo_1e</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.sysid_1d_control_slave/sysid_1d.control_slave"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.sysid_1d_control_slave"
-   end="sysid_1d.control_slave">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>sysid_1d_control_slave</startConnectionPoint>
-  <endModule>sysid_1d</endModule>
-  <endConnectionPoint>control_slave</endConnectionPoint>
+  <startConnectionPoint>timer_1d_s1</startConnectionPoint>
+  <endModule>timer_1d</endModule>
+  <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.fifo_1d_out/fifo_1d.out"
@@ -79391,62 +79211,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>out</endConnectionPoint>
  </connection>
  <connection
-   name="cpu_1c.data_master/mm_interconnect_0.cpu_1c_data_master"
+   name="mm_interconnect_0.fifo_1e_out/fifo_1e.out"
    kind="avalon"
    version="13.1"
-   start="cpu_1c.data_master"
-   end="mm_interconnect_0.cpu_1c_data_master">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>cpu_1c</startModule>
-  <startConnectionPoint>data_master</startConnectionPoint>
-  <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1c_data_master</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.onchip_mem_1f_s1/onchip_mem_1f.s1"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.onchip_mem_1f_s1"
-   end="onchip_mem_1f.s1">
+   start="mm_interconnect_0.fifo_1e_out"
+   end="fifo_1e.out">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -79488,9 +79257,9 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>onchip_mem_1f_s1</startConnectionPoint>
-  <endModule>onchip_mem_1f</endModule>
-  <endConnectionPoint>s1</endConnectionPoint>
+  <startConnectionPoint>fifo_1e_out</startConnectionPoint>
+  <endModule>fifo_1e</endModule>
+  <endConnectionPoint>out</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.fifo_1e_in_csr/fifo_1e.in_csr"
@@ -79544,6 +79313,492 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>in_csr</endConnectionPoint>
  </connection>
  <connection
+   name="cpu_1c.instruction_master/mm_interconnect_0.cpu_1c_instruction_master"
+   kind="avalon"
+   version="13.1"
+   start="cpu_1c.instruction_master"
+   end="mm_interconnect_0.cpu_1c_instruction_master">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>cpu_1c</startModule>
+  <startConnectionPoint>instruction_master</startConnectionPoint>
+  <endModule>mm_interconnect_0</endModule>
+  <endConnectionPoint>cpu_1c_instruction_master</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_1c_in_csr/fifo_1c.in_csr"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_1c_in_csr"
+   end="fifo_1c.in_csr">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_1c_in_csr</startConnectionPoint>
+  <endModule>fifo_1c</endModule>
+  <endConnectionPoint>in_csr</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.cpu_1c_jtag_debug_module/cpu_1c.jtag_debug_module"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.cpu_1c_jtag_debug_module"
+   end="cpu_1c.jtag_debug_module">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>cpu_1c_jtag_debug_module</startConnectionPoint>
+  <endModule>cpu_1c</endModule>
+  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_2_in_csr/fifo_q_2.in_csr"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_2_in_csr"
+   end="fifo_q_2.in_csr">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_2_in_csr</startConnectionPoint>
+  <endModule>fifo_q_2</endModule>
+  <endConnectionPoint>in_csr</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.timer_1b_s1/timer_1b.s1"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.timer_1b_s1"
+   end="timer_1b.s1">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>timer_1b_s1</startConnectionPoint>
+  <endModule>timer_1b</endModule>
+  <endConnectionPoint>s1</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.jtag_uart_1d_avalon_jtag_slave/jtag_uart_1d.avalon_jtag_slave"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.jtag_uart_1d_avalon_jtag_slave"
+   end="jtag_uart_1d.avalon_jtag_slave">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>jtag_uart_1d_avalon_jtag_slave</startConnectionPoint>
+  <endModule>jtag_uart_1d</endModule>
+  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_1d_in_csr/fifo_1d.in_csr"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_1d_in_csr"
+   end="fifo_1d.in_csr">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_1d_in_csr</startConnectionPoint>
+  <endModule>fifo_1d</endModule>
+  <endConnectionPoint>in_csr</endConnectionPoint>
+ </connection>
+ <connection
+   name="clock.clk/mm_interconnect_0.clock_clk"
+   kind="clock"
+   version="13.1"
+   start="clock.clk"
+   end="mm_interconnect_0.clock_clk">
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>clock</startModule>
+  <startConnectionPoint>clk</startConnectionPoint>
+  <endModule>mm_interconnect_0</endModule>
+  <endConnectionPoint>clock_clk</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_1d_in/fifo_1d.in"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_1d_in"
+   end="fifo_1d.in">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_1d_in</startConnectionPoint>
+  <endModule>fifo_1d</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_6_out/fifo_q_6.out"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_6_out"
+   end="fifo_q_6.out">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_6_out</startConnectionPoint>
+  <endModule>fifo_q_6</endModule>
+  <endConnectionPoint>out</endConnectionPoint>
+ </connection>
+ <connection
    name="mm_interconnect_0.sysid_1c_control_slave/sysid_1c.control_slave"
    kind="avalon"
    version="13.1"
@@ -79595,11 +79850,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>control_slave</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.onchip_mem_1e_s1/onchip_mem_1e.s1"
+   name="mm_interconnect_0.sysid_1d_control_slave/sysid_1d.control_slave"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.onchip_mem_1e_s1"
-   end="onchip_mem_1e.s1">
+   start="mm_interconnect_0.sysid_1d_control_slave"
+   end="sysid_1d.control_slave">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -79641,16 +79896,271 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>onchip_mem_1e_s1</startConnectionPoint>
-  <endModule>onchip_mem_1e</endModule>
-  <endConnectionPoint>s1</endConnectionPoint>
+  <startConnectionPoint>sysid_1d_control_slave</startConnectionPoint>
+  <endModule>sysid_1d</endModule>
+  <endConnectionPoint>control_slave</endConnectionPoint>
  </connection>
  <connection
-   name="cpu_1f.instruction_master/mm_interconnect_0.cpu_1f_instruction_master"
+   name="mm_interconnect_0.fifo_1c_in/fifo_1c.in"
    kind="avalon"
    version="13.1"
-   start="cpu_1f.instruction_master"
-   end="mm_interconnect_0.cpu_1f_instruction_master">
+   start="mm_interconnect_0.fifo_1c_in"
+   end="fifo_1c.in">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_1c_in</startConnectionPoint>
+  <endModule>fifo_1c</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_1b_in_csr/fifo_1b.in_csr"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_1b_in_csr"
+   end="fifo_1b.in_csr">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_1b_in_csr</startConnectionPoint>
+  <endModule>fifo_1b</endModule>
+  <endConnectionPoint>in_csr</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_1_in_csr/fifo_q_1.in_csr"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_1_in_csr"
+   end="fifo_q_1.in_csr">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_1_in_csr</startConnectionPoint>
+  <endModule>fifo_q_1</endModule>
+  <endConnectionPoint>in_csr</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_1_in/fifo_q_1.in"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_1_in"
+   end="fifo_q_1.in">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_1_in</startConnectionPoint>
+  <endModule>fifo_q_1</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.cpu_1d_jtag_debug_module/cpu_1d.jtag_debug_module"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.cpu_1d_jtag_debug_module"
+   end="cpu_1d.jtag_debug_module">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>cpu_1d_jtag_debug_module</startConnectionPoint>
+  <endModule>cpu_1d</endModule>
+  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
+ </connection>
+ <connection
+   name="cpu_1f.data_master/mm_interconnect_0.cpu_1f_data_master"
+   kind="avalon"
+   version="13.1"
+   start="cpu_1f.data_master"
+   end="mm_interconnect_0.cpu_1f_data_master">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -79692,16 +80202,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>cpu_1f</startModule>
-  <startConnectionPoint>instruction_master</startConnectionPoint>
+  <startConnectionPoint>data_master</startConnectionPoint>
   <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1f_instruction_master</endConnectionPoint>
+  <endConnectionPoint>cpu_1f_data_master</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.onchip_mem_1d_s1/onchip_mem_1d.s1"
+   name="cpu_1e.instruction_master/mm_interconnect_0.cpu_1e_instruction_master"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.onchip_mem_1d_s1"
-   end="onchip_mem_1d.s1">
+   start="cpu_1e.instruction_master"
+   end="mm_interconnect_0.cpu_1e_instruction_master">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -79742,61 +80252,10 @@ parameters are a RESULT of the module parameters. -->
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>onchip_mem_1d_s1</startConnectionPoint>
-  <endModule>onchip_mem_1d</endModule>
-  <endConnectionPoint>s1</endConnectionPoint>
- </connection>
- <connection
-   name="cpu.instruction_master/mm_interconnect_0.cpu_instruction_master"
-   kind="avalon"
-   version="13.1"
-   start="cpu.instruction_master"
-   end="mm_interconnect_0.cpu_instruction_master">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>cpu</startModule>
+  <startModule>cpu_1e</startModule>
   <startConnectionPoint>instruction_master</startConnectionPoint>
   <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_instruction_master</endConnectionPoint>
+  <endConnectionPoint>cpu_1e_instruction_master</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.onchip_mem_1c_s1/onchip_mem_1c.s1"
@@ -79847,6 +80306,57 @@ parameters are a RESULT of the module parameters. -->
   <startModule>mm_interconnect_0</startModule>
   <startConnectionPoint>onchip_mem_1c_s1</startConnectionPoint>
   <endModule>onchip_mem_1c</endModule>
+  <endConnectionPoint>s1</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.onchip_mem_1f_s1/onchip_mem_1f.s1"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.onchip_mem_1f_s1"
+   end="onchip_mem_1f.s1">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>onchip_mem_1f_s1</startConnectionPoint>
+  <endModule>onchip_mem_1f</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
@@ -79901,465 +80411,6 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>control_slave</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.cpu_jtag_debug_module/cpu.jtag_debug_module"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.cpu_jtag_debug_module"
-   end="cpu.jtag_debug_module">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>cpu_jtag_debug_module</startConnectionPoint>
-  <endModule>cpu</endModule>
-  <endConnectionPoint>jtag_debug_module</endConnectionPoint>
- </connection>
- <connection
-   name="cpu_1e.instruction_master/mm_interconnect_0.cpu_1e_instruction_master"
-   kind="avalon"
-   version="13.1"
-   start="cpu_1e.instruction_master"
-   end="mm_interconnect_0.cpu_1e_instruction_master">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>cpu_1e</startModule>
-  <startConnectionPoint>instruction_master</startConnectionPoint>
-  <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1e_instruction_master</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.timer_1f_s1/timer_1f.s1"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.timer_1f_s1"
-   end="timer_1f.s1">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>timer_1f_s1</startConnectionPoint>
-  <endModule>timer_1f</endModule>
-  <endConnectionPoint>s1</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.sysid_1b_control_slave/sysid_1b.control_slave"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.sysid_1b_control_slave"
-   end="sysid_1b.control_slave">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>sysid_1b_control_slave</startConnectionPoint>
-  <endModule>sysid_1b</endModule>
-  <endConnectionPoint>control_slave</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_1_in_csr/fifo_q_1.in_csr"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_1_in_csr"
-   end="fifo_q_1.in_csr">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_1_in_csr</startConnectionPoint>
-  <endModule>fifo_q_1</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_1b_in_csr/fifo_1b.in_csr"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_1b_in_csr"
-   end="fifo_1b.in_csr">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1b_in_csr</startConnectionPoint>
-  <endModule>fifo_1b</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_2_out/fifo_q_2.out"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_2_out"
-   end="fifo_q_2.out">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_2_out</startConnectionPoint>
-  <endModule>fifo_q_2</endModule>
-  <endConnectionPoint>out</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_5_in/fifo_q_5.in"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_5_in"
-   end="fifo_q_5.in">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_5_in</startConnectionPoint>
-  <endModule>fifo_q_5</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.jtag_uart_1d_avalon_jtag_slave/jtag_uart_1d.avalon_jtag_slave"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.jtag_uart_1d_avalon_jtag_slave"
-   end="jtag_uart_1d.avalon_jtag_slave">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>jtag_uart_1d_avalon_jtag_slave</startConnectionPoint>
-  <endModule>jtag_uart_1d</endModule>
-  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
- </connection>
- <connection
    name="mm_interconnect_0.jtag_uart_1e_avalon_jtag_slave/jtag_uart_1e.avalon_jtag_slave"
    kind="avalon"
    version="13.1"
@@ -80411,11 +80462,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.onchip_mem_1b_s1/onchip_mem_1b.s1"
+   name="mm_interconnect_0.fifo_q_4_in/fifo_q_4.in"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.onchip_mem_1b_s1"
-   end="onchip_mem_1b.s1">
+   start="mm_interconnect_0.fifo_q_4_in"
+   end="fifo_q_4.in">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -80457,8 +80508,59 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>onchip_mem_1b_s1</startConnectionPoint>
-  <endModule>onchip_mem_1b</endModule>
+  <startConnectionPoint>fifo_q_4_in</startConnectionPoint>
+  <endModule>fifo_q_4</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.timer_1e_s1/timer_1e.s1"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.timer_1e_s1"
+   end="timer_1e.s1">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>timer_1e_s1</startConnectionPoint>
+  <endModule>timer_1e</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
@@ -80564,11 +80666,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>jtag_debug_module</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.jtag_uart_1c_avalon_jtag_slave/jtag_uart_1c.avalon_jtag_slave"
+   name="mm_interconnect_0.onchip_mem_1b_s1/onchip_mem_1b.s1"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.jtag_uart_1c_avalon_jtag_slave"
-   end="jtag_uart_1c.avalon_jtag_slave">
+   start="mm_interconnect_0.onchip_mem_1b_s1"
+   end="onchip_mem_1b.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -80610,16 +80712,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>jtag_uart_1c_avalon_jtag_slave</startConnectionPoint>
-  <endModule>jtag_uart_1c</endModule>
-  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
+  <startConnectionPoint>onchip_mem_1b_s1</startConnectionPoint>
+  <endModule>onchip_mem_1b</endModule>
+  <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="cpu_1e.data_master/mm_interconnect_0.cpu_1e_data_master"
+   name="cpu_1f.instruction_master/mm_interconnect_0.cpu_1f_instruction_master"
    kind="avalon"
    version="13.1"
-   start="cpu_1e.data_master"
-   end="mm_interconnect_0.cpu_1e_data_master">
+   start="cpu_1f.instruction_master"
+   end="mm_interconnect_0.cpu_1f_instruction_master">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -80660,112 +80762,10 @@ parameters are a RESULT of the module parameters. -->
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
-  <startModule>cpu_1e</startModule>
-  <startConnectionPoint>data_master</startConnectionPoint>
+  <startModule>cpu_1f</startModule>
+  <startConnectionPoint>instruction_master</startConnectionPoint>
   <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1e_data_master</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.sysid_1f_control_slave/sysid_1f.control_slave"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.sysid_1f_control_slave"
-   end="sysid_1f.control_slave">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>sysid_1f_control_slave</startConnectionPoint>
-  <endModule>sysid_1f</endModule>
-  <endConnectionPoint>control_slave</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_1b_in/fifo_1b.in"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_1b_in"
-   end="fifo_1b.in">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1b_in</startConnectionPoint>
-  <endModule>fifo_1b</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
+  <endConnectionPoint>cpu_1f_instruction_master</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.sdram_controller_s1/sdram_controller.s1"
@@ -80819,11 +80819,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="cpu_1d.instruction_master/mm_interconnect_0.cpu_1d_instruction_master"
+   name="mm_interconnect_0.fifo_1c_out/fifo_1c.out"
    kind="avalon"
    version="13.1"
-   start="cpu_1d.instruction_master"
-   end="mm_interconnect_0.cpu_1d_instruction_master">
+   start="mm_interconnect_0.fifo_1c_out"
+   end="fifo_1c.out">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -80864,10 +80864,10 @@ parameters are a RESULT of the module parameters. -->
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
-  <startModule>cpu_1d</startModule>
-  <startConnectionPoint>instruction_master</startConnectionPoint>
-  <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>cpu_1d_instruction_master</endConnectionPoint>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_1c_out</startConnectionPoint>
+  <endModule>fifo_1c</endModule>
+  <endConnectionPoint>out</endConnectionPoint>
  </connection>
  <connection
    name="mm_interconnect_0.timer_s1/timer.s1"
@@ -80921,11 +80921,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_q_2_in_csr/fifo_q_2.in_csr"
+   name="cpu_1b.instruction_master/mm_interconnect_0.cpu_1b_instruction_master"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_q_2_in_csr"
-   end="fifo_q_2.in_csr">
+   start="cpu_1b.instruction_master"
+   end="mm_interconnect_0.cpu_1b_instruction_master">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -80966,95 +80966,17 @@ parameters are a RESULT of the module parameters. -->
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_2_in_csr</startConnectionPoint>
-  <endModule>fifo_q_2</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_1_in/fifo_q_1.in"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_1_in"
-   end="fifo_q_1.in">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_1_in</startConnectionPoint>
-  <endModule>fifo_q_1</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
- </connection>
- <connection
-   name="pll.c0/mm_interconnect_0.pll_c0"
-   kind="clock"
-   version="13.1"
-   start="pll.c0"
-   end="mm_interconnect_0.pll_c0">
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>pll</startModule>
-  <startConnectionPoint>c0</startConnectionPoint>
+  <startModule>cpu_1b</startModule>
+  <startConnectionPoint>instruction_master</startConnectionPoint>
   <endModule>mm_interconnect_0</endModule>
-  <endConnectionPoint>pll_c0</endConnectionPoint>
+  <endConnectionPoint>cpu_1b_instruction_master</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_q_4_in_csr/fifo_q_4.in_csr"
+   name="mm_interconnect_0.fifo_q_4_out/fifo_q_4.out"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_q_4_in_csr"
-   end="fifo_q_4.in_csr">
+   start="mm_interconnect_0.fifo_q_4_out"
+   end="fifo_q_4.out">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -81096,16 +81018,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_4_in_csr</startConnectionPoint>
+  <startConnectionPoint>fifo_q_4_out</startConnectionPoint>
   <endModule>fifo_q_4</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
+  <endConnectionPoint>out</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_q_2_in/fifo_q_2.in"
+   name="mm_interconnect_0.onchip_mem_1e_s1/onchip_mem_1e.s1"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_q_2_in"
-   end="fifo_q_2.in">
+   start="mm_interconnect_0.onchip_mem_1e_s1"
+   end="onchip_mem_1e.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -81147,16 +81069,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_2_in</startConnectionPoint>
-  <endModule>fifo_q_2</endModule>
-  <endConnectionPoint>in</endConnectionPoint>
+  <startConnectionPoint>onchip_mem_1e_s1</startConnectionPoint>
+  <endModule>onchip_mem_1e</endModule>
+  <endConnectionPoint>s1</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_1e_out/fifo_1e.out"
+   name="mm_interconnect_0.fifo_1e_in/fifo_1e.in"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_1e_out"
-   end="fifo_1e.out">
+   start="mm_interconnect_0.fifo_1e_in"
+   end="fifo_1e.in">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -81198,67 +81120,16 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1e_out</startConnectionPoint>
+  <startConnectionPoint>fifo_1e_in</startConnectionPoint>
   <endModule>fifo_1e</endModule>
-  <endConnectionPoint>out</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_3_in/fifo_q_3.in"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_3_in"
-   end="fifo_q_3.in">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_3_in</startConnectionPoint>
-  <endModule>fifo_q_3</endModule>
   <endConnectionPoint>in</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_1d_in_csr/fifo_1d.in_csr"
+   name="mm_interconnect_0.onchip_mem_1d_s1/onchip_mem_1d.s1"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_1d_in_csr"
-   end="fifo_1d.in_csr">
+   start="mm_interconnect_0.onchip_mem_1d_s1"
+   end="onchip_mem_1d.s1">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -81300,162 +81171,9 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1d_in_csr</startConnectionPoint>
-  <endModule>fifo_1d</endModule>
-  <endConnectionPoint>in_csr</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.timer_1d_s1/timer_1d.s1"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.timer_1d_s1"
-   end="timer_1d.s1">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>timer_1d_s1</startConnectionPoint>
-  <endModule>timer_1d</endModule>
+  <startConnectionPoint>onchip_mem_1d_s1</startConnectionPoint>
+  <endModule>onchip_mem_1d</endModule>
   <endConnectionPoint>s1</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.timer_1e_s1/timer_1e.s1"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.timer_1e_s1"
-   end="timer_1e.s1">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>timer_1e_s1</startConnectionPoint>
-  <endModule>timer_1e</endModule>
-  <endConnectionPoint>s1</endConnectionPoint>
- </connection>
- <connection
-   name="mm_interconnect_0.fifo_q_3_out/fifo_q_3.out"
-   kind="avalon"
-   version="13.1"
-   start="mm_interconnect_0.fifo_q_3_out"
-   end="fifo_q_3.out">
-  <parameter name="arbitrationPriority">
-   <type>int</type>
-   <value>1</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="baseAddress">
-   <type>java.math.BigInteger</type>
-   <value>0x0000</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="defaultConnection">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="deviceFamily">
-   <type>java.lang.String</type>
-   <value>UNKNOWN</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <parameter name="generateLegacySim">
-   <type>boolean</type>
-   <value>false</value>
-   <derived>false</derived>
-   <enabled>true</enabled>
-   <visible>true</visible>
-   <valid>true</valid>
-  </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_3_out</startConnectionPoint>
-  <endModule>fifo_q_3</endModule>
-  <endConnectionPoint>out</endConnectionPoint>
  </connection>
  <connection
    name="cpu_1d.data_master/mm_interconnect_0.cpu_1d_data_master"
@@ -81509,11 +81227,11 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>cpu_1d_data_master</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.jtag_uart_1b_avalon_jtag_slave/jtag_uart_1b.avalon_jtag_slave"
+   name="cpu_1d.instruction_master/mm_interconnect_0.cpu_1d_instruction_master"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.jtag_uart_1b_avalon_jtag_slave"
-   end="jtag_uart_1b.avalon_jtag_slave">
+   start="cpu_1d.instruction_master"
+   end="mm_interconnect_0.cpu_1d_instruction_master">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -81554,17 +81272,17 @@ parameters are a RESULT of the module parameters. -->
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>jtag_uart_1b_avalon_jtag_slave</startConnectionPoint>
-  <endModule>jtag_uart_1b</endModule>
-  <endConnectionPoint>avalon_jtag_slave</endConnectionPoint>
+  <startModule>cpu_1d</startModule>
+  <startConnectionPoint>instruction_master</startConnectionPoint>
+  <endModule>mm_interconnect_0</endModule>
+  <endConnectionPoint>cpu_1d_instruction_master</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_1c_out/fifo_1c.out"
+   name="cpu.instruction_master/mm_interconnect_0.cpu_instruction_master"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_1c_out"
-   end="fifo_1c.out">
+   start="cpu.instruction_master"
+   end="mm_interconnect_0.cpu_instruction_master">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -81605,17 +81323,17 @@ parameters are a RESULT of the module parameters. -->
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
-  <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_1c_out</startConnectionPoint>
-  <endModule>fifo_1c</endModule>
-  <endConnectionPoint>out</endConnectionPoint>
+  <startModule>cpu</startModule>
+  <startConnectionPoint>instruction_master</startConnectionPoint>
+  <endModule>mm_interconnect_0</endModule>
+  <endConnectionPoint>cpu_instruction_master</endConnectionPoint>
  </connection>
  <connection
-   name="mm_interconnect_0.fifo_q_5_out/fifo_q_5.out"
+   name="mm_interconnect_0.fifo_1b_in/fifo_1b.in"
    kind="avalon"
    version="13.1"
-   start="mm_interconnect_0.fifo_q_5_out"
-   end="fifo_q_5.out">
+   start="mm_interconnect_0.fifo_1b_in"
+   end="fifo_1b.in">
   <parameter name="arbitrationPriority">
    <type>int</type>
    <value>1</value>
@@ -81657,9 +81375,291 @@ parameters are a RESULT of the module parameters. -->
    <valid>true</valid>
   </parameter>
   <startModule>mm_interconnect_0</startModule>
-  <startConnectionPoint>fifo_q_5_out</startConnectionPoint>
+  <startConnectionPoint>fifo_1b_in</startConnectionPoint>
+  <endModule>fifo_1b</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_3_in/fifo_q_3.in"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_3_in"
+   end="fifo_q_3.in">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_3_in</startConnectionPoint>
+  <endModule>fifo_q_3</endModule>
+  <endConnectionPoint>in</endConnectionPoint>
+ </connection>
+ <connection
+   name="pll.c0/mm_interconnect_0.pll_c0"
+   kind="clock"
+   version="13.1"
+   start="pll.c0"
+   end="mm_interconnect_0.pll_c0">
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>pll</startModule>
+  <startConnectionPoint>c0</startConnectionPoint>
+  <endModule>mm_interconnect_0</endModule>
+  <endConnectionPoint>pll_c0</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.fifo_q_5_in_csr/fifo_q_5.in_csr"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.fifo_q_5_in_csr"
+   end="fifo_q_5.in_csr">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>fifo_q_5_in_csr</startConnectionPoint>
   <endModule>fifo_q_5</endModule>
-  <endConnectionPoint>out</endConnectionPoint>
+  <endConnectionPoint>in_csr</endConnectionPoint>
+ </connection>
+ <connection
+   name="cpu_1b.data_master/mm_interconnect_0.cpu_1b_data_master"
+   kind="avalon"
+   version="13.1"
+   start="cpu_1b.data_master"
+   end="mm_interconnect_0.cpu_1b_data_master">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>cpu_1b</startModule>
+  <startConnectionPoint>data_master</startConnectionPoint>
+  <endModule>mm_interconnect_0</endModule>
+  <endConnectionPoint>cpu_1b_data_master</endConnectionPoint>
+ </connection>
+ <connection
+   name="cpu_1c.data_master/mm_interconnect_0.cpu_1c_data_master"
+   kind="avalon"
+   version="13.1"
+   start="cpu_1c.data_master"
+   end="mm_interconnect_0.cpu_1c_data_master">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>cpu_1c</startModule>
+  <startConnectionPoint>data_master</startConnectionPoint>
+  <endModule>mm_interconnect_0</endModule>
+  <endConnectionPoint>cpu_1c_data_master</endConnectionPoint>
+ </connection>
+ <connection
+   name="mm_interconnect_0.sys_id_control_slave/sys_id.control_slave"
+   kind="avalon"
+   version="13.1"
+   start="mm_interconnect_0.sys_id_control_slave"
+   end="sys_id.control_slave">
+  <parameter name="arbitrationPriority">
+   <type>int</type>
+   <value>1</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="baseAddress">
+   <type>java.math.BigInteger</type>
+   <value>0x0000</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="defaultConnection">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="deviceFamily">
+   <type>java.lang.String</type>
+   <value>UNKNOWN</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <parameter name="generateLegacySim">
+   <type>boolean</type>
+   <value>false</value>
+   <derived>false</derived>
+   <enabled>true</enabled>
+   <visible>true</visible>
+   <valid>true</valid>
+  </parameter>
+  <startModule>mm_interconnect_0</startModule>
+  <startConnectionPoint>sys_id_control_slave</startConnectionPoint>
+  <endModule>sys_id</endModule>
+  <endConnectionPoint>control_slave</endConnectionPoint>
  </connection>
  <connection
    name="irq_mapper.receiver0/timer.irq"
@@ -85208,11 +85208,91 @@ parameters are a RESULT of the module parameters. -->
   <endConnectionPoint>clk</endConnectionPoint>
  </connection>
  <plugin>
-  <instanceCount>1</instanceCount>
+  <instanceCount>18</instanceCount>
+  <name>interrupt_sender</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
+  <displayName>Interrupt Sender</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>6</instanceCount>
+  <name>altera_avalon_timer</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>Interval Timer</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>2</instanceCount>
+  <name>altera_reset_controller</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>Merlin Reset Controller</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>64</instanceCount>
   <name>reset_sink</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
   <displayName>Reset Input</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>6</instanceCount>
+  <name>altera_avalon_jtag_uart</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>JTAG UART</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>11</instanceCount>
+  <name>clock</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IConnection</subtype>
+  <displayName>Clock Connection</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>41</instanceCount>
+  <name>clock</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IConnection</subtype>
+  <displayName>Clock Connection</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>6</instanceCount>
+  <name>altera_nios2_qsys</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>Nios II Processor</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>1</instanceCount>
+  <name>clock_source</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>Clock Source</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>18</instanceCount>
+  <name>interrupt_receiver</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
+  <displayName>Interrupt Receiver</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>18</instanceCount>
+  <name>interrupt</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IConnection</subtype>
+  <displayName>Interrupt Connection</displayName>
   <version>13.1</version>
  </plugin>
  <plugin>
@@ -85224,19 +85304,19 @@ parameters are a RESULT of the module parameters. -->
   <version>13.1</version>
  </plugin>
  <plugin>
-  <instanceCount>73</instanceCount>
-  <name>avalon_slave</name>
+  <instanceCount>1</instanceCount>
+  <name>altera_reset_translator</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Avalon Memory Mapped Slave</displayName>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>Reset Translator</displayName>
   <version>13.1</version>
  </plugin>
  <plugin>
-  <instanceCount>52</instanceCount>
-  <name>clock_sink</name>
+  <instanceCount>1</instanceCount>
+  <name>reset_sink</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Clock Input</displayName>
+  <displayName>Reset Input</displayName>
   <version>13.1</version>
  </plugin>
  <plugin>
@@ -85245,14 +85325,6 @@ parameters are a RESULT of the module parameters. -->
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
   <displayName>Avalon Memory Mapped Master</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>11</instanceCount>
-  <name>clock</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IConnection</subtype>
-  <displayName>Clock Connection</displayName>
   <version>13.1</version>
  </plugin>
  <plugin>
@@ -85272,19 +85344,11 @@ parameters are a RESULT of the module parameters. -->
   <version>13.1</version>
  </plugin>
  <plugin>
-  <instanceCount>18</instanceCount>
-  <name>interrupt_sender</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Interrupt Sender</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>6</instanceCount>
-  <name>altera_nios2_qsys</name>
+  <instanceCount>1</instanceCount>
+  <name>altpll</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>Nios II Processor</displayName>
+  <displayName>Avalon ALTPLL</displayName>
   <version>13.1</version>
  </plugin>
  <plugin>
@@ -85296,99 +85360,11 @@ parameters are a RESULT of the module parameters. -->
   <version>13.1</version>
  </plugin>
  <plugin>
-  <instanceCount>1</instanceCount>
-  <name>clock_source</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>Clock Source</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>10</instanceCount>
-  <name>altera_avalon_fifo</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>On-Chip FIFO Memory</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>2</instanceCount>
-  <name>altera_reset_controller</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>Merlin Reset Controller</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>6</instanceCount>
-  <name>altera_avalon_timer</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>Interval Timer</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>1</instanceCount>
-  <name>altera_merlin_interconnect_wrapper</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>Interconnect Wrapper</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>2</instanceCount>
-  <name>clock_source</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Clock Output</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>1</instanceCount>
-  <name>clock_source</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Clock Output</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>41</instanceCount>
-  <name>clock</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IConnection</subtype>
-  <displayName>Clock Connection</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>1</instanceCount>
-  <name>altpll</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>Avalon ALTPLL</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
   <instanceCount>4</instanceCount>
   <name>conduit_end</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
   <displayName>Conduit</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>9</instanceCount>
-  <name>reset_source</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Reset Output</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>1</instanceCount>
-  <name>altera_reset_translator</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>Reset Translator</displayName>
   <version>13.1</version>
  </plugin>
  <plugin>
@@ -85400,51 +85376,35 @@ parameters are a RESULT of the module parameters. -->
   <version>13.1</version>
  </plugin>
  <plugin>
-  <instanceCount>64</instanceCount>
-  <name>reset_sink</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Reset Input</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>1</instanceCount>
-  <name>altera_avalon_new_sdram_controller</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>SDRAM Controller</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>18</instanceCount>
-  <name>interrupt</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IConnection</subtype>
-  <displayName>Interrupt Connection</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>6</instanceCount>
-  <name>altera_avalon_jtag_uart</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>JTAG UART</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>18</instanceCount>
-  <name>interrupt_receiver</name>
-  <type>com.altera.entityinterfaces.IElementClass</type>
-  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
-  <displayName>Interrupt Receiver</displayName>
-  <version>13.1</version>
- </plugin>
- <plugin>
-  <instanceCount>1</instanceCount>
+  <instanceCount>52</instanceCount>
   <name>clock_sink</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
   <displayName>Clock Input</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>1</instanceCount>
+  <name>clock_source</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
+  <displayName>Clock Output</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>5</instanceCount>
+  <name>altera_avalon_onchip_memory2</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>On-Chip Memory (RAM or ROM)</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>73</instanceCount>
+  <name>avalon_slave</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
+  <displayName>Avalon Memory Mapped Slave</displayName>
   <version>13.1</version>
  </plugin>
  <plugin>
@@ -85456,13 +85416,53 @@ parameters are a RESULT of the module parameters. -->
   <version>13.1</version>
  </plugin>
  <plugin>
-  <instanceCount>5</instanceCount>
-  <name>altera_avalon_onchip_memory2</name>
+  <instanceCount>1</instanceCount>
+  <name>clock_sink</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
+  <displayName>Clock Input</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>1</instanceCount>
+  <name>altera_avalon_new_sdram_controller</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>On-Chip Memory (RAM or ROM)</displayName>
+  <displayName>SDRAM Controller</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>10</instanceCount>
+  <name>altera_avalon_fifo</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>On-Chip FIFO Memory</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>9</instanceCount>
+  <name>reset_source</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
+  <displayName>Reset Output</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>2</instanceCount>
+  <name>clock_source</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IMutableConnectionPoint</subtype>
+  <displayName>Clock Output</displayName>
+  <version>13.1</version>
+ </plugin>
+ <plugin>
+  <instanceCount>1</instanceCount>
+  <name>altera_merlin_interconnect_wrapper</name>
+  <type>com.altera.entityinterfaces.IElementClass</type>
+  <subtype>com.altera.entityinterfaces.IModule</subtype>
+  <displayName>Interconnect Wrapper</displayName>
   <version>13.1</version>
  </plugin>
  <reportVersion>13.1 162</reportVersion>
- <uniqueIdentifier>1826492BB19A000001900C0234DA</uniqueIdentifier>
+ <uniqueIdentifier>1826492BB19A000001901295F056</uniqueIdentifier>
 </EnsembleReport>

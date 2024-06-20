@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="36" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
 <window height="545" width="654" x="1272" y="2">
 <fastViewData fastViewLocation="1024"/>
@@ -36,11 +36,11 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1c/main.c" title="main.c" tooltip="1c/main.c" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1c/main.c" title="main.c" tooltip="1c/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/1c/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3113" selectionTopPixel="2186"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2719" selectionTopPixel="2186"/>
 </editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="queue_wrapper.c" partName="queue_wrapper.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1c/queue_wrapper.c" title="queue_wrapper.c" tooltip="1c/queue_wrapper.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="queue_wrapper.c" partName="queue_wrapper.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1c/queue_wrapper.c" title="queue_wrapper.c" tooltip="1c/queue_wrapper.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/1c/queue_wrapper.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="525" selectionTopPixel="220"/>
 </editor>
@@ -53,10 +53,6 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -240,7 +236,7 @@
 </fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@17d56b" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="1">
 <fastViews>
-<view id="org.eclipse.ui.internal.introview" ratio="0.3"/>
+<view id="org.eclipse.ui.internal.introview" ratio="0.09257266"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -299,6 +295,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/1c/Makefile"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1c/queue_wrapper.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1c/queue_wrapper.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1c/main.c"/>
 </editors>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -333,8 +330,11 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="3113" y="0"/>
 </item>
-<item active="true" historyLabel="queue_wrapper.c" index="3">
+<item historyLabel="queue_wrapper.c" index="3">
 <position info="not_deleted" x="355" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="4">
+<position info="not_deleted" x="3113" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

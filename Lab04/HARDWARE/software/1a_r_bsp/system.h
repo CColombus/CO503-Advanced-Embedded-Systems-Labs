@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'Mega_JSoC'
  * SOPC Builder design path: D:/SEM6/CO503/Lab04/HARDWARE/Mega_JSoC.sopcinfo
  *
- * Generated: Wed Jun 12 16:05:20 IST 2024
+ * Generated: Thu Jun 13 22:49:40 IST 2024
  */
 
 /*
@@ -653,7 +653,7 @@
 #define SYS_ID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYS_ID_NAME "/dev/sys_id"
 #define SYS_ID_SPAN 8
-#define SYS_ID_TIMESTAMP 1718188374
+#define SYS_ID_TIMESTAMP 1718298719
 #define SYS_ID_TYPE "altera_avalon_sysid_qsys"
 
 

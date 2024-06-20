@@ -9,8 +9,8 @@
 void levelshift(void)
 {
 
-	// TODO: Do the actual implementation.
-	QUEUE_INIT();
+	// ! Software implementation
+	init_queues();
 
 	INT16 i, j;
 	// while (1)
@@ -42,8 +42,8 @@ void levelshift(void)
 		}
 	}
 
-	// TODO: Do the actual implementation.
-	QUEUE_CLOSE();
+	// ! Software implementation
+	close_queues();
 }
 
 int main(void)

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <string.h>
-// #include <time.h>
+#include <time.h>
 
 #include "encoder.h"
 #include "queue_wrapper.h"
@@ -25,12 +25,14 @@ int main()
 	UINT32 quality_factor, image_format, image_width, image_height;
 
 	// TODO: Do the actual implementation.
-	
+	char jtag_input[30];
+	printf("Enter the name of the parameter file: ");
+	scanf("%s", jtag_input);
 	char param_file[150];
 	strcpy(param_file,file_system);
-	strcat(param_file, "param.txt");
+	strcat(param_file,jtag_input);
 
-	printf("Gonna look for parameters in: %s\n",param_file);
+	printf("\nGonna look for parameters in: %s\n",param_file);
 
 	fp = fopen(param_file, "r");
 
@@ -51,7 +53,7 @@ int main()
 		}
 		SEND6((int)'\0');
 
-		printf("Sent filename to q6!.\n");
+		printf("Sent filename to q6.\n");
 
 		fscanf(fp, "%d", &quality_factor);
 		fscanf(fp, "%d", &image_format);
@@ -93,7 +95,16 @@ int main()
 
 		fclose(fpt);
 
+		clock_t start, end;
+		double cpu_time_used;
+
+		start = clock();
 		output_ptr = encode_image(input, output_ptr, quality_factor, image_format, image_width, image_height);
+		end = clock();
+
+		cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
+
+		printf("Time taken: %f sec.\n", cpu_time_used);
 
 		free(input);
 	}

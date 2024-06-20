@@ -121,7 +121,7 @@ int main(void)
 	data = (INT16 *)malloc(sizeof(INT16) * 64);
 
 	// TODO: Do the actual implementation.
-	QUEUE_INIT();
+	init_queues();
 
 	// TODO: added temporaryCounter to limit the loop otherwise file will be too big,
 	// while (1)
@@ -134,5 +134,5 @@ int main(void)
 	}
 
 	// TODO: Do the actual implementation.
-	QUEUE_CLOSE();
+	close_queues();
 }

@@ -1,8 +1,12 @@
 #ifndef QUEUE_WRAPPER_H
 #define QUEUE_WRAPPER_H
 
-void QUEUE_INIT();
-void QUEUE_CLOSE();
+#include "../lib/queue.h"
+
+void init_queues();
+void close_queues();
+
+void debug_queue(char *caller);
 
 
 void SEND1(int data);

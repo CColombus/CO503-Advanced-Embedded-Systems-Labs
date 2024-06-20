@@ -1,9 +1,9 @@
 #include "queue_wrapper.h"
-#include "queue.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 #include "q_mem_obj_def.h"
+#include "queue.h"
 
 int RECV1()
 {

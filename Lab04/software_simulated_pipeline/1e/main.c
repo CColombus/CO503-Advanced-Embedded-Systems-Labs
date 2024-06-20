@@ -9,7 +9,6 @@
 #include "../lib/huffdata.h"
 #include "../lib/markdata.h"
 
-
 // TODO: Here SEND1 must be the pipeline output for this stage.
 // TODO: As a raw byte stream of the jpeg file.
 // TODO: Here SEND2 must be the DONE flag to alert the next stage
@@ -75,6 +74,9 @@ void write_markers(UINT32 image_width, UINT32 image_height)
 	// Lqt table
 	for (i = 0; i < 64; i++)
 		SEND1((UINT8)RECV2()); // Lqt [i];
+		
+	// ! DEBUG
+	debug_queue("Lqt table");
 
 	// Pq, Tq
 	SEND1(0x01);
@@ -82,6 +84,9 @@ void write_markers(UINT32 image_width, UINT32 image_height)
 	// Cqt table
 	for (i = 0; i < 64; i++)
 		SEND1((UINT8)RECV2()); // Cqt [i];
+
+	// ! DEBUG
+	debug_queue("Cqt table");
 
 	// huffman table(DHT)
 	for (i = 0; i < 210; i++)
@@ -333,8 +338,8 @@ void close_bitstream(void)
 
 int main(void)
 {
-	// TODO: Initialize the queues
-	QUEUE_INIT();
+	// ! Software implementation
+	init_queues();
 
 	while (1)
 	{
@@ -354,8 +359,14 @@ int main(void)
 		for (; count > 0; count--)
 		{
 			huffman(1);
+			// printf("huffman 1 ->\t");
+			debug_queue("h1");
 			huffman(2);
+			// printf("huffman 2 ->\t\t");
+			debug_queue("h2");
 			huffman(3);
+			// printf("huffman 3 ->\t\t\t");
+			debug_queue("h3");
 			//	#pragma flush //added by haris
 			// asm("dummy");
 		}
@@ -370,8 +381,8 @@ int main(void)
 		break;
 	}
 
-	// TODO: Close the queues
-	QUEUE_CLOSE();
+	// ! Software implementation
+	close_queues();
 
 	printf("\n Finished !\n");
 	return 0;

@@ -12,7 +12,7 @@
    element $${FILENAME}
    {
    }
-   element jtag_uart_1d.avalon_jtag_slave
+   element jtag_uart_1e.avalon_jtag_slave
    {
       datum baseAddress
       {
@@ -28,14 +28,6 @@
          type = "String";
       }
    }
-   element jtag_uart_1b.avalon_jtag_slave
-   {
-      datum baseAddress
-      {
-         value = "135240";
-         type = "String";
-      }
-   }
    element jtag_uart_1c.avalon_jtag_slave
    {
       datum baseAddress
@@ -44,11 +36,19 @@
          type = "String";
       }
    }
-   element jtag_uart_1e.avalon_jtag_slave
+   element jtag_uart_1d.avalon_jtag_slave
    {
       datum baseAddress
       {
          value = "135272";
+         type = "String";
+      }
+   }
+   element jtag_uart_1b.avalon_jtag_slave
+   {
+      datum baseAddress
+      {
+         value = "135240";
          type = "String";
       }
    }
@@ -97,39 +97,7 @@
          type = "boolean";
       }
    }
-   element sys_id.control_slave
-   {
-      datum baseAddress
-      {
-         value = "134222064";
-         type = "String";
-      }
-   }
-   element sysid_1e.control_slave
-   {
-      datum baseAddress
-      {
-         value = "135264";
-         type = "String";
-      }
-   }
-   element sysid_1f.control_slave
-   {
-      datum baseAddress
-      {
-         value = "135232";
-         type = "String";
-      }
-   }
    element sysid_1d.control_slave
-   {
-      datum baseAddress
-      {
-         value = "135264";
-         type = "String";
-      }
-   }
-   element sysid_1c.control_slave
    {
       datum baseAddress
       {
@@ -142,6 +110,38 @@
       datum baseAddress
       {
          value = "135232";
+         type = "String";
+      }
+   }
+   element sysid_1c.control_slave
+   {
+      datum baseAddress
+      {
+         value = "135264";
+         type = "String";
+      }
+   }
+   element sys_id.control_slave
+   {
+      datum baseAddress
+      {
+         value = "134222064";
+         type = "String";
+      }
+   }
+   element sysid_1f.control_slave
+   {
+      datum baseAddress
+      {
+         value = "135232";
+         type = "String";
+      }
+   }
+   element sysid_1e.control_slave
+   {
+      datum baseAddress
+      {
+         value = "135264";
          type = "String";
       }
    }
@@ -223,35 +223,11 @@
          type = "boolean";
       }
    }
-   element cpu_1c.custom_instruction_master
-   {
-      datum color
-      {
-         value = "-16737997";
-         type = "int";
-      }
-   }
    element cpu_1f.custom_instruction_master
    {
       datum color
       {
          value = "-6750055";
-         type = "int";
-      }
-   }
-   element cpu.custom_instruction_master
-   {
-      datum color
-      {
-         value = "-13421569";
-         type = "int";
-      }
-   }
-   element cpu_1b.custom_instruction_master
-   {
-      datum color
-      {
-         value = "-39169";
          type = "int";
       }
    }
@@ -271,11 +247,59 @@
          type = "int";
       }
    }
+   element cpu.custom_instruction_master
+   {
+      datum color
+      {
+         value = "-13421569";
+         type = "int";
+      }
+   }
+   element cpu_1b.custom_instruction_master
+   {
+      datum color
+      {
+         value = "-39169";
+         type = "int";
+      }
+   }
+   element cpu_1c.custom_instruction_master
+   {
+      datum color
+      {
+         value = "-16737997";
+         type = "int";
+      }
+   }
+   element cpu_1c.data_master
+   {
+      datum color
+      {
+         value = "-16737997";
+         type = "int";
+      }
+   }
+   element cpu_1f.data_master
+   {
+      datum color
+      {
+         value = "-6750055";
+         type = "int";
+      }
+   }
    element cpu.data_master
    {
       datum color
       {
          value = "-13421569";
+         type = "int";
+      }
+   }
+   element cpu_1d.data_master
+   {
+      datum color
+      {
+         value = "-6737152";
          type = "int";
       }
    }
@@ -292,30 +316,6 @@
       datum color
       {
          value = "-39169";
-         type = "int";
-      }
-   }
-   element cpu_1d.data_master
-   {
-      datum color
-      {
-         value = "-6737152";
-         type = "int";
-      }
-   }
-   element cpu_1f.data_master
-   {
-      datum color
-      {
-         value = "-6750055";
-         type = "int";
-      }
-   }
-   element cpu_1c.data_master
-   {
-      datum color
-      {
-         value = "-16737997";
          type = "int";
       }
    }
@@ -380,7 +380,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
    }
@@ -393,7 +393,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
    }
@@ -406,7 +406,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
    }
@@ -449,6 +449,19 @@
          type = "boolean";
       }
    }
+   element fifo_q_6.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134222080";
+         type = "String";
+      }
+   }
    element fifo_1d.in
    {
       datum _lockedAddress
@@ -459,6 +472,45 @@
       datum baseAddress
       {
          value = "135288";
+         type = "String";
+      }
+   }
+   element fifo_q_1.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134222100";
+         type = "String";
+      }
+   }
+   element fifo_1e.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135288";
+         type = "String";
+      }
+   }
+   element fifo_1b.in
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135260";
          type = "String";
       }
    }
@@ -488,7 +540,7 @@
          type = "String";
       }
    }
-   element fifo_q_6.in
+   element fifo_q_2.in
    {
       datum _lockedAddress
       {
@@ -497,46 +549,7 @@
       }
       datum baseAddress
       {
-         value = "134222080";
-         type = "String";
-      }
-   }
-   element fifo_q_1.in
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "134222100";
-         type = "String";
-      }
-   }
-   element fifo_1b.in
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "135260";
-         type = "String";
-      }
-   }
-   element fifo_1e.in
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "135288";
+         value = "134222096";
          type = "String";
       }
    }
@@ -550,19 +563,6 @@
       datum baseAddress
       {
          value = "134222092";
-         type = "String";
-      }
-   }
-   element fifo_q_2.in
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "134222096";
          type = "String";
       }
    }
@@ -592,7 +592,7 @@
          type = "String";
       }
    }
-   element fifo_1d.in_csr
+   element fifo_q_5.in_csr
    {
       datum _lockedAddress
       {
@@ -601,7 +601,46 @@
       }
       datum baseAddress
       {
-         value = "135168";
+         value = "134221856";
+         type = "String";
+      }
+   }
+   element fifo_q_1.in_csr
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134221984";
+         type = "String";
+      }
+   }
+   element fifo_1c.in_csr
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135200";
+         type = "String";
+      }
+   }
+   element fifo_q_4.in_csr
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "134221888";
          type = "String";
       }
    }
@@ -615,19 +654,6 @@
       datum baseAddress
       {
          value = "135200";
-         type = "String";
-      }
-   }
-   element fifo_q_5.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "134221856";
          type = "String";
       }
    }
@@ -657,7 +683,7 @@
          type = "String";
       }
    }
-   element fifo_q_4.in_csr
+   element fifo_1d.in_csr
    {
       datum _lockedAddress
       {
@@ -666,7 +692,7 @@
       }
       datum baseAddress
       {
-         value = "134221888";
+         value = "135168";
          type = "String";
       }
    }
@@ -683,37 +709,11 @@
          type = "String";
       }
    }
-   element fifo_1c.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "135200";
-         type = "String";
-      }
-   }
-   element fifo_q_1.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "134221984";
-         type = "String";
-      }
-   }
-   element cpu_1d.instruction_master
+   element cpu_1e.instruction_master
    {
       datum color
       {
-         value = "-6737152";
+         value = "-6711040";
          type = "int";
       }
    }
@@ -725,19 +725,19 @@
          type = "int";
       }
    }
-   element cpu_1f.instruction_master
+   element cpu_1b.instruction_master
    {
       datum color
       {
-         value = "-6750055";
+         value = "-39169";
          type = "int";
       }
    }
-   element cpu_1e.instruction_master
+   element cpu_1d.instruction_master
    {
       datum color
       {
-         value = "-6711040";
+         value = "-6737152";
          type = "int";
       }
    }
@@ -749,15 +749,15 @@
          type = "int";
       }
    }
-   element cpu_1b.instruction_master
+   element cpu_1f.instruction_master
    {
       datum color
       {
-         value = "-39169";
+         value = "-6750055";
          type = "int";
       }
    }
-   element cpu_1f.jtag_debug_module
+   element cpu_1c.jtag_debug_module
    {
       datum baseAddress
       {
@@ -765,7 +765,7 @@
          type = "String";
       }
    }
-   element cpu_1c.jtag_debug_module
+   element cpu_1b.jtag_debug_module
    {
       datum baseAddress
       {
@@ -781,7 +781,7 @@
          type = "String";
       }
    }
-   element cpu_1b.jtag_debug_module
+   element cpu_1f.jtag_debug_module
    {
       datum baseAddress
       {
@@ -813,6 +813,14 @@
          type = "int";
       }
    }
+   element cpu_1b.jtag_debug_module_reset
+   {
+      datum color
+      {
+         value = "-39169";
+         type = "int";
+      }
+   }
    element cpu.jtag_debug_module_reset
    {
       datum color
@@ -821,11 +829,11 @@
          type = "int";
       }
    }
-   element cpu_1c.jtag_debug_module_reset
+   element cpu_1f.jtag_debug_module_reset
    {
       datum color
       {
-         value = "-16737997";
+         value = "-6750055";
          type = "int";
       }
    }
@@ -837,19 +845,11 @@
          type = "int";
       }
    }
-   element cpu_1b.jtag_debug_module_reset
+   element cpu_1c.jtag_debug_module_reset
    {
       datum color
       {
-         value = "-39169";
-         type = "int";
-      }
-   }
-   element cpu_1f.jtag_debug_module_reset
-   {
-      datum color
-      {
-         value = "-6750055";
+         value = "-16737997";
          type = "int";
       }
    }
@@ -996,6 +996,45 @@
          type = "boolean";
       }
    }
+   element fifo_q_2.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135252";
+         type = "String";
+      }
+   }
+   element fifo_1c.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135284";
+         type = "String";
+      }
+   }
+   element fifo_q_3.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135248";
+         type = "String";
+      }
+   }
    element fifo_1b.out
    {
       datum _lockedAddress
@@ -1022,58 +1061,6 @@
          type = "String";
       }
    }
-   element fifo_q_3.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "135248";
-         type = "String";
-      }
-   }
-   element fifo_q_2.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "135252";
-         type = "String";
-      }
-   }
-   element fifo_1d.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "135284";
-         type = "String";
-      }
-   }
-   element fifo_1c.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "135284";
-         type = "String";
-      }
-   }
    element fifo_q_1.out
    {
       datum _lockedAddress
@@ -1084,6 +1071,19 @@
       datum baseAddress
       {
          value = "135256";
+         type = "String";
+      }
+   }
+   element fifo_q_5.out
+   {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
+      datum baseAddress
+      {
+         value = "135280";
          type = "String";
       }
    }
@@ -1113,7 +1113,7 @@
          type = "String";
       }
    }
-   element fifo_q_5.out
+   element fifo_1d.out
    {
       datum _lockedAddress
       {
@@ -1122,7 +1122,7 @@
       }
       datum baseAddress
       {
-         value = "135280";
+         value = "135284";
          type = "String";
       }
    }
@@ -1147,15 +1147,7 @@
          type = "String";
       }
    }
-   element onchip_mem_1c.s1
-   {
-      datum baseAddress
-      {
-         value = "65536";
-         type = "String";
-      }
-   }
-   element timer_1e.s1
+   element timer_1d.s1
    {
       datum baseAddress
       {
@@ -1163,7 +1155,15 @@
          type = "String";
       }
    }
-   element onchip_mem_1e.s1
+   element onchip_mem_1b.s1
+   {
+      datum baseAddress
+      {
+         value = "65536";
+         type = "String";
+      }
+   }
+   element onchip_mem_1c.s1
    {
       datum baseAddress
       {
@@ -1184,30 +1184,6 @@
          type = "String";
       }
    }
-   element onchip_mem_1f.s1
-   {
-      datum baseAddress
-      {
-         value = "262144";
-         type = "String";
-      }
-   }
-   element timer_1d.s1
-   {
-      datum baseAddress
-      {
-         value = "135232";
-         type = "String";
-      }
-   }
-   element onchip_mem_1b.s1
-   {
-      datum baseAddress
-      {
-         value = "65536";
-         type = "String";
-      }
-   }
    element timer.s1
    {
       datum baseAddress
@@ -1224,6 +1200,14 @@
          type = "String";
       }
    }
+   element timer_1e.s1
+   {
+      datum baseAddress
+      {
+         value = "135232";
+         type = "String";
+      }
+   }
    element timer_1b.s1
    {
       datum baseAddress
@@ -1232,7 +1216,7 @@
          type = "String";
       }
    }
-   element onchip_mem_1d.s1
+   element onchip_mem_1e.s1
    {
       datum baseAddress
       {
@@ -1245,6 +1229,22 @@
       datum baseAddress
       {
          value = "135232";
+         type = "String";
+      }
+   }
+   element onchip_mem_1f.s1
+   {
+      datum baseAddress
+      {
+         value = "262144";
+         type = "String";
+      }
+   }
+   element onchip_mem_1d.s1
+   {
+      datum baseAddress
+      {
+         value = "65536";
          type = "String";
       }
    }

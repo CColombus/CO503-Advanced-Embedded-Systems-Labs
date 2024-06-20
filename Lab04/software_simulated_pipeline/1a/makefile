@@ -1,11 +1,14 @@
 CC = gcc
 CFLAGS = -I. -I../lib -Wall
-SRC = main.c queue_wrapper.c encoder.c readYUV.c
+SRC = main.c queue_wrapper.c encoder.c readYUV.c ../lib/queue.c
 OBJ = $(SRC:.c=.o)
 EXECUTABLE = main.exe
 DEPS = $(wildcard ../lib/*.h)
 
 all: $(EXECUTABLE)
+
+cq:
+	rm -f ../queues/*
 
 $(EXECUTABLE): $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $^

@@ -133,8 +133,8 @@ void quantization(UINT16 *const quant_table_ptr)
 
 int main(void)
 {
-	// TODO: Do the actual implementation here
-	QUEUE_INIT();
+	// ! Software implementation
+	init_queues();
 
 	while (1)
 	{
@@ -151,8 +151,8 @@ int main(void)
 		break;
 	}
 
-	// TODO: Close the queues
-	QUEUE_CLOSE();
+	// ! Software implementation
+	close_queues();
 
 	printf("\n Done ! \n");
 }

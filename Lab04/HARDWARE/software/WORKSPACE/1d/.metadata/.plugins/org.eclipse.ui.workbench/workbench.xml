@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="36" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
 <window height="545" width="652" x="-6" y="541">
 <fastViewData fastViewLocation="1024"/>
@@ -36,11 +36,11 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1d/main.c" title="main.c" tooltip="1d/main.c" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1d/main.c" title="main.c" tooltip="1d/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/1d/main.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3108" selectionTopPixel="2530"/>
 </editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="queue_wrapper.c" partName="queue_wrapper.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1d/queue_wrapper.c" title="queue_wrapper.c" tooltip="1d/queue_wrapper.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="queue_wrapper.c" partName="queue_wrapper.c" path="D:/SEM6/CO503/Lab04/HARDWARE/software/1d/queue_wrapper.c" title="queue_wrapper.c" tooltip="1d/queue_wrapper.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/1d/queue_wrapper.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="683" selectionTopPixel="370"/>
 </editor>
@@ -53,10 +53,6 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (9 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -240,14 +236,14 @@
 </fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1d008ff" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="1">
 <fastViews>
-<view id="org.eclipse.ui.internal.introview" ratio="0.3"/>
+<view id="org.eclipse.ui.internal.introview" ratio="0.29895106"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow maximized="bottom">
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -283,7 +279,7 @@
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.74899864" ratioLeft="561" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -298,6 +294,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1d/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.make.editor" path="/1d/Makefile"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1d/queue_wrapper.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/1d/main.c"/>
 </editors>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="318" y="0"/>
@@ -317,8 +314,11 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="3108" y="0"/>
 </item>
-<item active="true" historyLabel="queue_wrapper.c" index="2">
+<item historyLabel="queue_wrapper.c" index="2">
 <position info="not_deleted" x="344" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="3">
+<position info="not_deleted" x="3108" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

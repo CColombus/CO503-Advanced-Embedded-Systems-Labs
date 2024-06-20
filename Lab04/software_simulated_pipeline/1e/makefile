@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -I. -I../lib -Wall
-SRC = main.c queue_wrapper.c
+SRC = main.c queue_wrapper.c ../lib/queue.c
 OBJ = $(SRC:.c=.o)
 EXECUTABLE = main.exe
 DEPS = $(wildcard ../lib/*.h)

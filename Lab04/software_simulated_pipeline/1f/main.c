@@ -13,8 +13,8 @@ int main(void)
 	UINT8 out;
 	INT8 filename[50];
 
-	// TODO: Open Queue files
-	QUEUE_INIT();
+	// ! Software implementation
+	init_queues();
 
 	while (1)
 	{
@@ -30,7 +30,6 @@ int main(void)
 		}
 
 		printf("\nFilename: %s\n", filename);
-		
 
 		// TODO: This is a bug, the filename is not being read correctly
 		// TODO: BUT we must have some way to check for queue errors !!!!
@@ -61,7 +60,7 @@ int main(void)
 		{
 			// TODO: RECV2 is probably for getting raw jpeg data from previous stage in the pipeline
 			out = (UINT8)RECV2();
-			
+
 			fputc(out, fptr);
 			if (out == 0xFF)
 			{
@@ -86,8 +85,8 @@ int main(void)
 		break;
 	}
 
-	// TODO: Close Queue files
-	QUEUE_CLOSE();
+	// ! Software implementation
+	close_queues();
 
 	return 0;
 }

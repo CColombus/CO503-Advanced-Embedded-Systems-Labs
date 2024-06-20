@@ -1,0 +1,446 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\SEM6\CO503\Lab04\BASELINE_18\SDR_MSOC.qsys --block-symbol-file --output-directory=D:\SEM6\CO503\Lab04\BASELINE_18\SDR_MSOC --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading BASELINE_18/SDR_MSOC.qsys
+Progress: Reading input file
+Progress: Adding clock [clock_source 18.1]
+Progress: Parameterizing module clock
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding cpu_1b [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1b
+Progress: Adding cpu_1c [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1c
+Progress: Adding cpu_1d [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1d
+Progress: Adding cpu_1e [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1e
+Progress: Adding cpu_1f [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1f
+Progress: Adding fifo_1b [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1b
+Progress: Adding fifo_1c [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1c
+Progress: Adding fifo_1d [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1d
+Progress: Adding fifo_1e [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1e
+Progress: Adding fifo_q_1 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_1
+Progress: Adding fifo_q_2 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_2
+Progress: Adding fifo_q_3 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_3
+Progress: Adding fifo_q_4 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_4
+Progress: Adding fifo_q_5 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_5
+Progress: Adding fifo_q_6 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_6
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding jtag_uart_1b [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1b
+Progress: Adding jtag_uart_1c [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1c
+Progress: Adding jtag_uart_1d [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1d
+Progress: Adding jtag_uart_1e [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1e
+Progress: Adding jtag_uart_1f [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1f
+Progress: Adding pll [altpll 18.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sys_id [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sys_id
+Progress: Adding sysid_1b [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1b
+Progress: Adding sysid_1c [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1c
+Progress: Adding sysid_1d [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1d
+Progress: Adding sysid_1e [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1e
+Progress: Adding sysid_1f [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1f
+Progress: Adding timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer
+Progress: Adding timer_1b [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1b
+Progress: Adding timer_1c [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1c
+Progress: Adding timer_1d [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1d
+Progress: Adding timer_1e [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1e
+Progress: Adding timer_1f [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1f
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SDR_MSOC.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1b: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1c: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1d: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1e: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1f: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: SDR_MSOC.sys_id: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sys_id: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1b: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1b: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1c: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1c: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1d: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1d: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1e: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1e: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1f: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1f: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\SEM6\CO503\Lab04\BASELINE_18\SDR_MSOC.qsys --synthesis=VERILOG --output-directory=D:\SEM6\CO503\Lab04\BASELINE_18\SDR_MSOC\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading BASELINE_18/SDR_MSOC.qsys
+Progress: Reading input file
+Progress: Adding clock [clock_source 18.1]
+Progress: Parameterizing module clock
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding cpu_1b [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1b
+Progress: Adding cpu_1c [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1c
+Progress: Adding cpu_1d [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1d
+Progress: Adding cpu_1e [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1e
+Progress: Adding cpu_1f [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu_1f
+Progress: Adding fifo_1b [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1b
+Progress: Adding fifo_1c [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1c
+Progress: Adding fifo_1d [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1d
+Progress: Adding fifo_1e [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_1e
+Progress: Adding fifo_q_1 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_1
+Progress: Adding fifo_q_2 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_2
+Progress: Adding fifo_q_3 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_3
+Progress: Adding fifo_q_4 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_4
+Progress: Adding fifo_q_5 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_5
+Progress: Adding fifo_q_6 [altera_avalon_fifo 18.1]
+Progress: Parameterizing module fifo_q_6
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding jtag_uart_1b [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1b
+Progress: Adding jtag_uart_1c [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1c
+Progress: Adding jtag_uart_1d [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1d
+Progress: Adding jtag_uart_1e [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1e
+Progress: Adding jtag_uart_1f [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_1f
+Progress: Adding pll [altpll 18.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sys_id [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sys_id
+Progress: Adding sysid_1b [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1b
+Progress: Adding sysid_1c [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1c
+Progress: Adding sysid_1d [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1d
+Progress: Adding sysid_1e [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1e
+Progress: Adding sysid_1f [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_1f
+Progress: Adding timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer
+Progress: Adding timer_1b [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1b
+Progress: Adding timer_1c [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1c
+Progress: Adding timer_1d [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1d
+Progress: Adding timer_1e [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1e
+Progress: Adding timer_1f [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_1f
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SDR_MSOC.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1b: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1c: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1d: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1e: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.jtag_uart_1f: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SDR_MSOC.sdram_controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: SDR_MSOC.sys_id: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sys_id: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1b: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1b: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1c: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1c: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1d: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1d: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1e: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1e: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC.sysid_1f: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SDR_MSOC.sysid_1f: Time stamp will be automatically updated when this component is generated.
+Info: SDR_MSOC: Generating SDR_MSOC "SDR_MSOC" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src15 and cmd_mux_015.sink0
+Info: Inserting clock-crossing logic between rsp_demux_015.src0 and rsp_mux.sink15
+Info: cpu: "SDR_MSOC" instantiated altera_nios2_gen2 "cpu"
+Info: cpu_1b: "SDR_MSOC" instantiated altera_nios2_gen2 "cpu_1b"
+Info: cpu_1c: "SDR_MSOC" instantiated altera_nios2_gen2 "cpu_1c"
+Info: cpu_1d: "SDR_MSOC" instantiated altera_nios2_gen2 "cpu_1d"
+Info: cpu_1e: "SDR_MSOC" instantiated altera_nios2_gen2 "cpu_1e"
+Info: cpu_1f: "SDR_MSOC" instantiated altera_nios2_gen2 "cpu_1f"
+Info: fifo_1b: Starting RTL generation for module 'SDR_MSOC_fifo_1b'
+Info: fifo_1b:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo/generate_rtl.pl --name=SDR_MSOC_fifo_1b --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0002_fifo_1b_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0002_fifo_1b_gen//SDR_MSOC_fifo_1b_component_configuration.pl  --do_build_sim=0  ]
+Info: fifo_1b: Done RTL generation for module 'SDR_MSOC_fifo_1b'
+Info: fifo_1b: "SDR_MSOC" instantiated altera_avalon_fifo "fifo_1b"
+Info: fifo_q_1: Starting RTL generation for module 'SDR_MSOC_fifo_q_1'
+Info: fifo_q_1:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_fifo/generate_rtl.pl --name=SDR_MSOC_fifo_q_1 --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0003_fifo_q_1_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0003_fifo_q_1_gen//SDR_MSOC_fifo_q_1_component_configuration.pl  --do_build_sim=0  ]
+Info: fifo_q_1: Done RTL generation for module 'SDR_MSOC_fifo_q_1'
+Info: fifo_q_1: "SDR_MSOC" instantiated altera_avalon_fifo "fifo_q_1"
+Info: jtag_uart: Starting RTL generation for module 'SDR_MSOC_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SDR_MSOC_jtag_uart --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0004_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0004_jtag_uart_gen//SDR_MSOC_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'SDR_MSOC_jtag_uart'
+Info: jtag_uart: "SDR_MSOC" instantiated altera_avalon_jtag_uart "jtag_uart"
+Warning: Can't contact license server "9000@localhost" -- this server will be ignored.
+Info: pll: "SDR_MSOC" instantiated altpll "pll"
+Info: sdram_controller: Starting RTL generation for module 'SDR_MSOC_sdram_controller'
+Info: sdram_controller:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=SDR_MSOC_sdram_controller --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0007_sdram_controller_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0007_sdram_controller_gen//SDR_MSOC_sdram_controller_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram_controller: Done RTL generation for module 'SDR_MSOC_sdram_controller'
+Info: sdram_controller: "SDR_MSOC" instantiated altera_avalon_new_sdram_controller "sdram_controller"
+Info: sys_id: "SDR_MSOC" instantiated altera_avalon_sysid_qsys "sys_id"
+Info: sysid_1b: "SDR_MSOC" instantiated altera_avalon_sysid_qsys "sysid_1b"
+Info: sysid_1c: "SDR_MSOC" instantiated altera_avalon_sysid_qsys "sysid_1c"
+Info: sysid_1d: "SDR_MSOC" instantiated altera_avalon_sysid_qsys "sysid_1d"
+Info: sysid_1e: "SDR_MSOC" instantiated altera_avalon_sysid_qsys "sysid_1e"
+Info: sysid_1f: "SDR_MSOC" instantiated altera_avalon_sysid_qsys "sysid_1f"
+Info: timer: Starting RTL generation for module 'SDR_MSOC_timer'
+Info: timer:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=SDR_MSOC_timer --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0014_timer_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0014_timer_gen//SDR_MSOC_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: timer: Done RTL generation for module 'SDR_MSOC_timer'
+Info: timer: "SDR_MSOC" instantiated altera_avalon_timer "timer"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_019: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_020: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_021: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_022: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_023: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_024: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_025: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_026: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_027: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_028: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_029: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_030: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_031: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_032: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_033: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_034: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_035: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_036: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_037: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_038: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_039: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_040: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_041: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_042: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_043: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_044: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_045: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_046: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_047: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_048: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_049: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_050: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_051: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_052: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_053: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_054: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_055: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "SDR_MSOC" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "SDR_MSOC" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "SDR_MSOC" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'SDR_MSOC_cpu_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SDR_MSOC_cpu_cpu --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0017_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0017_cpu_gen//SDR_MSOC_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.06.18 10:45:25 (*) Starting Nios II generation
+Info: cpu: # 2024.06.18 10:45:25 (*)   Checking for plaintext license.
+Info: cpu: # 2024.06.18 10:45:26 (*)   Plaintext license not found.
+Info: cpu: # 2024.06.18 10:45:26 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.06.18 10:45:26 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.06.18 10:45:26 (*)   Creating all objects for CPU
+Info: cpu: # 2024.06.18 10:45:29 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.06.18 10:45:29 (*)   Creating plain-text RTL
+Info: cpu: # 2024.06.18 10:45:30 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SDR_MSOC_cpu_cpu'
+Info: cpu: "cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'SDR_MSOC_cpu_1b_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SDR_MSOC_cpu_1b_cpu --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0018_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0018_cpu_gen//SDR_MSOC_cpu_1b_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.06.18 10:45:31 (*) Starting Nios II generation
+Info: cpu: # 2024.06.18 10:45:31 (*)   Checking for plaintext license.
+Info: cpu: # 2024.06.18 10:45:32 (*)   Plaintext license not found.
+Info: cpu: # 2024.06.18 10:45:32 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.06.18 10:45:32 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.06.18 10:45:32 (*)   Creating all objects for CPU
+Info: cpu: # 2024.06.18 10:45:35 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.06.18 10:45:35 (*)   Creating plain-text RTL
+Info: cpu: # 2024.06.18 10:45:36 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SDR_MSOC_cpu_1b_cpu'
+Info: cpu: "cpu_1b" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'SDR_MSOC_cpu_1c_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SDR_MSOC_cpu_1c_cpu --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0019_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0019_cpu_gen//SDR_MSOC_cpu_1c_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.06.18 10:45:37 (*) Starting Nios II generation
+Info: cpu: # 2024.06.18 10:45:37 (*)   Checking for plaintext license.
+Info: cpu: # 2024.06.18 10:45:38 (*)   Plaintext license not found.
+Info: cpu: # 2024.06.18 10:45:38 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.06.18 10:45:38 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.06.18 10:45:38 (*)   Creating all objects for CPU
+Info: cpu: # 2024.06.18 10:45:40 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.06.18 10:45:40 (*)   Creating plain-text RTL
+Info: cpu: # 2024.06.18 10:45:42 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SDR_MSOC_cpu_1c_cpu'
+Info: cpu: "cpu_1c" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'SDR_MSOC_cpu_1d_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SDR_MSOC_cpu_1d_cpu --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0020_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0020_cpu_gen//SDR_MSOC_cpu_1d_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.06.18 10:45:43 (*) Starting Nios II generation
+Info: cpu: # 2024.06.18 10:45:43 (*)   Checking for plaintext license.
+Info: cpu: # 2024.06.18 10:45:44 (*)   Plaintext license not found.
+Info: cpu: # 2024.06.18 10:45:44 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.06.18 10:45:44 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.06.18 10:45:44 (*)   Creating all objects for CPU
+Info: cpu: # 2024.06.18 10:45:46 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.06.18 10:45:46 (*)   Creating plain-text RTL
+Info: cpu: # 2024.06.18 10:45:47 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SDR_MSOC_cpu_1d_cpu'
+Info: cpu: "cpu_1d" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'SDR_MSOC_cpu_1e_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SDR_MSOC_cpu_1e_cpu --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0021_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0021_cpu_gen//SDR_MSOC_cpu_1e_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.06.18 10:45:48 (*) Starting Nios II generation
+Info: cpu: # 2024.06.18 10:45:48 (*)   Checking for plaintext license.
+Info: cpu: # 2024.06.18 10:45:50 (*)   Plaintext license not found.
+Info: cpu: # 2024.06.18 10:45:50 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.06.18 10:45:50 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.06.18 10:45:50 (*)   Creating all objects for CPU
+Info: cpu: # 2024.06.18 10:45:52 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.06.18 10:45:52 (*)   Creating plain-text RTL
+Info: cpu: # 2024.06.18 10:45:53 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SDR_MSOC_cpu_1e_cpu'
+Info: cpu: "cpu_1e" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'SDR_MSOC_cpu_1f_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SDR_MSOC_cpu_1f_cpu --dir=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0022_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Chamath/AppData/Local/Temp/alt9892_7710053936938623552.dir/0022_cpu_gen//SDR_MSOC_cpu_1f_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.06.18 10:45:54 (*) Starting Nios II generation
+Info: cpu: # 2024.06.18 10:45:54 (*)   Checking for plaintext license.
+Info: cpu: # 2024.06.18 10:45:55 (*)   Plaintext license not found.
+Info: cpu: # 2024.06.18 10:45:55 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.06.18 10:45:55 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.06.18 10:45:55 (*)   Creating all objects for CPU
+Info: cpu: # 2024.06.18 10:45:58 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.06.18 10:45:58 (*)   Creating plain-text RTL
+Info: cpu: # 2024.06.18 10:45:59 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SDR_MSOC_cpu_1f_cpu'
+Info: cpu: "cpu_1f" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
+Info: router_007: "mm_interconnect_0" instantiated altera_merlin_router "router_007"
+Info: router_008: "mm_interconnect_0" instantiated altera_merlin_router "router_008"
+Info: router_009: "mm_interconnect_0" instantiated altera_merlin_router "router_009"
+Info: router_010: "mm_interconnect_0" instantiated altera_merlin_router "router_010"
+Info: router_011: "mm_interconnect_0" instantiated altera_merlin_router "router_011"
+Info: router_012: "mm_interconnect_0" instantiated altera_merlin_router "router_012"
+Info: router_014: "mm_interconnect_0" instantiated altera_merlin_router "router_014"
+Info: router_021: "mm_interconnect_0" instantiated altera_merlin_router "router_021"
+Info: router_024: "mm_interconnect_0" instantiated altera_merlin_router "router_024"
+Info: router_025: "mm_interconnect_0" instantiated altera_merlin_router "router_025"
+Info: router_026: "mm_interconnect_0" instantiated altera_merlin_router "router_026"
+Info: router_028: "mm_interconnect_0" instantiated altera_merlin_router "router_028"
+Info: router_030: "mm_interconnect_0" instantiated altera_merlin_router "router_030"
+Info: router_031: "mm_interconnect_0" instantiated altera_merlin_router "router_031"
+Info: router_033: "mm_interconnect_0" instantiated altera_merlin_router "router_033"
+Info: router_037: "mm_interconnect_0" instantiated altera_merlin_router "router_037"
+Info: router_039: "mm_interconnect_0" instantiated altera_merlin_router "router_039"
+Info: router_041: "mm_interconnect_0" instantiated altera_merlin_router "router_041"
+Info: router_045: "mm_interconnect_0" instantiated altera_merlin_router "router_045"
+Info: router_047: "mm_interconnect_0" instantiated altera_merlin_router "router_047"
+Info: router_049: "mm_interconnect_0" instantiated altera_merlin_router "router_049"
+Info: router_053: "mm_interconnect_0" instantiated altera_merlin_router "router_053"
+Info: router_055: "mm_interconnect_0" instantiated altera_merlin_router "router_055"
+Info: router_057: "mm_interconnect_0" instantiated altera_merlin_router "router_057"
+Info: router_060: "mm_interconnect_0" instantiated altera_merlin_router "router_060"
+Info: router_062: "mm_interconnect_0" instantiated altera_merlin_router "router_062"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_002"
+Info: cmd_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_003"
+Info: cmd_demux_006: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_006"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file D:/SEM6/CO503/Lab04/BASELINE_18/SDR_MSOC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_016: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_016"
+Info: Reusing file D:/SEM6/CO503/Lab04/BASELINE_18/SDR_MSOC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_015: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_015"
+Info: rsp_demux_016: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_016"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/SEM6/CO503/Lab04/BASELINE_18/SDR_MSOC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/SEM6/CO503/Lab04/BASELINE_18/SDR_MSOC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_002"
+Info: Reusing file D:/SEM6/CO503/Lab04/BASELINE_18/SDR_MSOC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_003"
+Info: Reusing file D:/SEM6/CO503/Lab04/BASELINE_18/SDR_MSOC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_006: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_006"
+Info: Reusing file D:/SEM6/CO503/Lab04/BASELINE_18/SDR_MSOC/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: SDR_MSOC: Done "SDR_MSOC" with 85 modules, 141 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

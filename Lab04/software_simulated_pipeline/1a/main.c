@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
 	UINT8 *output_ptr;
 	UINT32 quality_factor, image_format, image_width, image_height;
 
-	// TODO: Do the actual implementation.
-	QUEUE_INIT();
+	// ! Software simulation
+	init_queues();
 
 	fp = fopen("param.txt", "r");
 	printf("File Open @ %ld \n", clock());
@@ -70,8 +70,9 @@ int main(int argc, char *argv[])
 
 	printf("\n Done ! \n");
 
-	// TODO: Do the actual implementation.
-	QUEUE_CLOSE();
+	// ! Software simulation
+	close_queues();
+
 
 	return 0;
 }

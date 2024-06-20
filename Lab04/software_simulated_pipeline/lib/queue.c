@@ -1,138 +1,79 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-#define MAX_LINE_LENGTH 1024
+#include <unistd.h>
 
 int INIT_USAGE_ENQ = 0;
 int INIT_USAGE_DEQ = 0;
 
-typedef struct
+#define QUEUE_PATH "../queues/"
+
+#include "queue.h"
+
+// Function prototypes
+Queue *InitQueue(char *name, char mode);
+void CloseQueue(Queue *q);
+int enqueueINT32(Queue *q, int value);
+int dequeueINT32(Queue *q);
+
+// Initialize a queue
+Queue *InitQueue(char *name, char mode)
 {
-    FILE *file;
-    char *filename;
-} Queue;
+    Queue *q = (Queue *)malloc(sizeof(Queue));
+    q->filename = (char *)malloc(strlen(QUEUE_PATH) + strlen(name) + 1);
+    sprintf(q->filename, "%s%s%s", QUEUE_PATH, name, ".txt");
 
-// Function to initialize the queue
-Queue *initializeQueue(const char *filename, const char *flag)
-{
-    Queue *queue = (Queue *)malloc(sizeof(Queue));
-    if (queue == NULL)
-    {
-        fprintf(stderr, "Failed to allocate memory for queue\n");
-        return NULL;
-    }
+    if (mode == 'd' && (q->readfd = fopen(q->filename, "r")) == NULL)
+        printf("Read Queue open failed\n");
+    
 
-    queue->filename = strdup(filename);
-    if (queue->filename == NULL)
-    {
-        fprintf(stderr, "Failed to allocate memory for filename\n");
-        free(queue);
-        return NULL;
-    }
+    if (mode == 'e' && (q->writefd = fopen(q->filename, "w")) == NULL)
+        printf("Write Queue open failed\n");
 
-
-    queue->file = fopen(filename, flag);
-    // queue->file = fopen(filename, );
-    if (queue->file == NULL)
-    {
-        fprintf(stderr, "Failed to open file: %s\n", filename);
-        free(queue->filename);
-        free(queue);
-        return NULL;
-    }
-
-    return queue;
+    return q;
 }
 
-// Function to enqueue data to the queue
-int enqueue(Queue *queue, int data)
+// Close a queue
+void CloseQueue(Queue *q)
 {
-    if (queue == NULL || queue->file == NULL)
-    {
-        fprintf(stderr, "Queue not initialized. ENq failed!\n");
-        return -1;
-    }
-
-    fprintf(queue->file, "%d\n", data);
-    fflush(queue->file); // Ensure the data is written to the file
-    return 0;
+    fclose(q->readfd);
+    fclose(q->writefd);
+    free(q->filename);
+    free(q);
 }
 
-int enqueueINT32(Queue *queue, int data)
+int dequeueINT32(Queue *q)
 {
-
-    // TODO: Check for queue full
-
-    if (INIT_USAGE_ENQ == 0){
-        INIT_USAGE_ENQ = 1;
-        printf("First time using enqueueINT32\n");
-    }
-    return enqueue(queue, (int)data);
-}
-
-// Function to dequeue data from the queue
-char *dequeue(Queue *queue)
-{
-    if (queue == NULL || queue->file == NULL)
+    char line[20];
+    if (fgets(line, sizeof(line), q->readfd) == NULL)
     {
-        fprintf(stderr, "Queue not initialized. DEq failed!\n");
-        return NULL;
+        printf("\x1b[1;31m%s\n\x1b[2;33;41m%s\x1b[0m\n", "\t\tQueue is empty!", "THE PROGRAM WILL HANG TO SIMULATE HARDWARE BEHAVIOUR!");
+        while (1)
+        {
+            sleep(1000);
+        }
+        return 0;
     }
-
-    // Read a line from the file
-    char *line = (char *)malloc(MAX_LINE_LENGTH);
-
-    if (line == NULL)
-    {
-        fprintf(stderr, "Failed to allocate memory for line\n");
-        return NULL;
-    }
-
-    if (fgets(line, MAX_LINE_LENGTH, queue->file) == NULL)
-    {
-        free(line);
-        return NULL;
-    }
-
-    // char buffer[MAX_LINE_LENGTH];
-    // while (fgets(buffer, MAX_LINE_LENGTH, tempFile) != NULL)
-    // {
-    //     fputs(buffer, newFile);
-    // }
-
-    return line;
-}
-
-int dequeueINT32(Queue *queue)
-{
-    // get return of char *dequeue(queue);
-    // char ret_data = dequeue(queue);
-
-    // TODO: Check for queue empty
 
     if (INIT_USAGE_DEQ == 0){
         INIT_USAGE_DEQ = 1;
         printf("First time using dequeueINT32\n");
     }
 
-    return atoi(dequeue(queue));
+    line[strlen(line) - 1] = '\0';
+    int value = atoi(line);
+    return value;
 }
 
-
-// Function to close the queue
-void closeQueue(Queue *queue)
+int enqueueINT32(Queue *q, int value)
 {
-    if (queue != NULL)
+    if (INIT_USAGE_ENQ == 0)
     {
-        if (queue->file != NULL)
-        {
-            fclose(queue->file);
-        }
-        if (queue->filename != NULL)
-        {
-            free(queue->filename);
-        }
-        free(queue);
+        INIT_USAGE_ENQ = 1;
+        printf("First time using enqueueINT32\n");
     }
+
+    fprintf(q->writefd, "%d\n", value);
+    fflush(q->writefd);
+    return 0;
 }

@@ -78,3 +78,145 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY com.altera.sbtgui.launch 1 0 2024-06-12 19:04:17.097
 !MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+!SESSION 2024-06-13 14:27:50.479 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2024-06-13 14:27:56.324
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2024-06-13 14:27:57.933
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-06-13 14:27:57.933
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2024-06-13 14:27:57.933
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2024-06-13 14:27:57.933
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2024-06-13 14:27:57.933
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2024-06-13 14:27:57.933
+!MESSAGE OK
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 14:36:32.895
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 14:36:35.146
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 14:41:16.417
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 14:41:19.389
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:54:38.983
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:54:42.041
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:57:10.806
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:57:13.899
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:57:37.313
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:57:40.580
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:58:27.532
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 16:58:29.778
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 17:00:29.161
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 17:00:31.443
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]
+!SESSION 2024-06-13 17:11:13.456 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2024-06-13 17:11:23.126
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2024-06-13 17:11:25.068
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-06-13 17:11:25.068
+!MESSAGE Unable to restore perspective: Workspace - Nios II.
+!SUBENTRY 2 org.eclipse.ui 0 0 2024-06-13 17:11:25.068
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2024-06-13 17:11:25.068
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2024-06-13 17:11:25.068
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2024-06-13 17:11:25.068
+!MESSAGE OK
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 17:13:59.111
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --stop --sidp=0x21060 --id=0x1c --timestamp=1718188374]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-13 17:14:01.661
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=2 --go --sidp=0x21060 --id=0x1c --timestamp=1718188374 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1c/1c.elf]

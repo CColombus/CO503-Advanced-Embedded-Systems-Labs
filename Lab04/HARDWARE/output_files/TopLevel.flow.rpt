@@ -1,5 +1,5 @@
 Flow report for TopLevel
-Wed Jun 12 16:08:08 2024
+Thu Jun 13 22:46:58 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Wed Jun 12 16:08:08 2024      ;
+; Flow Status                        ; Successful - Thu Jun 13 22:46:58 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; TopLevel                                   ;
 ; Top-level Entity Name              ; TopLevel                                   ;
 ; Family                             ; Cyclone IV E                               ;
 ; Device                             ; EP4CE115F29C7                              ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 13,315 / 114,480 ( 12 % )                  ;
-;     Total combinational functions  ; 12,526 / 114,480 ( 11 % )                  ;
-;     Dedicated logic registers      ; 7,156 / 114,480 ( 6 % )                    ;
-; Total registers                    ; 7275                                       ;
+; Total logic elements               ; 13,301 / 114,480 ( 12 % )                  ;
+;     Total combinational functions  ; 12,511 / 114,480 ( 11 % )                  ;
+;     Dedicated logic registers      ; 7,150 / 114,480 ( 6 % )                    ;
+; Total registers                    ; 7269                                       ;
 ; Total pins                         ; 58 / 529 ( 11 % )                          ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 3,245,056 / 3,981,312 ( 82 % )             ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/12/2024 16:05:04 ;
+; Start date & time ; 06/13/2024 22:43:58 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; TopLevel            ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+-------------------------------------------------------------+---------------+------------------------------------------------+----------------+
 ; Assignment Name                     ; Value                                                       ; Default Value ; Entity Name                                    ; Section Id     ;
 +-------------------------------------+-------------------------------------------------------------+---------------+------------------------------------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 92384137426708.171818850322584                              ; --            ; --                                             ; --             ;
+; COMPILER_SIGNATURE_ID               ; 92384137426708.171829883824448                              ; --            ; --                                             ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                        ; --            ; --                                             ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                      ; <None>        ; --                                             ; --             ;
 ; IP_TOOL_ENV                         ; Qsys                                                        ; --            ; Mega_JSoC                                      ; --             ;
@@ -334,7 +334,7 @@ applicable agreement for further details.
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                ; --            ; --                                             ; --             ;
 ; SLD_FILE                            ; Mega_JSoC/synthesis/Mega_JSoC.regmap                        ; --            ; --                                             ; --             ;
 ; SLD_FILE                            ; Mega_JSoC/synthesis/Mega_JSoC.debuginfo                     ; --            ; --                                             ; --             ;
-; SLD_INFO                            ; QSYS_NAME Mega_JSoC HAS_SOPCINFO 1 GENERATION_ID 1718188374 ; --            ; Mega_JSoC                                      ; --             ;
+; SLD_INFO                            ; QSYS_NAME Mega_JSoC HAS_SOPCINFO 1 GENERATION_ID 1718298719 ; --            ; Mega_JSoC                                      ; --             ;
 ; SOPCINFO_FILE                       ; Mega_JSoC/synthesis/../../Mega_JSoC.sopcinfo                ; --            ; --                                             ; --             ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                          ; --            ; --                                             ; --             ;
 +-------------------------------------+-------------------------------------------------------------+---------------+------------------------------------------------+----------------+
@@ -345,12 +345,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:12     ; 1.0                     ; 5238 MB             ; 00:01:03                           ;
-; Fitter                    ; 00:01:07     ; 1.0                     ; 5478 MB             ; 00:01:01                           ;
+; Analysis & Synthesis      ; 00:01:09     ; 1.0                     ; 5254 MB             ; 00:01:00                           ;
+; Fitter                    ; 00:01:05     ; 1.0                     ; 5504 MB             ; 00:01:00                           ;
 ; Assembler                 ; 00:00:07     ; 1.0                     ; 4706 MB             ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:10     ; 1.0                     ; 4920 MB             ; 00:00:07                           ;
-; EDA Netlist Writer        ; 00:00:16     ; 1.0                     ; 4786 MB             ; 00:00:13                           ;
-; Total                     ; 00:02:52     ; --                      ; --                  ; 00:02:29                           ;
+; TimeQuest Timing Analyzer ; 00:00:10     ; 1.0                     ; 4921 MB             ; 00:00:06                           ;
+; EDA Netlist Writer        ; 00:00:16     ; 1.0                     ; 4790 MB             ; 00:00:13                           ;
+; Total                     ; 00:02:47     ; --                      ; --                  ; 00:02:24                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

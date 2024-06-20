@@ -36,7 +36,7 @@ module Mega_JSoC_sysid_1e (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1718188374 : 30;
+  assign readdata = address ? 1718298719 : 30;
 
 endmodule
 

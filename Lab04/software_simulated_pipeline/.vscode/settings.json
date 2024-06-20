@@ -21,6 +21,12 @@
         "memory": "c",
         "functional": "c",
         "tuple": "c",
-        "utility": "c"
+        "utility": "c",
+        "queue.h": "c",
+        "queue_adapter.h": "c",
+        "sqlite3.h": "c",
+        "typeinfo": "c",
+        "queue_struct.h": "c",
+        "stdlib.h": "c"
     }
 }

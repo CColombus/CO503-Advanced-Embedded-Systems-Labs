@@ -2,7 +2,7 @@ set_global_assignment -entity "Mega_JSoC" -library "Mega_JSoC" -name IP_TOOL_NAM
 set_global_assignment -entity "Mega_JSoC" -library "Mega_JSoC" -name IP_TOOL_VERSION "13.1"
 set_global_assignment -entity "Mega_JSoC" -library "Mega_JSoC" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "Mega_JSoC" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../Mega_JSoC.sopcinfo"]
-set_global_assignment -entity "Mega_JSoC" -library "Mega_JSoC" -name SLD_INFO "QSYS_NAME Mega_JSoC HAS_SOPCINFO 1 GENERATION_ID 1718188374"
+set_global_assignment -entity "Mega_JSoC" -library "Mega_JSoC" -name SLD_INFO "QSYS_NAME Mega_JSoC HAS_SOPCINFO 1 GENERATION_ID 1718298719"
 set_global_assignment -library "Mega_JSoC" -name MISC_FILE [file join $::quartus(qip_path) "../../Mega_JSoC.cmp"]
 set_global_assignment -library "Mega_JSoC" -name SLD_FILE [file join $::quartus(qip_path) "Mega_JSoC.regmap"]
 set_global_assignment -library "Mega_JSoC" -name SLD_FILE [file join $::quartus(qip_path) "Mega_JSoC.debuginfo"]

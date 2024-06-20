@@ -1,8 +1,9 @@
 #ifndef QUEUE_WRAPPER_H
 #define QUEUE_WRAPPER_H
 
-void QUEUE_INIT();
-void QUEUE_CLOSE();
+// function prototypes
+void init_queues();
+void close_queues();
 
 void SEND1(int Y);
 void SEND2(int Cb);
