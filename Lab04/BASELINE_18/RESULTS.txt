@@ -1,0 +1,67 @@
+> Initially had large footprints
+> After small_device_drivers and small_c_lib was able to reduce all stages to <=15kb footprints
+>	1b -> 10kb
+>	1c -> 13kb
+>	1d -> 11kb (also uses malloc)
+>	1e -> 15kb
+> But should keep at least 20kb for RAM (stack, heap, etc)
+> will move on to OnChip RAM next
+
+
+Enter the name of the parameter file: 
+227flowg1_param.txt
+
+Gonna look for parameters in: /mnt/host/files/227flowg1_param.txt
+Sent filename to q6.
+File Name: 227flowg1.raw
+Quality Factor: 1024
+Image Format: 4
+Image Width: 227
+Image Height: 149
+Image file successfully loaded into memory!
+Done with q4!
+Done with q5!
+Sending image data...................
+Time taken: 69.416000 sec.
+
+ Done ! 
+
+
+
+Enter the name of the parameter file: 
+peppers_param.txt
+
+Gonna look for parameters in: /mnt/host/files/peppers_param.txt
+Sent filename to q6.
+File Name: peppers.raw
+Quality Factor: 1024
+Image Format: 4
+Image Width: 512
+Image Height: 512
+Image file successfully loaded into memory!
+Done with q4!
+Done with q5!
+Sending image data................................................................
+Time taken: 516.607000 sec.
+
+ Done ! 
+
+
+
+Enter the name of the parameter file: 
+227flowg1_param.txt
+
+Gonna look for parameters in: /mnt/host/files/227flowg1_param.txt
+Sent filename to q6.
+File Name: 227flowg1.raw
+Quality Factor: 1024
+Image Format: 4
+Image Width: 227
+Image Height: 149
+Image file successfully loaded into memory!
+Done with q4!
+Done with q5!
+Sending image data...................
+Time taken: 67.376000 sec.
+
+ Done ! 

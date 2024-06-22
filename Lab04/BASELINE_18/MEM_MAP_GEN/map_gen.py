@@ -21,13 +21,14 @@ def parse_data(data):
     matches = pattern.findall(data)
     
     # ic(matches)
+    # exit()
 
     queues = defaultdict(lambda: {"IN": None, "OUT": None, "CSR": None})
 
     for match in matches:
         full_name, address = match
-        queue = re.search(r'FIFO_(\d\w|Q_\d)_', full_name).group(1)
-        # ic(full_name)
+        queue = re.search(r'FIFO_(\S+)_(IN_CSR|IN|OUT)_BASE', full_name).group(1)
+        ic(full_name)
         if "IN_BASE" in full_name:
             queues[queue]["IN"] = full_name
         elif "OUT_BASE" in full_name:
@@ -35,6 +36,7 @@ def parse_data(data):
         elif "IN_CSR_BASE" in full_name:
             queues[queue]["CSR"] = full_name
 
+    # exit()
     return queues
 
 # Function to generate the output
@@ -54,12 +56,12 @@ def generate_output(queues):
     body = ""
     for i, (queue, addresses) in enumerate(sorted(queues.items()), start=1):
         ic(queue, addresses)
-        qname = queue.replace("_", "").replace("Q","").lower()
+        qname = queue.strip().lower()
         mem_base_in = addresses["IN"]
         mem_base_out = addresses["OUT"]
         ctrl_base = addresses["CSR"]
         body += f"""
-Queue q{qname} = {{
+Queue {qname} = {{
     .mem_base_in = {mem_base_in},
     .mem_base_out = {mem_base_out},
     .ctrl_base = {ctrl_base}

@@ -1,0 +1,17 @@
+{
+  "files.exclude": {},
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "queue.h": "c",
+    "queue_wrapper.h": "c",
+    "config.h": "c",
+    "encoder.h": "c",
+    "q_mem_obj_def.h": "c",
+    "datatype.h": "c",
+    "mem_info.h": "c",
+    "io.h": "c"
+  }
+}

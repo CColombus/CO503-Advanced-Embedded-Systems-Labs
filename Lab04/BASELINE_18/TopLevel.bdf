@@ -233,8 +233,8 @@ refer to the applicable agreement for further details.
 )
 (symbol
 	(rect 480 192 896 504)
-	(text "SDR_MSOC" (rect 172 -1 258 15)(font "Arial" (font_size 10)))
-	(text "inst2" (rect 8 296 30 313)(font "Intel Clear" ))
+	(text "FTOP_MSOC" (rect 168 -1 262 15)(font "Arial" (font_size 10)))
+	(text "inst3" (rect 8 296 30 313)(font "Intel Clear" ))
 	(port
 		(pt 0 72)
 		(input)
@@ -336,7 +336,7 @@ refer to the applicable agreement for further details.
 		(text "dqm" (rect 181 243 202 255)(font "Arial" (color 0 0 0)))
 		(text "ras_n" (rect 181 259 208 271)(font "Arial" (color 0 0 0)))
 		(text "we_n" (rect 181 275 205 287)(font "Arial" (color 0 0 0)))
-		(text " SDR_MSOC " (rect 358 296 426 308)(font "Arial" ))
+		(text " FTOP_MSOC " (rect 354 296 427 308)(font "Arial" ))
 		(line (pt 176 32)(pt 240 32))
 		(line (pt 240 32)(pt 240 296))
 		(line (pt 176 296)(pt 240 296))

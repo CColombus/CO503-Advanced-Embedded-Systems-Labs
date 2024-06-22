@@ -1,0 +1,36 @@
+{
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "readyuv.h": "c",
+    "datatype.h": "c",
+    "stdio.h": "c",
+    "prototype.h": "c",
+    "time.h": "c",
+    "jdatatype.h": "c",
+    "queue_wrapper.h": "c",
+    "*.tcc": "c",
+    "string": "c",
+    "istream": "c",
+    "streambuf": "c",
+    "quantdata.h": "c",
+    "config.h": "c",
+    "array": "c",
+    "memory": "c",
+    "functional": "c",
+    "tuple": "c",
+    "utility": "c",
+    "encoder.h": "c",
+    "q_mem_obj.h": "c",
+    "altera_avalon_fifo_regs.h": "c",
+    "queue.h": "c",
+    "q_mem_obj_def.h": "c",
+    "stdlib.h": "c",
+    "huffdata.h": "c"
+  },
+  "files.exclude": {
+    ".BACKUP": true
+  }
+}

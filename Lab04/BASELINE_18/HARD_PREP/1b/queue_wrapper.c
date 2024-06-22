@@ -1,26 +1,29 @@
 #include "queue_wrapper.h"
 #include "../lib/queue.h"
-#include <stdio.h>
-#include <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
 
 #include "../lib/q_mem_obj_def.h"
 
 int RECV1()
 {
-
-    return dequeueINT32(q1);
+	int temp = dequeueINT32(q1);
+//	printf("%d\n",temp);
+    return temp;
 }
 
 int RECV2()
 {
-
-    return dequeueINT32(q2);
+	int temp = dequeueINT32(q2);
+//	printf("%d\n",temp);
+    return temp;
 }
 
 int RECV3()
 {
-
-    return dequeueINT32(q3);
+	int temp = dequeueINT32(q3);
+//	printf("%d\n",temp);
+    return temp;
 }
 
 void SEND(int data)

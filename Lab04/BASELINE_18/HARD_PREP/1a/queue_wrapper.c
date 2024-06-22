@@ -24,18 +24,18 @@ void SEND3(int Cr)
 void SEND4(int data)
 {
 
-    enqueueINT32(q4, data);
+//    enqueueINT32(q4, data);
 }
 
 void SEND5(int data)
 {
 
-    enqueueINT32(q5, data);
+//    enqueueINT32(q5, data);
 }
 
 // TODO: This one sends a char, not an int need to cast
 void SEND6(int c)
 {
 
-    enqueueINT32(q6, c);
+//    enqueueINT32(q6, c);
 }
