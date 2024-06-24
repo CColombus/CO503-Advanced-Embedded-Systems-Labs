@@ -75,66 +75,66 @@ module FTOP_MSOC (
 	wire  [31:0] cpu_1c_p1_mm_bridge_0_m0_writedata;                           // CPU_1c_p1:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1c_p1_mm_bridge_0_m0_writedata
 	wire         cpu_1c_p1_mm_bridge_0_m0_write;                               // CPU_1c_p1:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1c_p1_mm_bridge_0_m0_write
 	wire   [0:0] cpu_1c_p1_mm_bridge_0_m0_burstcount;                          // CPU_1c_p1:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1c_p1_mm_bridge_0_m0_burstcount
-	wire         cpu_1d_p3_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_waitrequest -> CPU_1d_p3:mm_bridge_0_m0_waitrequest
-	wire  [31:0] cpu_1d_p3_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_readdata -> CPU_1d_p3:mm_bridge_0_m0_readdata
-	wire         cpu_1d_p3_mm_bridge_0_m0_debugaccess;                         // CPU_1d_p3:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_debugaccess
-	wire   [7:0] cpu_1d_p3_mm_bridge_0_m0_address;                             // CPU_1d_p3:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_address
-	wire         cpu_1d_p3_mm_bridge_0_m0_read;                                // CPU_1d_p3:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_read
-	wire   [3:0] cpu_1d_p3_mm_bridge_0_m0_byteenable;                          // CPU_1d_p3:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_byteenable
-	wire         cpu_1d_p3_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_readdatavalid -> CPU_1d_p3:mm_bridge_0_m0_readdatavalid
-	wire  [31:0] cpu_1d_p3_mm_bridge_0_m0_writedata;                           // CPU_1d_p3:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_writedata
-	wire         cpu_1d_p3_mm_bridge_0_m0_write;                               // CPU_1d_p3:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_write
-	wire   [0:0] cpu_1d_p3_mm_bridge_0_m0_burstcount;                          // CPU_1d_p3:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_burstcount
-	wire         cpu_1c_p3_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_waitrequest -> CPU_1c_p3:mm_bridge_0_m0_waitrequest
-	wire  [31:0] cpu_1c_p3_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_readdata -> CPU_1c_p3:mm_bridge_0_m0_readdata
-	wire         cpu_1c_p3_mm_bridge_0_m0_debugaccess;                         // CPU_1c_p3:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_debugaccess
-	wire   [6:0] cpu_1c_p3_mm_bridge_0_m0_address;                             // CPU_1c_p3:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_address
-	wire         cpu_1c_p3_mm_bridge_0_m0_read;                                // CPU_1c_p3:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_read
-	wire   [3:0] cpu_1c_p3_mm_bridge_0_m0_byteenable;                          // CPU_1c_p3:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_byteenable
-	wire         cpu_1c_p3_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_readdatavalid -> CPU_1c_p3:mm_bridge_0_m0_readdatavalid
-	wire  [31:0] cpu_1c_p3_mm_bridge_0_m0_writedata;                           // CPU_1c_p3:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_writedata
-	wire         cpu_1c_p3_mm_bridge_0_m0_write;                               // CPU_1c_p3:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_write
-	wire   [0:0] cpu_1c_p3_mm_bridge_0_m0_burstcount;                          // CPU_1c_p3:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_burstcount
-	wire         cpu_1b_p3_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_waitrequest -> CPU_1b_p3:mm_bridge_0_m0_waitrequest
-	wire  [31:0] cpu_1b_p3_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_readdata -> CPU_1b_p3:mm_bridge_0_m0_readdata
-	wire         cpu_1b_p3_mm_bridge_0_m0_debugaccess;                         // CPU_1b_p3:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_debugaccess
-	wire   [6:0] cpu_1b_p3_mm_bridge_0_m0_address;                             // CPU_1b_p3:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_address
-	wire         cpu_1b_p3_mm_bridge_0_m0_read;                                // CPU_1b_p3:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_read
-	wire   [3:0] cpu_1b_p3_mm_bridge_0_m0_byteenable;                          // CPU_1b_p3:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_byteenable
-	wire         cpu_1b_p3_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_readdatavalid -> CPU_1b_p3:mm_bridge_0_m0_readdatavalid
-	wire  [31:0] cpu_1b_p3_mm_bridge_0_m0_writedata;                           // CPU_1b_p3:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_writedata
-	wire         cpu_1b_p3_mm_bridge_0_m0_write;                               // CPU_1b_p3:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_write
-	wire   [0:0] cpu_1b_p3_mm_bridge_0_m0_burstcount;                          // CPU_1b_p3:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_burstcount
-	wire         cpu_1d_p2_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_waitrequest -> CPU_1d_p2:mm_bridge_0_m0_waitrequest
-	wire  [31:0] cpu_1d_p2_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_readdata -> CPU_1d_p2:mm_bridge_0_m0_readdata
-	wire         cpu_1d_p2_mm_bridge_0_m0_debugaccess;                         // CPU_1d_p2:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_debugaccess
-	wire   [6:0] cpu_1d_p2_mm_bridge_0_m0_address;                             // CPU_1d_p2:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_address
-	wire         cpu_1d_p2_mm_bridge_0_m0_read;                                // CPU_1d_p2:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_read
-	wire   [3:0] cpu_1d_p2_mm_bridge_0_m0_byteenable;                          // CPU_1d_p2:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_byteenable
-	wire         cpu_1d_p2_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_readdatavalid -> CPU_1d_p2:mm_bridge_0_m0_readdatavalid
-	wire  [31:0] cpu_1d_p2_mm_bridge_0_m0_writedata;                           // CPU_1d_p2:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_writedata
-	wire         cpu_1d_p2_mm_bridge_0_m0_write;                               // CPU_1d_p2:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_write
-	wire   [0:0] cpu_1d_p2_mm_bridge_0_m0_burstcount;                          // CPU_1d_p2:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_burstcount
-	wire         cpu_1c_p2_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_waitrequest -> CPU_1c_p2:mm_bridge_0_m0_waitrequest
-	wire  [31:0] cpu_1c_p2_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_readdata -> CPU_1c_p2:mm_bridge_0_m0_readdata
-	wire         cpu_1c_p2_mm_bridge_0_m0_debugaccess;                         // CPU_1c_p2:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_debugaccess
-	wire   [6:0] cpu_1c_p2_mm_bridge_0_m0_address;                             // CPU_1c_p2:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_address
-	wire         cpu_1c_p2_mm_bridge_0_m0_read;                                // CPU_1c_p2:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_read
-	wire   [3:0] cpu_1c_p2_mm_bridge_0_m0_byteenable;                          // CPU_1c_p2:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_byteenable
-	wire         cpu_1c_p2_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_readdatavalid -> CPU_1c_p2:mm_bridge_0_m0_readdatavalid
-	wire  [31:0] cpu_1c_p2_mm_bridge_0_m0_writedata;                           // CPU_1c_p2:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_writedata
-	wire         cpu_1c_p2_mm_bridge_0_m0_write;                               // CPU_1c_p2:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_write
-	wire   [0:0] cpu_1c_p2_mm_bridge_0_m0_burstcount;                          // CPU_1c_p2:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_burstcount
 	wire         cpu_1b_p2_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_waitrequest -> CPU_1b_p2:mm_bridge_0_m0_waitrequest
 	wire  [31:0] cpu_1b_p2_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_readdata -> CPU_1b_p2:mm_bridge_0_m0_readdata
 	wire         cpu_1b_p2_mm_bridge_0_m0_debugaccess;                         // CPU_1b_p2:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_debugaccess
-	wire   [6:0] cpu_1b_p2_mm_bridge_0_m0_address;                             // CPU_1b_p2:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_address
+	wire  [16:0] cpu_1b_p2_mm_bridge_0_m0_address;                             // CPU_1b_p2:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_address
 	wire         cpu_1b_p2_mm_bridge_0_m0_read;                                // CPU_1b_p2:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_read
 	wire   [3:0] cpu_1b_p2_mm_bridge_0_m0_byteenable;                          // CPU_1b_p2:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_byteenable
 	wire         cpu_1b_p2_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_readdatavalid -> CPU_1b_p2:mm_bridge_0_m0_readdatavalid
 	wire  [31:0] cpu_1b_p2_mm_bridge_0_m0_writedata;                           // CPU_1b_p2:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_writedata
 	wire         cpu_1b_p2_mm_bridge_0_m0_write;                               // CPU_1b_p2:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_write
 	wire   [0:0] cpu_1b_p2_mm_bridge_0_m0_burstcount;                          // CPU_1b_p2:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1b_p2_mm_bridge_0_m0_burstcount
+	wire         cpu_1b_p3_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_waitrequest -> CPU_1b_p3:mm_bridge_0_m0_waitrequest
+	wire  [31:0] cpu_1b_p3_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_readdata -> CPU_1b_p3:mm_bridge_0_m0_readdata
+	wire         cpu_1b_p3_mm_bridge_0_m0_debugaccess;                         // CPU_1b_p3:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_debugaccess
+	wire  [16:0] cpu_1b_p3_mm_bridge_0_m0_address;                             // CPU_1b_p3:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_address
+	wire         cpu_1b_p3_mm_bridge_0_m0_read;                                // CPU_1b_p3:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_read
+	wire   [3:0] cpu_1b_p3_mm_bridge_0_m0_byteenable;                          // CPU_1b_p3:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_byteenable
+	wire         cpu_1b_p3_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_readdatavalid -> CPU_1b_p3:mm_bridge_0_m0_readdatavalid
+	wire  [31:0] cpu_1b_p3_mm_bridge_0_m0_writedata;                           // CPU_1b_p3:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_writedata
+	wire         cpu_1b_p3_mm_bridge_0_m0_write;                               // CPU_1b_p3:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_write
+	wire   [0:0] cpu_1b_p3_mm_bridge_0_m0_burstcount;                          // CPU_1b_p3:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1b_p3_mm_bridge_0_m0_burstcount
+	wire         cpu_1c_p2_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_waitrequest -> CPU_1c_p2:mm_bridge_0_m0_waitrequest
+	wire  [31:0] cpu_1c_p2_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_readdata -> CPU_1c_p2:mm_bridge_0_m0_readdata
+	wire         cpu_1c_p2_mm_bridge_0_m0_debugaccess;                         // CPU_1c_p2:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_debugaccess
+	wire  [16:0] cpu_1c_p2_mm_bridge_0_m0_address;                             // CPU_1c_p2:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_address
+	wire         cpu_1c_p2_mm_bridge_0_m0_read;                                // CPU_1c_p2:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_read
+	wire   [3:0] cpu_1c_p2_mm_bridge_0_m0_byteenable;                          // CPU_1c_p2:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_byteenable
+	wire         cpu_1c_p2_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_readdatavalid -> CPU_1c_p2:mm_bridge_0_m0_readdatavalid
+	wire  [31:0] cpu_1c_p2_mm_bridge_0_m0_writedata;                           // CPU_1c_p2:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_writedata
+	wire         cpu_1c_p2_mm_bridge_0_m0_write;                               // CPU_1c_p2:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_write
+	wire   [0:0] cpu_1c_p2_mm_bridge_0_m0_burstcount;                          // CPU_1c_p2:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1c_p2_mm_bridge_0_m0_burstcount
+	wire         cpu_1c_p3_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_waitrequest -> CPU_1c_p3:mm_bridge_0_m0_waitrequest
+	wire  [31:0] cpu_1c_p3_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_readdata -> CPU_1c_p3:mm_bridge_0_m0_readdata
+	wire         cpu_1c_p3_mm_bridge_0_m0_debugaccess;                         // CPU_1c_p3:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_debugaccess
+	wire  [16:0] cpu_1c_p3_mm_bridge_0_m0_address;                             // CPU_1c_p3:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_address
+	wire         cpu_1c_p3_mm_bridge_0_m0_read;                                // CPU_1c_p3:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_read
+	wire   [3:0] cpu_1c_p3_mm_bridge_0_m0_byteenable;                          // CPU_1c_p3:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_byteenable
+	wire         cpu_1c_p3_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_readdatavalid -> CPU_1c_p3:mm_bridge_0_m0_readdatavalid
+	wire  [31:0] cpu_1c_p3_mm_bridge_0_m0_writedata;                           // CPU_1c_p3:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_writedata
+	wire         cpu_1c_p3_mm_bridge_0_m0_write;                               // CPU_1c_p3:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_write
+	wire   [0:0] cpu_1c_p3_mm_bridge_0_m0_burstcount;                          // CPU_1c_p3:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1c_p3_mm_bridge_0_m0_burstcount
+	wire         cpu_1d_p2_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_waitrequest -> CPU_1d_p2:mm_bridge_0_m0_waitrequest
+	wire  [31:0] cpu_1d_p2_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_readdata -> CPU_1d_p2:mm_bridge_0_m0_readdata
+	wire         cpu_1d_p2_mm_bridge_0_m0_debugaccess;                         // CPU_1d_p2:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_debugaccess
+	wire  [16:0] cpu_1d_p2_mm_bridge_0_m0_address;                             // CPU_1d_p2:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_address
+	wire         cpu_1d_p2_mm_bridge_0_m0_read;                                // CPU_1d_p2:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_read
+	wire   [3:0] cpu_1d_p2_mm_bridge_0_m0_byteenable;                          // CPU_1d_p2:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_byteenable
+	wire         cpu_1d_p2_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_readdatavalid -> CPU_1d_p2:mm_bridge_0_m0_readdatavalid
+	wire  [31:0] cpu_1d_p2_mm_bridge_0_m0_writedata;                           // CPU_1d_p2:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_writedata
+	wire         cpu_1d_p2_mm_bridge_0_m0_write;                               // CPU_1d_p2:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_write
+	wire   [0:0] cpu_1d_p2_mm_bridge_0_m0_burstcount;                          // CPU_1d_p2:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1d_p2_mm_bridge_0_m0_burstcount
+	wire         cpu_1d_p3_mm_bridge_0_m0_waitrequest;                         // mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_waitrequest -> CPU_1d_p3:mm_bridge_0_m0_waitrequest
+	wire  [31:0] cpu_1d_p3_mm_bridge_0_m0_readdata;                            // mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_readdata -> CPU_1d_p3:mm_bridge_0_m0_readdata
+	wire         cpu_1d_p3_mm_bridge_0_m0_debugaccess;                         // CPU_1d_p3:mm_bridge_0_m0_debugaccess -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_debugaccess
+	wire  [16:0] cpu_1d_p3_mm_bridge_0_m0_address;                             // CPU_1d_p3:mm_bridge_0_m0_address -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_address
+	wire         cpu_1d_p3_mm_bridge_0_m0_read;                                // CPU_1d_p3:mm_bridge_0_m0_read -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_read
+	wire   [3:0] cpu_1d_p3_mm_bridge_0_m0_byteenable;                          // CPU_1d_p3:mm_bridge_0_m0_byteenable -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_byteenable
+	wire         cpu_1d_p3_mm_bridge_0_m0_readdatavalid;                       // mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_readdatavalid -> CPU_1d_p3:mm_bridge_0_m0_readdatavalid
+	wire  [31:0] cpu_1d_p3_mm_bridge_0_m0_writedata;                           // CPU_1d_p3:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_writedata
+	wire         cpu_1d_p3_mm_bridge_0_m0_write;                               // CPU_1d_p3:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_write
+	wire   [0:0] cpu_1d_p3_mm_bridge_0_m0_burstcount;                          // CPU_1d_p3:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_burstcount
 	wire  [31:0] cpu_1a_instruction_master_readdata;                           // mm_interconnect_0:cpu_1a_instruction_master_readdata -> cpu_1a:i_readdata
 	wire         cpu_1a_instruction_master_waitrequest;                        // mm_interconnect_0:cpu_1a_instruction_master_waitrequest -> cpu_1a:i_waitrequest
 	wire  [27:0] cpu_1a_instruction_master_address;                            // cpu_1a:i_address -> mm_interconnect_0:cpu_1a_instruction_master_address
@@ -210,36 +210,30 @@ module FTOP_MSOC (
 	wire         mm_interconnect_0_mem_info_s1_write;                          // mm_interconnect_0:mem_info_s1_write -> mem_info:write
 	wire  [31:0] mm_interconnect_0_mem_info_s1_writedata;                      // mm_interconnect_0:mem_info_s1_writedata -> mem_info:writedata
 	wire         mm_interconnect_0_mem_info_s1_clken;                          // mm_interconnect_0:mem_info_s1_clken -> mem_info:clken
-	wire         mm_interconnect_0_fifo_qc_p1_in_waitrequest;                  // fifo_qc_p1:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qc_p1_in_waitrequest
-	wire         mm_interconnect_0_fifo_qc_p1_in_write;                        // mm_interconnect_0:fifo_qc_p1_in_write -> fifo_qc_p1:avalonmm_write_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qc_p1_in_writedata;                    // mm_interconnect_0:fifo_qc_p1_in_writedata -> fifo_qc_p1:avalonmm_write_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qb_p1_in_csr_readdata;                 // fifo_qb_p1:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qb_p1_in_csr_readdata
-	wire   [2:0] mm_interconnect_0_fifo_qb_p1_in_csr_address;                  // mm_interconnect_0:fifo_qb_p1_in_csr_address -> fifo_qb_p1:wrclk_control_slave_address
-	wire         mm_interconnect_0_fifo_qb_p1_in_csr_read;                     // mm_interconnect_0:fifo_qb_p1_in_csr_read -> fifo_qb_p1:wrclk_control_slave_read
-	wire         mm_interconnect_0_fifo_qb_p1_in_csr_write;                    // mm_interconnect_0:fifo_qb_p1_in_csr_write -> fifo_qb_p1:wrclk_control_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qb_p1_in_csr_writedata;                // mm_interconnect_0:fifo_qb_p1_in_csr_writedata -> fifo_qb_p1:wrclk_control_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qc_p1_in_csr_readdata;                 // fifo_qc_p1:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qc_p1_in_csr_readdata
-	wire   [2:0] mm_interconnect_0_fifo_qc_p1_in_csr_address;                  // mm_interconnect_0:fifo_qc_p1_in_csr_address -> fifo_qc_p1:wrclk_control_slave_address
-	wire         mm_interconnect_0_fifo_qc_p1_in_csr_read;                     // mm_interconnect_0:fifo_qc_p1_in_csr_read -> fifo_qc_p1:wrclk_control_slave_read
-	wire         mm_interconnect_0_fifo_qc_p1_in_csr_write;                    // mm_interconnect_0:fifo_qc_p1_in_csr_write -> fifo_qc_p1:wrclk_control_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qc_p1_in_csr_writedata;                // mm_interconnect_0:fifo_qc_p1_in_csr_writedata -> fifo_qc_p1:wrclk_control_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qb_p1_out_readdata;                    // fifo_qb_p1:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qb_p1_out_readdata
-	wire         mm_interconnect_0_fifo_qb_p1_out_waitrequest;                 // fifo_qb_p1:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qb_p1_out_waitrequest
-	wire         mm_interconnect_0_fifo_qb_p1_out_read;                        // mm_interconnect_0:fifo_qb_p1_out_read -> fifo_qb_p1:avalonmm_read_slave_read
-	wire         mm_interconnect_0_fifo_qd_p1_in_waitrequest;                  // fifo_qd_p1:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qd_p1_in_waitrequest
-	wire         mm_interconnect_0_fifo_qd_p1_in_write;                        // mm_interconnect_0:fifo_qd_p1_in_write -> fifo_qd_p1:avalonmm_write_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qd_p1_in_writedata;                    // mm_interconnect_0:fifo_qd_p1_in_writedata -> fifo_qd_p1:avalonmm_write_slave_writedata
+	wire         mm_interconnect_0_fifo_qd_p3_in_waitrequest;                  // fifo_qd_p3:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qd_p3_in_waitrequest
+	wire         mm_interconnect_0_fifo_qd_p3_in_write;                        // mm_interconnect_0:fifo_qd_p3_in_write -> fifo_qd_p3:avalonmm_write_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qd_p3_in_writedata;                    // mm_interconnect_0:fifo_qd_p3_in_writedata -> fifo_qd_p3:avalonmm_write_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qc_p3_in_csr_readdata;                 // fifo_qc_p3:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qc_p3_in_csr_readdata
+	wire   [2:0] mm_interconnect_0_fifo_qc_p3_in_csr_address;                  // mm_interconnect_0:fifo_qc_p3_in_csr_address -> fifo_qc_p3:wrclk_control_slave_address
+	wire         mm_interconnect_0_fifo_qc_p3_in_csr_read;                     // mm_interconnect_0:fifo_qc_p3_in_csr_read -> fifo_qc_p3:wrclk_control_slave_read
+	wire         mm_interconnect_0_fifo_qc_p3_in_csr_write;                    // mm_interconnect_0:fifo_qc_p3_in_csr_write -> fifo_qc_p3:wrclk_control_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qc_p3_in_csr_writedata;                // mm_interconnect_0:fifo_qc_p3_in_csr_writedata -> fifo_qc_p3:wrclk_control_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qd_p3_in_csr_readdata;                 // fifo_qd_p3:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qd_p3_in_csr_readdata
+	wire   [2:0] mm_interconnect_0_fifo_qd_p3_in_csr_address;                  // mm_interconnect_0:fifo_qd_p3_in_csr_address -> fifo_qd_p3:wrclk_control_slave_address
+	wire         mm_interconnect_0_fifo_qd_p3_in_csr_read;                     // mm_interconnect_0:fifo_qd_p3_in_csr_read -> fifo_qd_p3:wrclk_control_slave_read
+	wire         mm_interconnect_0_fifo_qd_p3_in_csr_write;                    // mm_interconnect_0:fifo_qd_p3_in_csr_write -> fifo_qd_p3:wrclk_control_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qd_p3_in_csr_writedata;                // mm_interconnect_0:fifo_qd_p3_in_csr_writedata -> fifo_qd_p3:wrclk_control_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qc_p3_out_readdata;                    // fifo_qc_p3:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qc_p3_out_readdata
+	wire         mm_interconnect_0_fifo_qc_p3_out_waitrequest;                 // fifo_qc_p3:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qc_p3_out_waitrequest
+	wire         mm_interconnect_0_fifo_qc_p3_out_read;                        // mm_interconnect_0:fifo_qc_p3_out_read -> fifo_qc_p3:avalonmm_read_slave_read
+	wire         mm_interconnect_0_fifo_qe_in_waitrequest;                     // fifo_qe:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qe_in_waitrequest
+	wire         mm_interconnect_0_fifo_qe_in_write;                           // mm_interconnect_0:fifo_qe_in_write -> fifo_qe:avalonmm_write_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qe_in_writedata;                       // mm_interconnect_0:fifo_qe_in_writedata -> fifo_qe:avalonmm_write_slave_writedata
 	wire  [31:0] mm_interconnect_0_fifo_qd_p1_in_csr_readdata;                 // fifo_qd_p1:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qd_p1_in_csr_readdata
 	wire   [2:0] mm_interconnect_0_fifo_qd_p1_in_csr_address;                  // mm_interconnect_0:fifo_qd_p1_in_csr_address -> fifo_qd_p1:wrclk_control_slave_address
 	wire         mm_interconnect_0_fifo_qd_p1_in_csr_read;                     // mm_interconnect_0:fifo_qd_p1_in_csr_read -> fifo_qd_p1:wrclk_control_slave_read
 	wire         mm_interconnect_0_fifo_qd_p1_in_csr_write;                    // mm_interconnect_0:fifo_qd_p1_in_csr_write -> fifo_qd_p1:wrclk_control_slave_write
 	wire  [31:0] mm_interconnect_0_fifo_qd_p1_in_csr_writedata;                // mm_interconnect_0:fifo_qd_p1_in_csr_writedata -> fifo_qd_p1:wrclk_control_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qc_p1_out_readdata;                    // fifo_qc_p1:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qc_p1_out_readdata
-	wire         mm_interconnect_0_fifo_qc_p1_out_waitrequest;                 // fifo_qc_p1:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qc_p1_out_waitrequest
-	wire         mm_interconnect_0_fifo_qc_p1_out_read;                        // mm_interconnect_0:fifo_qc_p1_out_read -> fifo_qc_p1:avalonmm_read_slave_read
-	wire         mm_interconnect_0_fifo_qe_in_waitrequest;                     // fifo_qe:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qe_in_waitrequest
-	wire         mm_interconnect_0_fifo_qe_in_write;                           // mm_interconnect_0:fifo_qe_in_write -> fifo_qe:avalonmm_write_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qe_in_writedata;                       // mm_interconnect_0:fifo_qe_in_writedata -> fifo_qe:avalonmm_write_slave_writedata
 	wire  [31:0] mm_interconnect_0_fifo_qe_in_csr_readdata;                    // fifo_qe:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qe_in_csr_readdata
 	wire   [2:0] mm_interconnect_0_fifo_qe_in_csr_address;                     // mm_interconnect_0:fifo_qe_in_csr_address -> fifo_qe:wrclk_control_slave_address
 	wire         mm_interconnect_0_fifo_qe_in_csr_read;                        // mm_interconnect_0:fifo_qe_in_csr_read -> fifo_qe:wrclk_control_slave_read
@@ -250,11 +244,6 @@ module FTOP_MSOC (
 	wire         mm_interconnect_0_fifo_qd_p2_in_csr_read;                     // mm_interconnect_0:fifo_qd_p2_in_csr_read -> fifo_qd_p2:wrclk_control_slave_read
 	wire         mm_interconnect_0_fifo_qd_p2_in_csr_write;                    // mm_interconnect_0:fifo_qd_p2_in_csr_write -> fifo_qd_p2:wrclk_control_slave_write
 	wire  [31:0] mm_interconnect_0_fifo_qd_p2_in_csr_writedata;                // mm_interconnect_0:fifo_qd_p2_in_csr_writedata -> fifo_qd_p2:wrclk_control_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qd_p3_in_csr_readdata;                 // fifo_qd_p3:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qd_p3_in_csr_readdata
-	wire   [2:0] mm_interconnect_0_fifo_qd_p3_in_csr_address;                  // mm_interconnect_0:fifo_qd_p3_in_csr_address -> fifo_qd_p3:wrclk_control_slave_address
-	wire         mm_interconnect_0_fifo_qd_p3_in_csr_read;                     // mm_interconnect_0:fifo_qd_p3_in_csr_read -> fifo_qd_p3:wrclk_control_slave_read
-	wire         mm_interconnect_0_fifo_qd_p3_in_csr_write;                    // mm_interconnect_0:fifo_qd_p3_in_csr_write -> fifo_qd_p3:wrclk_control_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qd_p3_in_csr_writedata;                // mm_interconnect_0:fifo_qd_p3_in_csr_writedata -> fifo_qd_p3:wrclk_control_slave_writedata
 	wire  [31:0] mm_interconnect_0_fifo_qd_p1_out_readdata;                    // fifo_qd_p1:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qd_p1_out_readdata
 	wire         mm_interconnect_0_fifo_qd_p1_out_waitrequest;                 // fifo_qd_p1:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qd_p1_out_waitrequest
 	wire         mm_interconnect_0_fifo_qd_p1_out_read;                        // mm_interconnect_0:fifo_qd_p1_out_read -> fifo_qd_p1:avalonmm_read_slave_read
@@ -264,34 +253,6 @@ module FTOP_MSOC (
 	wire  [31:0] mm_interconnect_0_fifo_qd_p3_out_readdata;                    // fifo_qd_p3:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qd_p3_out_readdata
 	wire         mm_interconnect_0_fifo_qd_p3_out_waitrequest;                 // fifo_qd_p3:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qd_p3_out_waitrequest
 	wire         mm_interconnect_0_fifo_qd_p3_out_read;                        // mm_interconnect_0:fifo_qd_p3_out_read -> fifo_qd_p3:avalonmm_read_slave_read
-	wire         mm_interconnect_0_fifo_qd_p3_in_waitrequest;                  // fifo_qd_p3:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qd_p3_in_waitrequest
-	wire         mm_interconnect_0_fifo_qd_p3_in_write;                        // mm_interconnect_0:fifo_qd_p3_in_write -> fifo_qd_p3:avalonmm_write_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qd_p3_in_writedata;                    // mm_interconnect_0:fifo_qd_p3_in_writedata -> fifo_qd_p3:avalonmm_write_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qc_p3_in_csr_readdata;                 // fifo_qc_p3:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qc_p3_in_csr_readdata
-	wire   [2:0] mm_interconnect_0_fifo_qc_p3_in_csr_address;                  // mm_interconnect_0:fifo_qc_p3_in_csr_address -> fifo_qc_p3:wrclk_control_slave_address
-	wire         mm_interconnect_0_fifo_qc_p3_in_csr_read;                     // mm_interconnect_0:fifo_qc_p3_in_csr_read -> fifo_qc_p3:wrclk_control_slave_read
-	wire         mm_interconnect_0_fifo_qc_p3_in_csr_write;                    // mm_interconnect_0:fifo_qc_p3_in_csr_write -> fifo_qc_p3:wrclk_control_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qc_p3_in_csr_writedata;                // mm_interconnect_0:fifo_qc_p3_in_csr_writedata -> fifo_qc_p3:wrclk_control_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qc_p3_out_readdata;                    // fifo_qc_p3:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qc_p3_out_readdata
-	wire         mm_interconnect_0_fifo_qc_p3_out_waitrequest;                 // fifo_qc_p3:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qc_p3_out_waitrequest
-	wire         mm_interconnect_0_fifo_qc_p3_out_read;                        // mm_interconnect_0:fifo_qc_p3_out_read -> fifo_qc_p3:avalonmm_read_slave_read
-	wire         mm_interconnect_0_fifo_qc_p3_in_waitrequest;                  // fifo_qc_p3:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qc_p3_in_waitrequest
-	wire         mm_interconnect_0_fifo_qc_p3_in_write;                        // mm_interconnect_0:fifo_qc_p3_in_write -> fifo_qc_p3:avalonmm_write_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qc_p3_in_writedata;                    // mm_interconnect_0:fifo_qc_p3_in_writedata -> fifo_qc_p3:avalonmm_write_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qb_p3_in_csr_readdata;                 // fifo_qb_p3:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qb_p3_in_csr_readdata
-	wire   [2:0] mm_interconnect_0_fifo_qb_p3_in_csr_address;                  // mm_interconnect_0:fifo_qb_p3_in_csr_address -> fifo_qb_p3:wrclk_control_slave_address
-	wire         mm_interconnect_0_fifo_qb_p3_in_csr_read;                     // mm_interconnect_0:fifo_qb_p3_in_csr_read -> fifo_qb_p3:wrclk_control_slave_read
-	wire         mm_interconnect_0_fifo_qb_p3_in_csr_write;                    // mm_interconnect_0:fifo_qb_p3_in_csr_write -> fifo_qb_p3:wrclk_control_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qb_p3_in_csr_writedata;                // mm_interconnect_0:fifo_qb_p3_in_csr_writedata -> fifo_qb_p3:wrclk_control_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qb_p3_out_readdata;                    // fifo_qb_p3:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qb_p3_out_readdata
-	wire         mm_interconnect_0_fifo_qb_p3_out_waitrequest;                 // fifo_qb_p3:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qb_p3_out_waitrequest
-	wire         mm_interconnect_0_fifo_qb_p3_out_read;                        // mm_interconnect_0:fifo_qb_p3_out_read -> fifo_qb_p3:avalonmm_read_slave_read
-	wire         mm_interconnect_0_fifo_qb_p3_in_waitrequest;                  // fifo_qb_p3:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qb_p3_in_waitrequest
-	wire         mm_interconnect_0_fifo_qb_p3_in_write;                        // mm_interconnect_0:fifo_qb_p3_in_write -> fifo_qb_p3:avalonmm_write_slave_write
-	wire  [31:0] mm_interconnect_0_fifo_qb_p3_in_writedata;                    // mm_interconnect_0:fifo_qb_p3_in_writedata -> fifo_qb_p3:avalonmm_write_slave_writedata
-	wire  [31:0] mm_interconnect_0_fifo_qa_p3_out_readdata;                    // fifo_qa_p3:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qa_p3_out_readdata
-	wire         mm_interconnect_0_fifo_qa_p3_out_waitrequest;                 // fifo_qa_p3:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qa_p3_out_waitrequest
-	wire         mm_interconnect_0_fifo_qa_p3_out_read;                        // mm_interconnect_0:fifo_qa_p3_out_read -> fifo_qa_p3:avalonmm_read_slave_read
 	wire         mm_interconnect_0_fifo_qd_p2_in_waitrequest;                  // fifo_qd_p2:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qd_p2_in_waitrequest
 	wire         mm_interconnect_0_fifo_qd_p2_in_write;                        // mm_interconnect_0:fifo_qd_p2_in_write -> fifo_qd_p2:avalonmm_write_slave_write
 	wire  [31:0] mm_interconnect_0_fifo_qd_p2_in_writedata;                    // mm_interconnect_0:fifo_qd_p2_in_writedata -> fifo_qd_p2:avalonmm_write_slave_writedata
@@ -345,12 +306,51 @@ module FTOP_MSOC (
 	wire   [2:0] mm_interconnect_0_timer_1f_s1_address;                        // mm_interconnect_0:timer_1f_s1_address -> timer_1f:address
 	wire         mm_interconnect_0_timer_1f_s1_write;                          // mm_interconnect_0:timer_1f_s1_write -> timer_1f:write_n
 	wire  [15:0] mm_interconnect_0_timer_1f_s1_writedata;                      // mm_interconnect_0:timer_1f_s1_writedata -> timer_1f:writedata
+	wire         mm_interconnect_0_fifo_qd_p1_in_waitrequest;                  // fifo_qd_p1:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qd_p1_in_waitrequest
+	wire         mm_interconnect_0_fifo_qd_p1_in_write;                        // mm_interconnect_0:fifo_qd_p1_in_write -> fifo_qd_p1:avalonmm_write_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qd_p1_in_writedata;                    // mm_interconnect_0:fifo_qd_p1_in_writedata -> fifo_qd_p1:avalonmm_write_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qc_p1_in_csr_readdata;                 // fifo_qc_p1:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qc_p1_in_csr_readdata
+	wire   [2:0] mm_interconnect_0_fifo_qc_p1_in_csr_address;                  // mm_interconnect_0:fifo_qc_p1_in_csr_address -> fifo_qc_p1:wrclk_control_slave_address
+	wire         mm_interconnect_0_fifo_qc_p1_in_csr_read;                     // mm_interconnect_0:fifo_qc_p1_in_csr_read -> fifo_qc_p1:wrclk_control_slave_read
+	wire         mm_interconnect_0_fifo_qc_p1_in_csr_write;                    // mm_interconnect_0:fifo_qc_p1_in_csr_write -> fifo_qc_p1:wrclk_control_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qc_p1_in_csr_writedata;                // mm_interconnect_0:fifo_qc_p1_in_csr_writedata -> fifo_qc_p1:wrclk_control_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qc_p1_out_readdata;                    // fifo_qc_p1:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qc_p1_out_readdata
+	wire         mm_interconnect_0_fifo_qc_p1_out_waitrequest;                 // fifo_qc_p1:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qc_p1_out_waitrequest
+	wire         mm_interconnect_0_fifo_qc_p1_out_read;                        // mm_interconnect_0:fifo_qc_p1_out_read -> fifo_qc_p1:avalonmm_read_slave_read
+	wire         mm_interconnect_0_fifo_qc_p1_in_waitrequest;                  // fifo_qc_p1:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qc_p1_in_waitrequest
+	wire         mm_interconnect_0_fifo_qc_p1_in_write;                        // mm_interconnect_0:fifo_qc_p1_in_write -> fifo_qc_p1:avalonmm_write_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qc_p1_in_writedata;                    // mm_interconnect_0:fifo_qc_p1_in_writedata -> fifo_qc_p1:avalonmm_write_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qb_p1_in_csr_readdata;                 // fifo_qb_p1:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qb_p1_in_csr_readdata
+	wire   [2:0] mm_interconnect_0_fifo_qb_p1_in_csr_address;                  // mm_interconnect_0:fifo_qb_p1_in_csr_address -> fifo_qb_p1:wrclk_control_slave_address
+	wire         mm_interconnect_0_fifo_qb_p1_in_csr_read;                     // mm_interconnect_0:fifo_qb_p1_in_csr_read -> fifo_qb_p1:wrclk_control_slave_read
+	wire         mm_interconnect_0_fifo_qb_p1_in_csr_write;                    // mm_interconnect_0:fifo_qb_p1_in_csr_write -> fifo_qb_p1:wrclk_control_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qb_p1_in_csr_writedata;                // mm_interconnect_0:fifo_qb_p1_in_csr_writedata -> fifo_qb_p1:wrclk_control_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qb_p1_out_readdata;                    // fifo_qb_p1:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qb_p1_out_readdata
+	wire         mm_interconnect_0_fifo_qb_p1_out_waitrequest;                 // fifo_qb_p1:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qb_p1_out_waitrequest
+	wire         mm_interconnect_0_fifo_qb_p1_out_read;                        // mm_interconnect_0:fifo_qb_p1_out_read -> fifo_qb_p1:avalonmm_read_slave_read
 	wire         mm_interconnect_0_fifo_qb_p1_in_waitrequest;                  // fifo_qb_p1:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qb_p1_in_waitrequest
 	wire         mm_interconnect_0_fifo_qb_p1_in_write;                        // mm_interconnect_0:fifo_qb_p1_in_write -> fifo_qb_p1:avalonmm_write_slave_write
 	wire  [31:0] mm_interconnect_0_fifo_qb_p1_in_writedata;                    // mm_interconnect_0:fifo_qb_p1_in_writedata -> fifo_qb_p1:avalonmm_write_slave_writedata
 	wire  [31:0] mm_interconnect_0_fifo_qa_p1_out_readdata;                    // fifo_qa_p1:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qa_p1_out_readdata
 	wire         mm_interconnect_0_fifo_qa_p1_out_waitrequest;                 // fifo_qa_p1:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qa_p1_out_waitrequest
 	wire         mm_interconnect_0_fifo_qa_p1_out_read;                        // mm_interconnect_0:fifo_qa_p1_out_read -> fifo_qa_p1:avalonmm_read_slave_read
+	wire         mm_interconnect_0_fifo_qc_p3_in_waitrequest;                  // fifo_qc_p3:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qc_p3_in_waitrequest
+	wire         mm_interconnect_0_fifo_qc_p3_in_write;                        // mm_interconnect_0:fifo_qc_p3_in_write -> fifo_qc_p3:avalonmm_write_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qc_p3_in_writedata;                    // mm_interconnect_0:fifo_qc_p3_in_writedata -> fifo_qc_p3:avalonmm_write_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qb_p3_in_csr_readdata;                 // fifo_qb_p3:wrclk_control_slave_readdata -> mm_interconnect_0:fifo_qb_p3_in_csr_readdata
+	wire   [2:0] mm_interconnect_0_fifo_qb_p3_in_csr_address;                  // mm_interconnect_0:fifo_qb_p3_in_csr_address -> fifo_qb_p3:wrclk_control_slave_address
+	wire         mm_interconnect_0_fifo_qb_p3_in_csr_read;                     // mm_interconnect_0:fifo_qb_p3_in_csr_read -> fifo_qb_p3:wrclk_control_slave_read
+	wire         mm_interconnect_0_fifo_qb_p3_in_csr_write;                    // mm_interconnect_0:fifo_qb_p3_in_csr_write -> fifo_qb_p3:wrclk_control_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qb_p3_in_csr_writedata;                // mm_interconnect_0:fifo_qb_p3_in_csr_writedata -> fifo_qb_p3:wrclk_control_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qb_p3_out_readdata;                    // fifo_qb_p3:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qb_p3_out_readdata
+	wire         mm_interconnect_0_fifo_qb_p3_out_waitrequest;                 // fifo_qb_p3:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qb_p3_out_waitrequest
+	wire         mm_interconnect_0_fifo_qb_p3_out_read;                        // mm_interconnect_0:fifo_qb_p3_out_read -> fifo_qb_p3:avalonmm_read_slave_read
+	wire         mm_interconnect_0_fifo_qb_p3_in_waitrequest;                  // fifo_qb_p3:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qb_p3_in_waitrequest
+	wire         mm_interconnect_0_fifo_qb_p3_in_write;                        // mm_interconnect_0:fifo_qb_p3_in_write -> fifo_qb_p3:avalonmm_write_slave_write
+	wire  [31:0] mm_interconnect_0_fifo_qb_p3_in_writedata;                    // mm_interconnect_0:fifo_qb_p3_in_writedata -> fifo_qb_p3:avalonmm_write_slave_writedata
+	wire  [31:0] mm_interconnect_0_fifo_qa_p3_out_readdata;                    // fifo_qa_p3:avalonmm_read_slave_readdata -> mm_interconnect_0:fifo_qa_p3_out_readdata
+	wire         mm_interconnect_0_fifo_qa_p3_out_waitrequest;                 // fifo_qa_p3:avalonmm_read_slave_waitrequest -> mm_interconnect_0:fifo_qa_p3_out_waitrequest
+	wire         mm_interconnect_0_fifo_qa_p3_out_read;                        // mm_interconnect_0:fifo_qa_p3_out_read -> fifo_qa_p3:avalonmm_read_slave_read
 	wire         irq_mapper_receiver0_irq;                                     // timer_1a:irq -> irq_mapper:receiver0_irq
 	wire         irq_mapper_receiver1_irq;                                     // jtag_uart_1a:av_irq -> irq_mapper:receiver1_irq
 	wire  [31:0] cpu_1a_irq_irq;                                               // irq_mapper:sender_irq -> cpu_1a:irq

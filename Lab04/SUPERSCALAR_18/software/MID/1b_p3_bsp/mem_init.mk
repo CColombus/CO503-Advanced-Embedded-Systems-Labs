@@ -192,6 +192,28 @@ $(MEM_0)_CREATE_LANES := 0
 .PHONY: CPU_1b_p3_oc_ram_0
 CPU_1b_p3_oc_ram_0: check_elf_exists $(MEM_INIT_DIR)/$(MEM_0).hex $(HDL_SIM_DIR)/$(MEM_0).dat $(HDL_SIM_DIR)/$(MEM_0).sym
 
+# Memory: mem_info
+MEM_1 := FTOP_MSOC_mem_info
+$(MEM_1)_NAME := mem_info
+$(MEM_1)_MEM_INIT_FILE_PARAM_NAME := INIT_FILE
+HEX_FILES += $(MEM_INIT_DIR)/$(MEM_1).hex
+MEM_INIT_INSTALL_FILES += $(MEM_INIT_INSTALL_DIR)/$(MEM_1).hex
+DAT_FILES += $(HDL_SIM_DIR)/$(MEM_1).dat
+HDL_SIM_INSTALL_FILES += $(HDL_SIM_INSTALL_DIR)/$(MEM_1).dat
+SYM_FILES += $(HDL_SIM_DIR)/$(MEM_1).sym
+HDL_SIM_INSTALL_FILES += $(HDL_SIM_INSTALL_DIR)/$(MEM_1).sym
+$(MEM_1)_START := 0x10010000
+$(MEM_1)_END := 0x100103ff
+$(MEM_1)_SPAN := 0x00000400
+$(MEM_1)_HIERARCHICAL_PATH := mem_info
+$(MEM_1)_WIDTH := 32
+$(MEM_1)_HEX_DATA_WIDTH := 32
+$(MEM_1)_ENDIANNESS := --little-endian-mem
+$(MEM_1)_CREATE_LANES := 0
+
+.PHONY: mem_info
+mem_info: check_elf_exists $(MEM_INIT_DIR)/$(MEM_1).hex $(HDL_SIM_DIR)/$(MEM_1).dat $(HDL_SIM_DIR)/$(MEM_1).sym
+
 
 #END OF BSP SPECIFIC
 

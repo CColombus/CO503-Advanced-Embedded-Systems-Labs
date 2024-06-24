@@ -4,7 +4,7 @@
  * Machine generated for CPU 'CPU_1b_p2_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
  *
- * Generated: Sat Jun 22 20:14:03 IST 2024
+ * Generated: Mon Jun 24 16:03:14 IST 2024
  */
 
 /*
@@ -261,7 +261,7 @@
 #define FIFO_QA_P2_IN_CSR_BITS_PER_SYMBOL 16
 #define FIFO_QA_P2_IN_CSR_CHANNEL_WIDTH 8
 #define FIFO_QA_P2_IN_CSR_ERROR_WIDTH 8
-#define FIFO_QA_P2_IN_CSR_FIFO_DEPTH 128
+#define FIFO_QA_P2_IN_CSR_FIFO_DEPTH 256
 #define FIFO_QA_P2_IN_CSR_IRQ -1
 #define FIFO_QA_P2_IN_CSR_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define FIFO_QA_P2_IN_CSR_NAME "/dev/fifo_qa_p2_in_csr"
@@ -293,7 +293,7 @@
 #define FIFO_QA_P2_OUT_BITS_PER_SYMBOL 16
 #define FIFO_QA_P2_OUT_CHANNEL_WIDTH 8
 #define FIFO_QA_P2_OUT_ERROR_WIDTH 8
-#define FIFO_QA_P2_OUT_FIFO_DEPTH 128
+#define FIFO_QA_P2_OUT_FIFO_DEPTH 256
 #define FIFO_QA_P2_OUT_IRQ -1
 #define FIFO_QA_P2_OUT_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define FIFO_QA_P2_OUT_NAME "/dev/fifo_qa_p2_out"
@@ -386,5 +386,34 @@
 #define ALT_MAX_FD 32
 #define ALT_SYS_CLK CPU_1B_P2_TIMER_0
 #define ALT_TIMESTAMP_CLK CPU_1B_P2_TIMER_0
+
+
+/*
+ * mem_info configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_mem_info altera_avalon_onchip_memory2
+#define MEM_INFO_ALLOW_IN_SYSTEM_MEMORY_CONTENT_EDITOR 0
+#define MEM_INFO_ALLOW_MRAM_SIM_CONTENTS_ONLY_FILE 0
+#define MEM_INFO_BASE 0x10010000
+#define MEM_INFO_CONTENTS_INFO ""
+#define MEM_INFO_DUAL_PORT 0
+#define MEM_INFO_GUI_RAM_BLOCK_TYPE "AUTO"
+#define MEM_INFO_INIT_CONTENTS_FILE "FTOP_MSOC_mem_info"
+#define MEM_INFO_INIT_MEM_CONTENT 1
+#define MEM_INFO_INSTANCE_ID "NONE"
+#define MEM_INFO_IRQ -1
+#define MEM_INFO_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define MEM_INFO_NAME "/dev/mem_info"
+#define MEM_INFO_NON_DEFAULT_INIT_FILE_ENABLED 0
+#define MEM_INFO_RAM_BLOCK_TYPE "AUTO"
+#define MEM_INFO_READ_DURING_WRITE_MODE "DONT_CARE"
+#define MEM_INFO_SINGLE_CLOCK_OP 0
+#define MEM_INFO_SIZE_MULTIPLE 1
+#define MEM_INFO_SIZE_VALUE 1024
+#define MEM_INFO_SPAN 1024
+#define MEM_INFO_TYPE "altera_avalon_onchip_memory2"
+#define MEM_INFO_WRITABLE 1
 
 #endif /* __SYSTEM_H_ */

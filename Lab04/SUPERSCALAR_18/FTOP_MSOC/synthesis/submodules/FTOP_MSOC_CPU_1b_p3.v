@@ -10,7 +10,7 @@ module FTOP_MSOC_CPU_1b_p3 (
 		input  wire        mm_bridge_0_m0_readdatavalid,  //                        .readdatavalid
 		output wire [0:0]  mm_bridge_0_m0_burstcount,     //                        .burstcount
 		output wire [31:0] mm_bridge_0_m0_writedata,      //                        .writedata
-		output wire [6:0]  mm_bridge_0_m0_address,        //                        .address
+		output wire [16:0] mm_bridge_0_m0_address,        //                        .address
 		output wire        mm_bridge_0_m0_write,          //                        .write
 		output wire        mm_bridge_0_m0_read,           //                        .read
 		output wire [3:0]  mm_bridge_0_m0_byteenable,     //                        .byteenable
@@ -48,7 +48,7 @@ module FTOP_MSOC_CPU_1b_p3 (
 	wire  [31:0] mm_interconnect_0_mm_bridge_0_s0_readdata;               // mm_bridge_0:s0_readdata -> mm_interconnect_0:mm_bridge_0_s0_readdata
 	wire         mm_interconnect_0_mm_bridge_0_s0_waitrequest;            // mm_bridge_0:s0_waitrequest -> mm_interconnect_0:mm_bridge_0_s0_waitrequest
 	wire         mm_interconnect_0_mm_bridge_0_s0_debugaccess;            // mm_interconnect_0:mm_bridge_0_s0_debugaccess -> mm_bridge_0:s0_debugaccess
-	wire   [6:0] mm_interconnect_0_mm_bridge_0_s0_address;                // mm_interconnect_0:mm_bridge_0_s0_address -> mm_bridge_0:s0_address
+	wire  [16:0] mm_interconnect_0_mm_bridge_0_s0_address;                // mm_interconnect_0:mm_bridge_0_s0_address -> mm_bridge_0:s0_address
 	wire         mm_interconnect_0_mm_bridge_0_s0_read;                   // mm_interconnect_0:mm_bridge_0_s0_read -> mm_bridge_0:s0_read
 	wire   [3:0] mm_interconnect_0_mm_bridge_0_s0_byteenable;             // mm_interconnect_0:mm_bridge_0_s0_byteenable -> mm_bridge_0:s0_byteenable
 	wire         mm_interconnect_0_mm_bridge_0_s0_readdatavalid;          // mm_bridge_0:s0_readdatavalid -> mm_interconnect_0:mm_bridge_0_s0_readdatavalid
@@ -77,7 +77,7 @@ module FTOP_MSOC_CPU_1b_p3 (
 	altera_avalon_mm_bridge #(
 		.DATA_WIDTH        (32),
 		.SYMBOL_WIDTH      (8),
-		.HDL_ADDR_WIDTH    (7),
+		.HDL_ADDR_WIDTH    (17),
 		.BURSTCOUNT_WIDTH  (1),
 		.PIPELINE_COMMAND  (1),
 		.PIPELINE_RESPONSE (1)
@@ -175,7 +175,7 @@ module FTOP_MSOC_CPU_1b_p3 (
 		.av_irq         (irq_mapper_receiver1_irq)                                //               irq.irq
 	);
 
-	FTOP_MSOC_CPU_1b_p2_mm_interconnect_0 mm_interconnect_0 (
+	FTOP_MSOC_CPU_1b_p1_mm_interconnect_0 mm_interconnect_0 (
 		.clock_bridge_0_out_clk_clk                  (clock_bridge_0_in_clk_clk),                               //                clock_bridge_0_out_clk.clk
 		.sub_cpu_0_reset_reset_bridge_in_reset_reset (rst_controller_reset_out_reset),                          // sub_cpu_0_reset_reset_bridge_in_reset.reset
 		.sub_cpu_0_data_master_address               (sub_cpu_0_data_master_address),                           //                 sub_cpu_0_data_master.address

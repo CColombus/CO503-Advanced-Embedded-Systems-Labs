@@ -29,10 +29,10 @@ int main()
 	printf("Enter the name of the parameter file: ");
 	scanf("%s", jtag_input);
 	char param_file[150];
-	strcpy(param_file,file_system);
-	strcat(param_file,jtag_input);
+	strcpy(param_file, file_system);
+	strcat(param_file, jtag_input);
 
-	printf("\nGonna look for parameters in: %s\n",param_file);
+	printf("\nGonna look for parameters in: %s\n", param_file);
 
 	fp = fopen(param_file, "r");
 
@@ -45,15 +45,6 @@ int main()
 	while (fscanf(fp, "%s", input_file_name) != EOF)
 	{
 		input_file_name_ptr = input_file_name;
-
-		while (*input_file_name_ptr != '.')
-		{
-			SEND6((int)*input_file_name_ptr);
-			input_file_name_ptr++;
-		}
-		SEND6((int)'\0');
-
-		printf("Sent filename to q6.\n");
 
 		fscanf(fp, "%d", &quality_factor);
 		fscanf(fp, "%d", &image_format);
@@ -79,8 +70,8 @@ int main()
 		input = (UINT8 *)jemalloc(2500000 * sizeof(UINT8));
 
 		char input_file_full[150];
-		strcpy(input_file_full,file_system);
-		strcat(input_file_full,input_file_name);
+		strcpy(input_file_full, file_system);
+		strcat(input_file_full, input_file_name);
 
 		fpt = fopen(input_file_full, "rb");
 
@@ -97,6 +88,15 @@ int main()
 
 		clock_t start, end;
 		double cpu_time_used;
+
+		while (*input_file_name_ptr != '.')
+		{
+			SEND6((int)*input_file_name_ptr);
+			input_file_name_ptr++;
+		}
+		SEND6((int)'\0');
+
+		printf("Sent filename to q6.\n");
 
 		start = clock();
 		output_ptr = encode_image(input, output_ptr, quality_factor, image_format, image_width, image_height);
@@ -116,7 +116,6 @@ int main()
 	printf("\n Done ! \n");
 
 	// TODO: Do the actual implementation.
-
 
 	return 0;
 }

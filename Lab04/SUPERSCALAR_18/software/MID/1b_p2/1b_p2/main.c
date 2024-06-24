@@ -1,8 +1,8 @@
 #include "queue_wrapper.h"
+#include "../lib/datatype.h"
 #include "../lib/mem_info.h"
 
 // COMMON LIBRARY
-#include "../lib/datatype.h"
 
 // TODO: Currently, this function is complete. But will have to change for hardware implementation.
 // TODO: Remove hard limit -> back pressure

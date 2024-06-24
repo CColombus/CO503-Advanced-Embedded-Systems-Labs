@@ -201,13 +201,13 @@ module FTOP_MSOC_mm_interconnect_0_router_004
 
     // ( 0x0 .. 0x20 )
     if ( {address[RG:PAD0],{PAD0{1'b0}}} == 17'h0   ) begin
-            src_channel = 50'b01000;
+            src_channel = 50'b00010;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 29;
     end
 
     // ( 0x20 .. 0x40 )
     if ( {address[RG:PAD1],{PAD1{1'b0}}} == 17'h20   ) begin
-            src_channel = 50'b00010;
+            src_channel = 50'b01000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 20;
     end
 

@@ -255,6 +255,11 @@
    }
    element cpu_1a.debug_mem_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "4096";
@@ -300,6 +305,11 @@
    }
    element cpu_1f.debug_mem_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "4096";
@@ -331,7 +341,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -344,7 +354,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -357,7 +367,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -383,7 +393,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -396,7 +406,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -409,7 +419,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -435,7 +445,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -448,7 +458,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -461,7 +471,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -487,7 +497,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -500,7 +510,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -513,7 +523,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -537,6 +547,11 @@
    }
    element fifo_qb_p2.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "32";
@@ -545,6 +560,11 @@
    }
    element fifo_qb_p2.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "0";
@@ -553,6 +573,11 @@
    }
    element fifo_qb_p2.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "68";
@@ -574,6 +599,11 @@
    }
    element fifo_qb_p3.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "32";
@@ -582,6 +612,11 @@
    }
    element fifo_qb_p3.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "0";
@@ -590,6 +625,11 @@
    }
    element fifo_qb_p3.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "68";
@@ -613,7 +653,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -626,7 +666,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -639,7 +679,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -663,6 +703,11 @@
    }
    element fifo_qc_p2.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "64";
@@ -671,6 +716,11 @@
    }
    element fifo_qc_p2.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "32";
@@ -679,6 +729,11 @@
    }
    element fifo_qc_p2.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "4";
@@ -700,6 +755,11 @@
    }
    element fifo_qc_p3.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "64";
@@ -708,6 +768,11 @@
    }
    element fifo_qc_p3.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "32";
@@ -716,6 +781,11 @@
    }
    element fifo_qc_p3.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "4";
@@ -739,7 +809,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -752,7 +822,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -765,7 +835,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -789,6 +859,11 @@
    }
    element fifo_qd_p2.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "0";
@@ -797,6 +872,11 @@
    }
    element fifo_qd_p2.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "64";
@@ -805,6 +885,11 @@
    }
    element fifo_qd_p2.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "132";
@@ -826,6 +911,11 @@
    }
    element fifo_qd_p3.in
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "0";
@@ -834,6 +924,11 @@
    }
    element fifo_qd_p3.in_csr
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "160";
@@ -842,6 +937,11 @@
    }
    element fifo_qd_p3.out
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "128";
@@ -865,7 +965,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -878,7 +978,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -891,7 +991,7 @@
    {
       datum _lockedAddress
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
       datum baseAddress
@@ -915,6 +1015,11 @@
    }
    element jtag_uart_1a.avalon_jtag_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "152";
@@ -936,6 +1041,11 @@
    }
    element jtag_uart_1f.avalon_jtag_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "40";
@@ -999,6 +1109,11 @@
    }
    element pll.pll_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "128";
@@ -1046,6 +1161,11 @@
    }
    element sys_id_1a.control_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "144";
@@ -1067,6 +1187,11 @@
    }
    element sysid_1f.control_slave
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "32";
@@ -1088,6 +1213,11 @@
    }
    element timer_1a.s1
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "0";
@@ -1109,6 +1239,11 @@
    }
    element timer_1f.s1
    {
+      datum _lockedAddress
+      {
+         value = "1";
+         type = "boolean";
+      }
       datum baseAddress
       {
          value = "0";
@@ -1129,7 +1264,7 @@
  <parameter name="hideFromIPCatalog" value="false" />
  <parameter name="lockedInterfaceDefinition" value="" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="BASELINE_18.qpf" />
+ <parameter name="projectName" value="SUPERSCALAR_18.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="0" />
  <parameter name="testBenchDutName" value="" />
@@ -1167,8 +1302,8 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p2.in_csr' start='0x0' end='0x20' /><slave name='fifo_qb_p2.in' start='0x20' end='0x24' /><slave name='fifo_qa_p2.out' start='0x24' end='0x28' /><slave name='fifo_qa_p2.in_csr' start='0x60' end='0x80' /></address-map>]]></parameter>
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 7" />
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p2.in_csr' start='0x0' end='0x20' /><slave name='fifo_qb_p2.in' start='0x20' end='0x24' /><slave name='fifo_qa_p2.out' start='0x24' end='0x28' /><slave name='fifo_qa_p2.in_csr' start='0x60' end='0x80' /><slave name='mem_info.s1' start='0x10000' end='0x10400' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 17" />
   <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_CPU_1b_p2</parameter>
  </module>
  <module name="CPU_1b_p3" kind="SUB_CPU" version="1.0" enabled="1">
@@ -1179,8 +1314,8 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p3.in_csr' start='0x0' end='0x20' /><slave name='fifo_qb_p3.in' start='0x20' end='0x24' /><slave name='fifo_qa_p3.out' start='0x24' end='0x28' /><slave name='fifo_qa_p3.in_csr' start='0x40' end='0x60' /></address-map>]]></parameter>
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 7" />
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p3.in_csr' start='0x0' end='0x20' /><slave name='fifo_qb_p3.in' start='0x20' end='0x24' /><slave name='fifo_qa_p3.out' start='0x24' end='0x28' /><slave name='fifo_qa_p3.in_csr' start='0x40' end='0x60' /><slave name='mem_info.s1' start='0x10000' end='0x10400' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 17" />
   <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_CPU_1b_p3</parameter>
  </module>
  <module name="CPU_1c_p1" kind="SUB_CPU" version="1.0" enabled="1">
@@ -1203,8 +1338,8 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p2.in_csr' start='0x0' end='0x20' /><slave name='fifo_qc_p2.in_csr' start='0x20' end='0x40' /><slave name='fifo_qc_p2.in' start='0x40' end='0x44' /><slave name='fifo_qb_p2.out' start='0x44' end='0x48' /></address-map>]]></parameter>
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 7" />
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p2.in_csr' start='0x0' end='0x20' /><slave name='fifo_qc_p2.in_csr' start='0x20' end='0x40' /><slave name='fifo_qc_p2.in' start='0x40' end='0x44' /><slave name='fifo_qb_p2.out' start='0x44' end='0x48' /><slave name='mem_info.s1' start='0x10000' end='0x10400' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 17" />
   <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_CPU_1c_p2</parameter>
  </module>
  <module name="CPU_1c_p3" kind="SUB_CPU" version="1.0" enabled="1">
@@ -1215,8 +1350,8 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p3.in_csr' start='0x0' end='0x20' /><slave name='fifo_qc_p3.in_csr' start='0x20' end='0x40' /><slave name='fifo_qc_p3.in' start='0x40' end='0x44' /><slave name='fifo_qb_p3.out' start='0x44' end='0x48' /></address-map>]]></parameter>
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 7" />
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qb_p3.in_csr' start='0x0' end='0x20' /><slave name='fifo_qc_p3.in_csr' start='0x20' end='0x40' /><slave name='fifo_qc_p3.in' start='0x40' end='0x44' /><slave name='fifo_qb_p3.out' start='0x44' end='0x48' /><slave name='mem_info.s1' start='0x10000' end='0x10400' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 17" />
   <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_CPU_1c_p3</parameter>
  </module>
  <module name="CPU_1d_p1" kind="SUB_CPU" version="1.0" enabled="1">
@@ -1239,8 +1374,8 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qd_p2.in' start='0x0' end='0x4' /><slave name='fifo_qc_p2.out' start='0x4' end='0x8' /><slave name='fifo_qc_p2.in_csr' start='0x20' end='0x40' /><slave name='fifo_qd_p2.in_csr' start='0x40' end='0x60' /></address-map>]]></parameter>
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 7" />
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qd_p2.in' start='0x0' end='0x4' /><slave name='fifo_qc_p2.out' start='0x4' end='0x8' /><slave name='fifo_qc_p2.in_csr' start='0x20' end='0x40' /><slave name='fifo_qd_p2.in_csr' start='0x40' end='0x60' /><slave name='mem_info.s1' start='0x10000' end='0x10400' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 17" />
   <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_CPU_1d_p2</parameter>
  </module>
  <module name="CPU_1d_p3" kind="SUB_CPU" version="1.0" enabled="1">
@@ -1251,8 +1386,8 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qd_p3.in' start='0x0' end='0x4' /><slave name='fifo_qc_p3.out' start='0x4' end='0x8' /><slave name='fifo_qc_p3.in_csr' start='0x20' end='0x40' /><slave name='fifo_qd_p3.in_csr' start='0xA0' end='0xC0' /></address-map>]]></parameter>
-  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 8" />
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_MAP"><![CDATA[<address-map><slave name='fifo_qd_p3.in' start='0x0' end='0x4' /><slave name='fifo_qc_p3.out' start='0x4' end='0x8' /><slave name='fifo_qc_p3.in_csr' start='0x20' end='0x40' /><slave name='fifo_qd_p3.in_csr' start='0xA0' end='0xC0' /><slave name='mem_info.s1' start='0x10000' end='0x10400' /></address-map>]]></parameter>
+  <parameter name="AUTO_MM_BRIDGE_0_M0_ADDRESS_WIDTH" value="AddressWidth = 17" />
   <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_CPU_1d_p3</parameter>
  </module>
  <module name="CPU_1e" kind="SUB_CPU" version="1.0" enabled="1">
@@ -1640,7 +1775,7 @@
   <parameter name="channelWidth" value="8" />
   <parameter name="deviceFamilyString" value="Cyclone IV E" />
   <parameter name="errorWidth" value="8" />
-  <parameter name="fifoDepth" value="128" />
+  <parameter name="fifoDepth" value="256" />
   <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
   <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
   <parameter name="showHiddenFeatures" value="false" />
@@ -1665,7 +1800,7 @@
   <parameter name="channelWidth" value="8" />
   <parameter name="deviceFamilyString" value="Cyclone IV E" />
   <parameter name="errorWidth" value="8" />
-  <parameter name="fifoDepth" value="128" />
+  <parameter name="fifoDepth" value="256" />
   <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
   <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
   <parameter name="showHiddenFeatures" value="false" />
@@ -1690,7 +1825,7 @@
   <parameter name="channelWidth" value="8" />
   <parameter name="deviceFamilyString" value="Cyclone IV E" />
   <parameter name="errorWidth" value="8" />
-  <parameter name="fifoDepth" value="128" />
+  <parameter name="fifoDepth" value="256" />
   <parameter name="fifoInputInterfaceOptions" value="AVALONMM_WRITE" />
   <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
   <parameter name="showHiddenFeatures" value="false" />
@@ -2906,6 +3041,60 @@
    kind="avalon"
    version="18.1"
    start="CPU_1c_p1.mm_bridge_0_m0"
+   end="mem_info.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="CPU_1b_p2.mm_bridge_0_m0"
+   end="mem_info.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="CPU_1b_p3.mm_bridge_0_m0"
+   end="mem_info.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="CPU_1c_p2.mm_bridge_0_m0"
+   end="mem_info.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="CPU_1c_p3.mm_bridge_0_m0"
+   end="mem_info.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="CPU_1d_p2.mm_bridge_0_m0"
+   end="mem_info.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="18.1"
+   start="CPU_1d_p3.mm_bridge_0_m0"
    end="mem_info.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00010000" />

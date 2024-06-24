@@ -1,0 +1,58 @@
+Final Stage of Superscalar JPEG Encoder
+Start singnal received from First Stage
+
+Output Filename: 227flowg1.jpg
+Output file path: /mnt/host/files/227flowg1.jpg
+
+JPEG conversion complete!
+Quality Factor: 1024
+Image Format: 3
+Image Width: 227
+Image Height: 149
+Time taken for conversion process: 7.847000 sec.
+
+================================================
+
+Final Stage of Superscalar JPEG Encoder
+Start singnal received from First Stage
+
+Output Filename: peppers.jpg
+Output file path: /mnt/host/files/peppers.jpg
+
+JPEG conversion complete!
+Quality Factor: 1024
+Image Format: 3
+Image Width: 512
+Image Height: 512
+Time taken for conversion process: 59.482000 sec.
+
+================================================
+
+Final Stage of Superscalar JPEG Encoder
+Start singnal received from First Stage
+
+Output Filename: lenna.jpg
+Output file path: /mnt/host/files/lenna.jpg
+
+JPEG conversion complete!
+Quality Factor: 1024
+Image Format: 3
+Image Width: 512
+Image Height: 512
+Time taken for conversion process: 59.846000 sec.
+
+================================================
+
+Final Stage of Superscalar JPEG Encoder
+Start singnal received from First Stage
+
+Output Filename: chameleon.jpg
+Output file path: /mnt/host/files/chameleon.jpg
+
+JPEG conversion complete!
+Quality Factor: 1024
+Image Format: 3
+Image Width: 1280
+Image Height: 720
+Time taken for conversion process: 216.544000 sec.
+

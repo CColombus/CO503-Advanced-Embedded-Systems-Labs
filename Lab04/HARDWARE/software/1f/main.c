@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
+#include <unistd.h>
 
 #include <stdlib.h>
 
@@ -14,19 +16,25 @@ int main()
 	FILE *fptr;
 	UINT8 out;
 	INT8 filename[50];
+	clock_t start, end;
+	double cpu_time_used;
 
 	while (1)
 	{
 		out = 0;
 
 		// Skip any prefix null values
-		while ((filename[out] = RECV1()) == '\0') {}
+		while ((filename[out] = RECV1()) == '\0')
+		{
+		}
 
 		while (filename[out] != '\0' && filename[out] != '\n')
 		{
 			out++;
 			filename[out] = (char)RECV1();
 		}
+
+		start = clock();
 
 		printf("\nFilename: %s\n", filename);
 
@@ -62,12 +70,18 @@ int main()
 				fputc(out, fptr);
 
 				if (out == 0xD9)
+				{
+					end = clock();
 					break;
+				}
 			}
 		}
 
 		fclose(fptr);
-		printf("\n Done !\n");
+
+		cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
+		printf("\nJPEG conversion complete!\n");
+		printf("Time taken for conversion process: %f sec.\n", cpu_time_used);
 		break;
 	}
 

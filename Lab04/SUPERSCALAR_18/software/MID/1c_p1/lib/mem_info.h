@@ -3,6 +3,19 @@
 
 #include "queue.h"
 
+// base adress of mem_info memory
+#define MF_BASE 0x10000
+
+// offsets each int32
+#define PROG_STATUS 0
+#define ITER_COUNT 4
+#define WIDTH 8
+#define HEIGHT 12
+#define QUALITY_FACTOR 16
+#define IMAGE_FORMAT 20
+#define FILE_NAME_LEN 24
+#define FILE_NAME 28
+
 int getIterCount();
 int getWidth();
 int getHeight();

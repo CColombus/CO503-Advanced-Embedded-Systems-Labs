@@ -47,7 +47,7 @@ module FTOP_MSOC_mm_interconnect_0_router_044_default_decode
      parameter DEFAULT_CHANNEL = 0,
                DEFAULT_WR_CHANNEL = -1,
                DEFAULT_RD_CHANNEL = -1,
-               DEFAULT_DESTID = 5 
+               DEFAULT_DESTID = 1 
    )
   (output [96 - 91 : 0] default_destination_id,
    output [50-1 : 0] default_wr_channel,
@@ -184,7 +184,7 @@ module FTOP_MSOC_mm_interconnect_0_router_044
 
 
 
-        if (destid == 5 ) begin
+        if (destid == 1 ) begin
             src_channel = 50'b1;
         end
 

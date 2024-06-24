@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jun 22, 2024 8:14:45 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1719067485046</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Jun 24, 2024 4:03:48 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1719225228869</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>.\</BspGeneratedLocation>
         <BspSettingsFile>.\software\MID\1b_p3_bsp\settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\..\FTOP_MSOC.sopcinfo</SopcDesignFile>
@@ -386,7 +386,7 @@
                 <SettingName>hal.make.bsp_cflags_optimization</SettingName>
                 <Identifier>BSP_CFLAGS_OPTIMIZATION</Identifier>
                 <Type>UnquotedString</Type>
-                <Value>-O0</Value>
+                <Value>-O2</Value>
                 <DefaultValue>-O0</DefaultValue>
                 <DestinationFile>makefile_variable</DestinationFile>
                 <Description>C/C++ compiler optimization level. "-O0" = no optimization,"-O2" = "normal" optimization, etc. "-O0" is recommended for code that you want to debug since compiler optimization can remove variables and produce non-sequential execution of code while debugging. This setting defines the value of BSP_CFLAGS_OPTIMIZATION in Makefile.</Description>
@@ -746,7 +746,7 @@
                 <SettingName>hal.enable_clean_exit</SettingName>
                 <Identifier>ALT_NO_CLEAN_EXIT</Identifier>
                 <Type>Boolean</Type>
-                <Value>1</Value>
+                <Value>0</Value>
                 <DefaultValue>1</DefaultValue>
                 <DestinationFile>public_mk_define</DestinationFile>
                 <Description>When your application exits, close file descriptors, call C++ destructors, etc. Code footprint can be reduced by disabling clean exit. If disabled, adds -DALT_NO_CLEAN_EXIT to ALT_CPPFLAGS -D'exit(a)=_exit(a)' in public.mk.</Description>
@@ -782,7 +782,7 @@
                 <SettingName>hal.enable_c_plus_plus</SettingName>
                 <Identifier>ALT_NO_C_PLUS_PLUS</Identifier>
                 <Type>Boolean</Type>
-                <Value>1</Value>
+                <Value>0</Value>
                 <DefaultValue>1</DefaultValue>
                 <DestinationFile>public_mk_define</DestinationFile>
                 <Description>Enable support for a subset of the C++ language. This option increases code footprint by adding support for C++ constructors. Certain features, such as multiple inheritance and exceptions are not supported. If false, adds -DALT_NO_C_PLUS_PLUS to ALT_CPPFLAGS in public.mk, and reduces code footprint.</Description>
@@ -806,7 +806,7 @@
                 <SettingName>hal.enable_lightweight_device_driver_api</SettingName>
                 <Identifier>ALT_USE_DIRECT_DRIVERS</Identifier>
                 <Type>Boolean</Type>
-                <Value>0</Value>
+                <Value>1</Value>
                 <DefaultValue>0</DefaultValue>
                 <DestinationFile>public_mk_define</DestinationFile>
                 <Description>Enables lightweight device driver API. This reduces code and data footprint by removing the HAL layer that maps device names (e.g. /dev/uart0) to file descriptors. Instead, driver routines are called directly. The open(), close(), and lseek() routines will always fail if called. The read(), write(), fstat(), ioctl(), and isatty() routines only work for the stdio devices. If true, adds -DALT_USE_DIRECT_DRIVERS to ALT_CPPFLAGS in public.mk.</Description>
@@ -878,7 +878,7 @@
                 <SettingName>altera_avalon_jtag_uart_driver.enable_small_driver</SettingName>
                 <Identifier>ALTERA_AVALON_JTAG_UART_SMALL</Identifier>
                 <Type>BooleanDefineOnly</Type>
-                <Value>false</Value>
+                <Value>true</Value>
                 <DefaultValue>false</DefaultValue>
                 <DestinationFile>public_mk_define</DestinationFile>
                 <Description>Small-footprint (polled mode) driver</Description>
@@ -939,6 +939,12 @@
                 <addressRange>0x10000040 - 0x1000005F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>mem_info</slaveDescriptor>
+                <addressRange>0x10010000 - 0x100103FF</addressRange>
+                <addressSpan>1024</addressSpan>
+                <attributes>memory</attributes>
         </MemoryMap>
         <LinkerSection>
                 <sectionName>.text</sectionName>

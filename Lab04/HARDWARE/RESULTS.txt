@@ -1,0 +1,81 @@
+Enter the name of the parameter file: 
+227flowg1_param.txt
+
+Gonna look for parameters in: /mnt/host/files/227flowg1_param.txt
+File Name: 227flowg1.raw
+Quality Factor: 1024
+Image Format: 4
+Image Width: 227
+Image Height: 149
+Image file successfully loaded into memory!
+First time using enqueueINT32
+Sent filename to q6.
+Done with q4!
+Done with q5!
+Sending image data...................
+Time taken: 8.357000 sec.
+
+ Done ! 
+
+====================================================================
+
+Enter the name of the parameter file: 
+lena_param.txt
+
+Gonna look for parameters in: /mnt/host/files/lena_param.txt
+File Name: lena.raw
+Quality Factor: 1024
+Image Format: 4
+Image Width: 512
+Image Height: 512
+Image file successfully loaded into memory!
+First time using enqueueINT32
+Sent filename to q6.
+Done with q4!
+Done with q5!
+Sending image data................................................................
+Time taken: 53.586000 sec.
+
+ Done ! 
+
+ ========================================================================
+
+ Enter the name of the parameter file: 
+peppers_param.txt
+
+Gonna look for parameters in: /mnt/host/files/peppers_param.txt
+File Name: peppers.raw
+Quality Factor: 1024
+Image Format: 4
+Image Width: 512
+Image Height: 512
+Image file successfully loaded into memory!
+First time using enqueueINT32
+Sent filename to q6.
+Done with q4!
+Done with q5!
+Sending image data................................................................
+Time taken: 53.849000 sec.
+
+ Done ! 
+
+=================================================
+Enter the name of the parameter file: 
+chameleon_param.txt
+
+Gonna look for parameters in: /mnt/host/files/chameleon_param.txt
+File Name: chameleon.raw
+Quality Factor: 1024
+Image Format: 4
+Image Width: 1280
+Image Height: 720
+Image file successfully loaded into memory!
+First time using enqueueINT32
+Sent filename to q6.
+Done with q4!
+Done with q5!
+Sending image data..........................................................................................
+Time taken: 183.523000 sec.
+
+ Done ! 
+

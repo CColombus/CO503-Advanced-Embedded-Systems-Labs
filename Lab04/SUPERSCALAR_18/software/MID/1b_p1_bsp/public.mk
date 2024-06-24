@@ -151,7 +151,7 @@ ELF_PATCH_FLAG  += --simulation_enabled false
 # setting altera_avalon_jtag_uart_driver.enable_jtag_uart_ignore_fifo_full_error is false
 
 # Small-footprint (polled mode) driver none 
-# setting altera_avalon_jtag_uart_driver.enable_small_driver is false
+# setting altera_avalon_jtag_uart_driver.enable_small_driver is true
 
 # Build a custom version of newlib with the specified space-separated compiler 
 # flags. The custom newlib build will be placed in the <bsp root>/newlib 
@@ -163,12 +163,14 @@ ELF_PATCH_FLAG  += --simulation_enabled false
 # multiple inheritance and exceptions are not supported. If false, adds 
 # -DALT_NO_C_PLUS_PLUS to ALT_CPPFLAGS in public.mk, and reduces code 
 # footprint. none 
-# setting hal.enable_c_plus_plus is true
+# setting hal.enable_c_plus_plus is false
+ALT_CPPFLAGS += -DALT_NO_C_PLUS_PLUS
 
 # When your application exits, close file descriptors, call C++ destructors, 
 # etc. Code footprint can be reduced by disabling clean exit. If disabled, adds 
 # -DALT_NO_CLEAN_EXIT to ALT_CPPFLAGS -D'exit(a)=_exit(a)' in public.mk. none 
-# setting hal.enable_clean_exit is true
+# setting hal.enable_clean_exit is false
+ALT_CPPFLAGS += -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)'
 
 # Add exit() support. This option increases code footprint if your "main()" 
 # routine does "return" or call "exit()". If false, adds -DALT_NO_EXIT to 
@@ -188,7 +190,8 @@ ELF_PATCH_FLAG  += --simulation_enabled false
 # devices. If true, adds -DALT_USE_DIRECT_DRIVERS to ALT_CPPFLAGS in public.mk. 
 # The Altera Host and read-only ZIP file systems can't be used if 
 # hal.enable_lightweight_device_driver_api is true. 
-# setting hal.enable_lightweight_device_driver_api is false
+# setting hal.enable_lightweight_device_driver_api is true
+ALT_CPPFLAGS += -DALT_USE_DIRECT_DRIVERS
 
 # Adds code to emulate multiply and divide instructions in case they are 
 # executed but aren't present in the CPU. Normally this isn't required because 
@@ -357,6 +360,12 @@ ALT_INCLUDE_DIRS += $(ALT_LIBRARY_ROOT_DIR)/HAL/inc
 #------------------------------------------------------------------------------
 
 ALT_CPPFLAGS += -DALT_SINGLE_THREADED
+
+#------------------------------------------------------------------------------
+#        SOFTWARE COMPONENT & DRIVER SETTING-PRODUCED DEFINITIONS
+#------------------------------------------------------------------------------
+
+ALT_CPPFLAGS += -DALTERA_AVALON_JTAG_UART_SMALL
 
 #END MANAGED
 

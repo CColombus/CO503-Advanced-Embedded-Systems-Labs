@@ -205,19 +205,19 @@ module FTOP_MSOC_mm_interconnect_0_router_003
 
     // ( 0x0 .. 0x20 )
     if ( {address[RG:PAD0],{PAD0{1'b0}}} == 17'h0   ) begin
-            src_channel = 50'b000000010;
+            src_channel = 50'b000001000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 29;
     end
 
     // ( 0x40 .. 0x60 )
     if ( {address[RG:PAD1],{PAD1{1'b0}}} == 17'h40   ) begin
-            src_channel = 50'b000010000;
+            src_channel = 50'b000100000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 32;
     end
 
     // ( 0x60 .. 0x80 )
     if ( {address[RG:PAD2],{PAD2{1'b0}}} == 17'h60   ) begin
-            src_channel = 50'b000001000;
+            src_channel = 50'b000010000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 38;
     end
 
@@ -247,7 +247,7 @@ module FTOP_MSOC_mm_interconnect_0_router_003
 
     // ( 0xa0 .. 0xc0 )
     if ( {address[RG:PAD7],{PAD7{1'b0}}} == 17'ha0   ) begin
-            src_channel = 50'b000100000;
+            src_channel = 50'b000000010;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 35;
     end
 

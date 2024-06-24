@@ -185,7 +185,11 @@ module FTOP_MSOC_mm_interconnect_0_router_034
 
 
         if (destid == 9 ) begin
-            src_channel = 50'b1;
+            src_channel = 50'b01;
+        end
+
+        if (destid == 7 ) begin
+            src_channel = 50'b10;
         end
 
 

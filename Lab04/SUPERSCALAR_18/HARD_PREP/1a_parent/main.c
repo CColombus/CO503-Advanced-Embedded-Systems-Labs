@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <string.h>
+#include <io.h>
 // #include <time.h>
 
 #include "encoder.h"
@@ -17,7 +18,7 @@ int main()
 {
     // ! Software simulation
     init_queues();
-//  Block other stages from executing
+    //  Block other stages from executing
     setProgStatus(0);
 
     char file_system[80] = "/mnt/host/files/";
@@ -58,12 +59,20 @@ int main()
         // }
         // SEND6((int)'\0');
         char filewoext[150];
-        strcpy(filewoext,input_file_name);
-        
+        strcpy(filewoext, input_file_name);
+
         // remove extension
-        char *filenamesend =  strtok(filewoext, ".");
-        
-        setFileName(strlen(filenamesend), filenamesend);
+        char *filenamesend = strtok(filewoext, ".");
+        int length = strlen(filenamesend);
+        // first write length of filename
+        IOWR_32DIRECT(MF_BASE, FILE_NAME_LEN, length);
+        // write filname to memory as int32 array upto length
+        for (int i = 0; i < length; i++)
+        {
+            IOWR_8DIRECT(MF_BASE, FILE_NAME + i, (UINT8)filenamesend[i]);
+        }
+
+        // setFileName(strlen(filenamesend), filenamesend);
 
         printf("Stored file name in shared_memory.\n");
 
@@ -106,7 +115,6 @@ int main()
         printf("Image file successfully loaded into memory!\n");
 
         fclose(fpt);
-
 
         // ! Moviing time measurement to final stage to get a more accurate time measurement
         // clock_t start, end;

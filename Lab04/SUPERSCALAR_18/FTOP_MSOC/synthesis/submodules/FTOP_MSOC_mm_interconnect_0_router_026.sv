@@ -185,27 +185,51 @@ module FTOP_MSOC_mm_interconnect_0_router_026
 
 
         if (destid == 10 ) begin
-            src_channel = 50'b000001;
+            src_channel = 50'b000000000001;
         end
 
         if (destid == 12 ) begin
-            src_channel = 50'b000010;
+            src_channel = 50'b000000000010;
+        end
+
+        if (destid == 7 ) begin
+            src_channel = 50'b010000000000;
+        end
+
+        if (destid == 8 ) begin
+            src_channel = 50'b100000000000;
         end
 
         if (destid == 0 ) begin
-            src_channel = 50'b000100;
+            src_channel = 50'b000000000100;
         end
 
         if (destid == 9 ) begin
-            src_channel = 50'b001000;
+            src_channel = 50'b000000001000;
         end
 
         if (destid == 6 ) begin
-            src_channel = 50'b010000;
+            src_channel = 50'b000000010000;
         end
 
         if (destid == 3 ) begin
-            src_channel = 50'b100000;
+            src_channel = 50'b000000100000;
+        end
+
+        if (destid == 1 ) begin
+            src_channel = 50'b000001000000;
+        end
+
+        if (destid == 2 ) begin
+            src_channel = 50'b000010000000;
+        end
+
+        if (destid == 4 ) begin
+            src_channel = 50'b000100000000;
+        end
+
+        if (destid == 5 ) begin
+            src_channel = 50'b001000000000;
         end
 
 

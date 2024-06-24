@@ -8,19 +8,6 @@
 #include "queue_wrapper.h"
 #include "../lib/mem_info.h"
 
-// base adress of mem_info memory
-#define MF_BASE 0x10000
-
-// offsets each int32
-#define PROG_STATUS 0
-#define ITER_COUNT 4
-#define WIDTH 8
-#define HEIGHT 12
-#define QUALITY_FACTOR 16
-#define IMAGE_FORMAT 20
-#define FILE_NAME_LEN 24
-#define FILE_NAME 28
-
 typedef char INT8;
 typedef unsigned char UINT8;
 
@@ -34,17 +21,22 @@ int main()
 	// ! Software implementation
 	init_queues();
 
+	printf("Final Stage of Superscalar JPEG Encoder\n");
+
 	// Wait for start stage
 	while (getProgStatus() != 1)
 		;
 
+	printf("Start singnal received from First Stage\n");
+
 	// Read filename from memory
 	int length = (int)IORD_32DIRECT(MF_BASE, FILE_NAME_LEN);
-	char filename_mem[length];
-	for (int i = 0; i <= length; i++)
+	char filename_mem[length+1];
+	for (int i = 0; i < length; i++)
 	{
 		filename_mem[i] = (char)IORD_8DIRECT(MF_BASE, FILE_NAME + i);
 	}
+	filename_mem[length] = '\0';
 
 	strcat(filename_mem, ".jpg");
 	printf("\nOutput Filename: %s\n", filename_mem);
@@ -54,7 +46,7 @@ int main()
 	strcpy(input_file_full, file_system);
 	strcat(input_file_full, filename_mem);
 
-	printf("\nOutput file: %s\n", input_file_full);
+	printf("Output file path: %s\n", input_file_full);
 
 	fptr = fopen(input_file_full, "wb");
 
@@ -87,11 +79,15 @@ int main()
 	end = clock();
 
 	fclose(fptr);
-	printf("\n Done !\n");
+	printf("\nJPEG conversion complete!\n");
 
 	cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
 
-	printf("Time taken: %f sec.\n", cpu_time_used);
+	printf("Quality Factor: %d\n", getQualityFactor());
+	printf("Image Format: %d\n", getImageFormat());
+	printf("Image Width: %d\n", getWidth());
+	printf("Image Height: %d\n", getHeight());
+	printf("Time taken for conversion process: %f sec.\n", cpu_time_used);
 
 	// ! Software implementation
 	close_queues();

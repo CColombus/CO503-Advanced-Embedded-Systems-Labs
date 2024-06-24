@@ -22,12 +22,12 @@ void close_queues()
 
 int RECV3()
 {
-
-    return dequeueINT32(qa_p3);
+    int data = dequeueINT32(qa_p3);
+    return data;
 }
 
 void SEND(int data)
 {
-
+    // printf("SEND: %d\n", data);
     enqueueINT32(qb_p3, data);
 }

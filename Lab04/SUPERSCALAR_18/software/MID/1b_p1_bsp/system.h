@@ -4,7 +4,7 @@
  * Machine generated for CPU 'CPU_1b_p1_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
  *
- * Generated: Sat Jun 22 20:13:11 IST 2024
+ * Generated: Mon Jun 24 16:02:40 IST 2024
  */
 
 /*
@@ -261,7 +261,7 @@
 #define FIFO_QA_P1_IN_CSR_BITS_PER_SYMBOL 16
 #define FIFO_QA_P1_IN_CSR_CHANNEL_WIDTH 8
 #define FIFO_QA_P1_IN_CSR_ERROR_WIDTH 8
-#define FIFO_QA_P1_IN_CSR_FIFO_DEPTH 128
+#define FIFO_QA_P1_IN_CSR_FIFO_DEPTH 256
 #define FIFO_QA_P1_IN_CSR_IRQ -1
 #define FIFO_QA_P1_IN_CSR_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define FIFO_QA_P1_IN_CSR_NAME "/dev/fifo_qa_p1_in_csr"
@@ -293,7 +293,7 @@
 #define FIFO_QA_P1_OUT_BITS_PER_SYMBOL 16
 #define FIFO_QA_P1_OUT_CHANNEL_WIDTH 8
 #define FIFO_QA_P1_OUT_ERROR_WIDTH 8
-#define FIFO_QA_P1_OUT_FIFO_DEPTH 128
+#define FIFO_QA_P1_OUT_FIFO_DEPTH 256
 #define FIFO_QA_P1_OUT_IRQ -1
 #define FIFO_QA_P1_OUT_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define FIFO_QA_P1_OUT_NAME "/dev/fifo_qa_p1_out"

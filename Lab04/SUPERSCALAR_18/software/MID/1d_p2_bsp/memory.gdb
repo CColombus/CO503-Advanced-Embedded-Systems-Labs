@@ -3,7 +3,7 @@
 # Machine generated for CPU 'CPU_1d_p2_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
 # SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
 #
-# Generated: Sat Jun 22 20:19:20 IST 2024
+# Generated: Mon Jun 24 16:06:43 IST 2024
 
 # DO NOT MODIFY THIS FILE
 #
@@ -48,3 +48,6 @@
 
 # CPU_1d_p2_oc_ram_0
 memory 0x8000 0xd000 cache
+
+# mem_info
+memory 0x10010000 0x10010400 cache

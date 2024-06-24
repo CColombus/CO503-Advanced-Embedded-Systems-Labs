@@ -4,7 +4,7 @@
  * Machine generated for CPU 'CPU_1d_p3_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
  *
- * Generated: Sat Jun 22 20:20:11 IST 2024
+ * Generated: Mon Jun 24 16:07:17 IST 2024
  */
 
 /*
@@ -52,10 +52,12 @@ MEMORY
 {
     reset : ORIGIN = 0x8000, LENGTH = 32
     CPU_1d_p3_oc_ram_0 : ORIGIN = 0x8020, LENGTH = 20448
+    mem_info : ORIGIN = 0x10010000, LENGTH = 1024
 }
 
 /* Define symbols for each memory base-address */
 __alt_mem_CPU_1d_p3_oc_ram_0 = 0x8000;
+__alt_mem_mem_info = 0x10010000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
                "elf32-littlenios2",
@@ -319,6 +321,23 @@ SECTIONS
     } > CPU_1d_p3_oc_ram_0
 
     PROVIDE (_alt_partition_CPU_1d_p3_oc_ram_0_load_addr = LOADADDR(.CPU_1d_p3_oc_ram_0));
+
+    /*
+     *
+     * This section's LMA is set to the .text region.
+     * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
+     *
+     */
+
+    .mem_info : AT ( LOADADDR (.CPU_1d_p3_oc_ram_0) + SIZEOF (.CPU_1d_p3_oc_ram_0) )
+    {
+        PROVIDE (_alt_partition_mem_info_start = ABSOLUTE(.));
+        *(.mem_info .mem_info. mem_info.*)
+        . = ALIGN(4);
+        PROVIDE (_alt_partition_mem_info_end = ABSOLUTE(.));
+    } > mem_info
+
+    PROVIDE (_alt_partition_mem_info_load_addr = LOADADDR(.mem_info));
 
     /*
      * Stabs debugging sections.

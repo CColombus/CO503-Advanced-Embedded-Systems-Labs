@@ -4,18 +4,6 @@
 #include <io.h>
 // #include <stdio.h>
 
-// base adress of mem_info memory
-#define MF_BASE 0x10000
-
-// offsets each int32
-#define PROG_STATUS 0
-#define ITER_COUNT 4
-#define WIDTH 8
-#define HEIGHT 12
-#define QUALITY_FACTOR 16
-#define IMAGE_FORMAT 20
-#define FILE_NAME_LEN 24
-#define FILE_NAME 28
 
 void setProgStatus(int status){
     // write to memory
@@ -27,12 +15,7 @@ int getProgStatus(){
 }
 
 void setFileName(int length, char *fileName){
-    // first write length of filename
-    IOWR_32DIRECT(MF_BASE, FILE_NAME_LEN, length);
-    // write filname to memory as int32 array upto length
-    for (int i = 0; i <= length; i++){
-        IOWR_8DIRECT(MF_BASE, FILE_NAME + i, fileName[i]);
-    }
+
 }
 
 void setMemInfo(int iterCount, int width, int height, int qualityFactor, int imageFormat){

@@ -560,3 +560,140 @@ org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
 	at java.util.Observable.notifyObservers(Unknown Source)
 	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:791)
 	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:46)
+!SESSION 2024-06-23 17:05:46.424 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.ui 4 4 2024-06-23 17:06:00.896
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2024-06-23 17:06:06.902
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2024-06-23 17:06:06.902
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-23 17:06:06.902
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-23 17:06:06.902
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-06-23 17:06:06.903
+!MESSAGE Unable to restore perspective: Workspace - Nios II Debug.
+!SUBENTRY 2 org.eclipse.ui 0 0 2024-06-23 17:06:06.903
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2024-06-23 17:06:06.903
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2024-06-23 17:06:06.903
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2024-06-23 17:06:06.903
+!MESSAGE OK
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:15:19.198
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --sidp=0x21040 --id=0x1f --timestamp=1718298719 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1f/1f.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:15:27.174
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --tcpport=auto --sidp=0x21040 --id=0x1f --timestamp=1718298719]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2024-06-23 17:24:38.911
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:188)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:136)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:326)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:100)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:791)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:46)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-06-23 17:26:59.486
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-06-23 17:26:59.490
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:27:36.071
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --accept-bad-sysid --sidp=0x21040 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1f/1f.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:27:43.477
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --tcpport=auto --accept-bad-sysid --sidp=0x21040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:28:22.038
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --accept-bad-sysid --sidp=0x21040 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1f/1f.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:28:29.586
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --tcpport=auto --accept-bad-sysid --sidp=0x21040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:31:07.404
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --accept-bad-sysid --sidp=0x21040 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1f/1f.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:31:17.666
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --tcpport=auto --accept-bad-sysid --sidp=0x21040]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:41:10.085
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --accept-bad-sysid --sidp=0x21040 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1f/1f.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 17:41:18.649
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --tcpport=auto --accept-bad-sysid --sidp=0x21040]
+!SESSION 2024-06-23 20:52:16.006 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 21:00:56.615
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --accept-bad-sysid --sidp=0x21040 /cygdrive/d/SEM6/CO503/Lab04/HARDWARE/software/1f/1f.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-06-23 21:01:01.783
+!MESSAGE Executing: [C:/altera/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=5 --tcpport=auto --accept-bad-sysid --sidp=0x21040]

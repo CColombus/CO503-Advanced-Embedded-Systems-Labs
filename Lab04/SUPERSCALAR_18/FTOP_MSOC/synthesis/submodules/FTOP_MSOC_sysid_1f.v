@@ -49,7 +49,7 @@ module FTOP_MSOC_sysid_1f (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1719041505 : 31;
+  assign readdata = address ? 1719215216 : 31;
 
 endmodule
 
