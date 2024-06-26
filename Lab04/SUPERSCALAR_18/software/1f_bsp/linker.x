@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu_1f' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../FTOP_MSOC.sopcinfo
  *
- * Generated: Sat Jun 22 14:03:43 IST 2024
+ * Generated: Mon Jun 24 17:13:13 IST 2024
  */
 
 /*
@@ -51,14 +51,13 @@
 MEMORY
 {
     mem_info : ORIGIN = 0x10000, LENGTH = 1024
-    sdram_controller_BEFORE_RESET : ORIGIN = 0x8000000, LENGTH = 131072
-    reset : ORIGIN = 0x8020000, LENGTH = 32
-    sdram_controller : ORIGIN = 0x8020020, LENGTH = 131040
+    reset : ORIGIN = 0x40000, LENGTH = 32
+    oc_ram_1f : ORIGIN = 0x40020, LENGTH = 102368
 }
 
 /* Define symbols for each memory base-address */
 __alt_mem_mem_info = 0x10000;
-__alt_mem_sdram_controller = 0x8000000;
+__alt_mem_oc_ram_1f = 0x40000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
                "elf32-littlenios2",
@@ -114,7 +113,7 @@ SECTIONS
         KEEP (*(.exceptions.exit));
         KEEP (*(.exceptions));
         PROVIDE (__ram_exceptions_end = ABSOLUTE(.));
-    } > sdram_controller
+    } > oc_ram_1f
 
     PROVIDE (__flash_exceptions_start = LOADADDR(.exceptions));
 
@@ -210,7 +209,7 @@ SECTIONS
         PROVIDE (__DTOR_END__ = ABSOLUTE(.));
         KEEP (*(.jcr))
         . = ALIGN(4);
-    } > sdram_controller = 0x3a880100 /* NOP instruction (always in big-endian byte ordering) */
+    } > oc_ram_1f = 0x3a880100 /* NOP instruction (always in big-endian byte ordering) */
 
     .rodata :
     {
@@ -220,7 +219,7 @@ SECTIONS
         *(.rodata1)
         . = ALIGN(4);
         PROVIDE (__ram_rodata_end = ABSOLUTE(.));
-    } > sdram_controller
+    } > oc_ram_1f
 
     PROVIDE (__flash_rodata_start = LOADADDR(.rodata));
 
@@ -254,7 +253,7 @@ SECTIONS
         _edata = ABSOLUTE(.);
         PROVIDE (edata = ABSOLUTE(.));
         PROVIDE (__ram_rwdata_end = ABSOLUTE(.));
-    } > sdram_controller
+    } > oc_ram_1f
 
     PROVIDE (__flash_rwdata_start = LOADADDR(.rwdata));
 
@@ -285,7 +284,7 @@ SECTIONS
 
         . = ALIGN(4);
         __bss_end = ABSOLUTE(.);
-    } > sdram_controller
+    } > oc_ram_1f
 
     /*
      *
@@ -327,18 +326,18 @@ SECTIONS
      *
      */
 
-    .sdram_controller LOADADDR (.mem_info) + SIZEOF (.mem_info) : AT ( LOADADDR (.mem_info) + SIZEOF (.mem_info) )
+    .oc_ram_1f LOADADDR (.mem_info) + SIZEOF (.mem_info) : AT ( LOADADDR (.mem_info) + SIZEOF (.mem_info) )
     {
-        PROVIDE (_alt_partition_sdram_controller_start = ABSOLUTE(.));
-        *(.sdram_controller .sdram_controller. sdram_controller.*)
+        PROVIDE (_alt_partition_oc_ram_1f_start = ABSOLUTE(.));
+        *(.oc_ram_1f .oc_ram_1f. oc_ram_1f.*)
         . = ALIGN(4);
-        PROVIDE (_alt_partition_sdram_controller_end = ABSOLUTE(.));
+        PROVIDE (_alt_partition_oc_ram_1f_end = ABSOLUTE(.));
         _end = ABSOLUTE(.);
         end = ABSOLUTE(.);
         __alt_stack_base = ABSOLUTE(.);
-    } > sdram_controller
+    } > oc_ram_1f
 
-    PROVIDE (_alt_partition_sdram_controller_load_addr = LOADADDR(.sdram_controller));
+    PROVIDE (_alt_partition_oc_ram_1f_load_addr = LOADADDR(.oc_ram_1f));
 
     /*
      * Stabs debugging sections.
@@ -387,7 +386,7 @@ SECTIONS
 /*
  * Don't override this, override the __alt_stack_* symbols instead.
  */
-__alt_data_end = 0x8040000;
+__alt_data_end = 0x59000;
 
 /*
  * The next two symbols define the location of the default stack.  You can
@@ -403,4 +402,4 @@ PROVIDE( __alt_stack_limit   = __alt_stack_base );
  * Override this symbol to put the heap in a different memory.
  */
 PROVIDE( __alt_heap_start    = end );
-PROVIDE( __alt_heap_limit    = 0x8040000 );
+PROVIDE( __alt_heap_limit    = 0x59000 );

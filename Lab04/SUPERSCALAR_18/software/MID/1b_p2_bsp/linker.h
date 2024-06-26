@@ -4,7 +4,7 @@
  * Machine generated for CPU 'CPU_1b_p2_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
  *
- * Generated: Mon Jun 24 16:03:14 IST 2024
+ * Generated: Mon Jun 24 17:17:30 IST 2024
  */
 
 /*
@@ -66,7 +66,7 @@
  */
 
 #define CPU_1B_P2_OC_RAM_0_REGION_BASE 0x8020
-#define CPU_1B_P2_OC_RAM_0_REGION_SPAN 20448
+#define CPU_1B_P2_OC_RAM_0_REGION_SPAN 15328
 #define MEM_INFO_REGION_BASE 0x10010000
 #define MEM_INFO_REGION_SPAN 1024
 #define RESET_REGION_BASE 0x8000

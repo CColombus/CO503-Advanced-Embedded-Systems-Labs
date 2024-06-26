@@ -4,7 +4,7 @@
  * Machine generated for CPU 'CPU_1d_p1_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
  *
- * Generated: Mon Jun 24 16:06:06 IST 2024
+ * Generated: Mon Jun 24 17:20:26 IST 2024
  */
 
 /*
@@ -51,7 +51,7 @@
 MEMORY
 {
     reset : ORIGIN = 0x8000, LENGTH = 32
-    CPU_1d_p1_oc_ram_0 : ORIGIN = 0x8020, LENGTH = 20448
+    CPU_1d_p1_oc_ram_0 : ORIGIN = 0x8020, LENGTH = 15328
     mem_info : ORIGIN = 0x10010000, LENGTH = 1024
 }
 
@@ -386,7 +386,7 @@ SECTIONS
 /*
  * Don't override this, override the __alt_stack_* symbols instead.
  */
-__alt_data_end = 0xd000;
+__alt_data_end = 0xbc00;
 
 /*
  * The next two symbols define the location of the default stack.  You can
@@ -402,4 +402,4 @@ PROVIDE( __alt_stack_limit   = __alt_stack_base );
  * Override this symbol to put the heap in a different memory.
  */
 PROVIDE( __alt_heap_start    = end );
-PROVIDE( __alt_heap_limit    = 0xd000 );
+PROVIDE( __alt_heap_limit    = 0xbc00 );

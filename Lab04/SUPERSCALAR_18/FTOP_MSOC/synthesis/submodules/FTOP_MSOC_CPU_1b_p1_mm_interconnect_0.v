@@ -31,7 +31,7 @@ module FTOP_MSOC_CPU_1b_p1_mm_interconnect_0 (
 		input  wire        mm_bridge_0_s0_readdatavalid,                //                                      .readdatavalid
 		input  wire        mm_bridge_0_s0_waitrequest,                  //                                      .waitrequest
 		output wire        mm_bridge_0_s0_debugaccess,                  //                                      .debugaccess
-		output wire [12:0] oc_ram_0_s1_address,                         //                           oc_ram_0_s1.address
+		output wire [11:0] oc_ram_0_s1_address,                         //                           oc_ram_0_s1.address
 		output wire        oc_ram_0_s1_write,                           //                                      .write
 		input  wire [31:0] oc_ram_0_s1_readdata,                        //                                      .readdata
 		output wire [31:0] oc_ram_0_s1_writedata,                       //                                      .writedata
@@ -739,7 +739,7 @@ module FTOP_MSOC_CPU_1b_p1_mm_interconnect_0 (
 	);
 
 	altera_merlin_slave_translator #(
-		.AV_ADDRESS_W                   (13),
+		.AV_ADDRESS_W                   (12),
 		.AV_DATA_W                      (32),
 		.UAV_DATA_W                     (32),
 		.AV_BURSTCOUNT_W                (1),

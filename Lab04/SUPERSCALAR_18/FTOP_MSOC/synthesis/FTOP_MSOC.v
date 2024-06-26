@@ -18,7 +18,7 @@ module FTOP_MSOC (
 		output wire        sdram_controller_wire_we_n   //                      .we_n
 	);
 
-	wire         pll_c0_clk;                                                   // pll:c0 -> [CPU_1b_p1:clock_bridge_0_in_clk_clk, CPU_1b_p2:clock_bridge_0_in_clk_clk, CPU_1b_p3:clock_bridge_0_in_clk_clk, CPU_1c_p1:clock_bridge_0_in_clk_clk, CPU_1c_p2:clock_bridge_0_in_clk_clk, CPU_1c_p3:clock_bridge_0_in_clk_clk, CPU_1d_p1:clock_bridge_0_in_clk_clk, CPU_1d_p2:clock_bridge_0_in_clk_clk, CPU_1d_p3:clock_bridge_0_in_clk_clk, CPU_1e:clock_bridge_0_in_clk_clk, cpu_1a:clk, cpu_1f:clk, fifo_qa_p1:wrclock, fifo_qa_p2:wrclock, fifo_qa_p3:wrclock, fifo_qb_p1:wrclock, fifo_qb_p2:wrclock, fifo_qb_p3:wrclock, fifo_qc_p1:wrclock, fifo_qc_p2:wrclock, fifo_qc_p3:wrclock, fifo_qd_p1:wrclock, fifo_qd_p2:wrclock, fifo_qd_p3:wrclock, fifo_qe:wrclock, irq_mapper:clk, irq_mapper_001:clk, jtag_uart_1a:clk, jtag_uart_1f:clk, mem_info:clk, mm_interconnect_0:pll_c0_clk, rst_controller:clk, sdram_controller:clk, sys_id_1a:clock, sysid_1f:clock, timer_1a:clk, timer_1f:clk]
+	wire         pll_c0_clk;                                                   // pll:c0 -> [CPU_1b_p1:clock_bridge_0_in_clk_clk, CPU_1b_p2:clock_bridge_0_in_clk_clk, CPU_1b_p3:clock_bridge_0_in_clk_clk, CPU_1c_p1:clock_bridge_0_in_clk_clk, CPU_1c_p2:clock_bridge_0_in_clk_clk, CPU_1c_p3:clock_bridge_0_in_clk_clk, CPU_1d_p1:clock_bridge_0_in_clk_clk, CPU_1d_p2:clock_bridge_0_in_clk_clk, CPU_1d_p3:clock_bridge_0_in_clk_clk, CPU_1e:clock_bridge_0_in_clk_clk, cpu_1a:clk, cpu_1f:clk, fifo_qa_p1:wrclock, fifo_qa_p2:wrclock, fifo_qa_p3:wrclock, fifo_qb_p1:wrclock, fifo_qb_p2:wrclock, fifo_qb_p3:wrclock, fifo_qc_p1:wrclock, fifo_qc_p2:wrclock, fifo_qc_p3:wrclock, fifo_qd_p1:wrclock, fifo_qd_p2:wrclock, fifo_qd_p3:wrclock, fifo_qe:wrclock, irq_mapper:clk, irq_mapper_001:clk, jtag_uart_1a:clk, jtag_uart_1f:clk, mem_info:clk, mm_interconnect_0:pll_c0_clk, oc_ram_1f:clk, rst_controller:clk, sdram_controller:clk, sys_id_1a:clock, sysid_1f:clock, timer_1a:clk, timer_1f:clk]
 	wire  [31:0] cpu_1a_data_master_readdata;                                  // mm_interconnect_0:cpu_1a_data_master_readdata -> cpu_1a:d_readdata
 	wire         cpu_1a_data_master_waitrequest;                               // mm_interconnect_0:cpu_1a_data_master_waitrequest -> cpu_1a:d_waitrequest
 	wire         cpu_1a_data_master_debugaccess;                               // cpu_1a:debug_mem_slave_debugaccess_to_roms -> mm_interconnect_0:cpu_1a_data_master_debugaccess
@@ -30,7 +30,7 @@ module FTOP_MSOC (
 	wire  [31:0] cpu_1f_data_master_readdata;                                  // mm_interconnect_0:cpu_1f_data_master_readdata -> cpu_1f:d_readdata
 	wire         cpu_1f_data_master_waitrequest;                               // mm_interconnect_0:cpu_1f_data_master_waitrequest -> cpu_1f:d_waitrequest
 	wire         cpu_1f_data_master_debugaccess;                               // cpu_1f:debug_mem_slave_debugaccess_to_roms -> mm_interconnect_0:cpu_1f_data_master_debugaccess
-	wire  [27:0] cpu_1f_data_master_address;                                   // cpu_1f:d_address -> mm_interconnect_0:cpu_1f_data_master_address
+	wire  [18:0] cpu_1f_data_master_address;                                   // cpu_1f:d_address -> mm_interconnect_0:cpu_1f_data_master_address
 	wire   [3:0] cpu_1f_data_master_byteenable;                                // cpu_1f:d_byteenable -> mm_interconnect_0:cpu_1f_data_master_byteenable
 	wire         cpu_1f_data_master_read;                                      // cpu_1f:d_read -> mm_interconnect_0:cpu_1f_data_master_read
 	wire         cpu_1f_data_master_write;                                     // cpu_1f:d_write -> mm_interconnect_0:cpu_1f_data_master_write
@@ -135,14 +135,14 @@ module FTOP_MSOC (
 	wire  [31:0] cpu_1d_p3_mm_bridge_0_m0_writedata;                           // CPU_1d_p3:mm_bridge_0_m0_writedata -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_writedata
 	wire         cpu_1d_p3_mm_bridge_0_m0_write;                               // CPU_1d_p3:mm_bridge_0_m0_write -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_write
 	wire   [0:0] cpu_1d_p3_mm_bridge_0_m0_burstcount;                          // CPU_1d_p3:mm_bridge_0_m0_burstcount -> mm_interconnect_0:CPU_1d_p3_mm_bridge_0_m0_burstcount
+	wire  [31:0] cpu_1f_instruction_master_readdata;                           // mm_interconnect_0:cpu_1f_instruction_master_readdata -> cpu_1f:i_readdata
+	wire         cpu_1f_instruction_master_waitrequest;                        // mm_interconnect_0:cpu_1f_instruction_master_waitrequest -> cpu_1f:i_waitrequest
+	wire  [18:0] cpu_1f_instruction_master_address;                            // cpu_1f:i_address -> mm_interconnect_0:cpu_1f_instruction_master_address
+	wire         cpu_1f_instruction_master_read;                               // cpu_1f:i_read -> mm_interconnect_0:cpu_1f_instruction_master_read
 	wire  [31:0] cpu_1a_instruction_master_readdata;                           // mm_interconnect_0:cpu_1a_instruction_master_readdata -> cpu_1a:i_readdata
 	wire         cpu_1a_instruction_master_waitrequest;                        // mm_interconnect_0:cpu_1a_instruction_master_waitrequest -> cpu_1a:i_waitrequest
 	wire  [27:0] cpu_1a_instruction_master_address;                            // cpu_1a:i_address -> mm_interconnect_0:cpu_1a_instruction_master_address
 	wire         cpu_1a_instruction_master_read;                               // cpu_1a:i_read -> mm_interconnect_0:cpu_1a_instruction_master_read
-	wire  [31:0] cpu_1f_instruction_master_readdata;                           // mm_interconnect_0:cpu_1f_instruction_master_readdata -> cpu_1f:i_readdata
-	wire         cpu_1f_instruction_master_waitrequest;                        // mm_interconnect_0:cpu_1f_instruction_master_waitrequest -> cpu_1f:i_waitrequest
-	wire  [27:0] cpu_1f_instruction_master_address;                            // cpu_1f:i_address -> mm_interconnect_0:cpu_1f_instruction_master_address
-	wire         cpu_1f_instruction_master_read;                               // cpu_1f:i_read -> mm_interconnect_0:cpu_1f_instruction_master_read
 	wire         mm_interconnect_0_jtag_uart_1a_avalon_jtag_slave_chipselect;  // mm_interconnect_0:jtag_uart_1a_avalon_jtag_slave_chipselect -> jtag_uart_1a:av_chipselect
 	wire  [31:0] mm_interconnect_0_jtag_uart_1a_avalon_jtag_slave_readdata;    // jtag_uart_1a:av_readdata -> mm_interconnect_0:jtag_uart_1a_avalon_jtag_slave_readdata
 	wire         mm_interconnect_0_jtag_uart_1a_avalon_jtag_slave_waitrequest; // jtag_uart_1a:av_waitrequest -> mm_interconnect_0:jtag_uart_1a_avalon_jtag_slave_waitrequest
@@ -306,6 +306,13 @@ module FTOP_MSOC (
 	wire   [2:0] mm_interconnect_0_timer_1f_s1_address;                        // mm_interconnect_0:timer_1f_s1_address -> timer_1f:address
 	wire         mm_interconnect_0_timer_1f_s1_write;                          // mm_interconnect_0:timer_1f_s1_write -> timer_1f:write_n
 	wire  [15:0] mm_interconnect_0_timer_1f_s1_writedata;                      // mm_interconnect_0:timer_1f_s1_writedata -> timer_1f:writedata
+	wire         mm_interconnect_0_oc_ram_1f_s1_chipselect;                    // mm_interconnect_0:oc_ram_1f_s1_chipselect -> oc_ram_1f:chipselect
+	wire  [31:0] mm_interconnect_0_oc_ram_1f_s1_readdata;                      // oc_ram_1f:readdata -> mm_interconnect_0:oc_ram_1f_s1_readdata
+	wire  [14:0] mm_interconnect_0_oc_ram_1f_s1_address;                       // mm_interconnect_0:oc_ram_1f_s1_address -> oc_ram_1f:address
+	wire   [3:0] mm_interconnect_0_oc_ram_1f_s1_byteenable;                    // mm_interconnect_0:oc_ram_1f_s1_byteenable -> oc_ram_1f:byteenable
+	wire         mm_interconnect_0_oc_ram_1f_s1_write;                         // mm_interconnect_0:oc_ram_1f_s1_write -> oc_ram_1f:write
+	wire  [31:0] mm_interconnect_0_oc_ram_1f_s1_writedata;                     // mm_interconnect_0:oc_ram_1f_s1_writedata -> oc_ram_1f:writedata
+	wire         mm_interconnect_0_oc_ram_1f_s1_clken;                         // mm_interconnect_0:oc_ram_1f_s1_clken -> oc_ram_1f:clken
 	wire         mm_interconnect_0_fifo_qd_p1_in_waitrequest;                  // fifo_qd_p1:avalonmm_write_slave_waitrequest -> mm_interconnect_0:fifo_qd_p1_in_waitrequest
 	wire         mm_interconnect_0_fifo_qd_p1_in_write;                        // mm_interconnect_0:fifo_qd_p1_in_write -> fifo_qd_p1:avalonmm_write_slave_write
 	wire  [31:0] mm_interconnect_0_fifo_qd_p1_in_writedata;                    // mm_interconnect_0:fifo_qd_p1_in_writedata -> fifo_qd_p1:avalonmm_write_slave_writedata
@@ -357,8 +364,8 @@ module FTOP_MSOC (
 	wire         irq_mapper_001_receiver0_irq;                                 // timer_1f:irq -> irq_mapper_001:receiver0_irq
 	wire         irq_mapper_001_receiver1_irq;                                 // jtag_uart_1f:av_irq -> irq_mapper_001:receiver1_irq
 	wire  [31:0] cpu_1f_irq_irq;                                               // irq_mapper_001:sender_irq -> cpu_1f:irq
-	wire         rst_controller_reset_out_reset;                               // rst_controller:reset_out -> [CPU_1b_p1:reset_bridge_0_in_reset_reset, CPU_1b_p2:reset_bridge_0_in_reset_reset, CPU_1b_p3:reset_bridge_0_in_reset_reset, CPU_1c_p1:reset_bridge_0_in_reset_reset, CPU_1c_p2:reset_bridge_0_in_reset_reset, CPU_1c_p3:reset_bridge_0_in_reset_reset, CPU_1d_p1:reset_bridge_0_in_reset_reset, CPU_1d_p2:reset_bridge_0_in_reset_reset, CPU_1d_p3:reset_bridge_0_in_reset_reset, CPU_1e:reset_bridge_0_in_reset_reset, cpu_1a:reset_n, cpu_1f:reset_n, fifo_qa_p1:reset_n, fifo_qa_p2:reset_n, fifo_qa_p3:reset_n, fifo_qb_p1:reset_n, fifo_qb_p2:reset_n, fifo_qb_p3:reset_n, fifo_qc_p1:reset_n, fifo_qc_p2:reset_n, fifo_qc_p3:reset_n, fifo_qd_p1:reset_n, fifo_qd_p2:reset_n, fifo_qd_p3:reset_n, fifo_qe:reset_n, irq_mapper:reset, irq_mapper_001:reset, jtag_uart_1a:rst_n, jtag_uart_1f:rst_n, mem_info:reset, mm_interconnect_0:cpu_1a_reset_reset_bridge_in_reset_reset, rst_translator:in_reset, sdram_controller:reset_n, sys_id_1a:reset_n, sysid_1f:reset_n, timer_1a:reset_n, timer_1f:reset_n]
-	wire         rst_controller_reset_out_reset_req;                           // rst_controller:reset_req -> [cpu_1a:reset_req, cpu_1f:reset_req, mem_info:reset_req, rst_translator:reset_req_in]
+	wire         rst_controller_reset_out_reset;                               // rst_controller:reset_out -> [CPU_1b_p1:reset_bridge_0_in_reset_reset, CPU_1b_p2:reset_bridge_0_in_reset_reset, CPU_1b_p3:reset_bridge_0_in_reset_reset, CPU_1c_p1:reset_bridge_0_in_reset_reset, CPU_1c_p2:reset_bridge_0_in_reset_reset, CPU_1c_p3:reset_bridge_0_in_reset_reset, CPU_1d_p1:reset_bridge_0_in_reset_reset, CPU_1d_p2:reset_bridge_0_in_reset_reset, CPU_1d_p3:reset_bridge_0_in_reset_reset, CPU_1e:reset_bridge_0_in_reset_reset, cpu_1a:reset_n, cpu_1f:reset_n, fifo_qa_p1:reset_n, fifo_qa_p2:reset_n, fifo_qa_p3:reset_n, fifo_qb_p1:reset_n, fifo_qb_p2:reset_n, fifo_qb_p3:reset_n, fifo_qc_p1:reset_n, fifo_qc_p2:reset_n, fifo_qc_p3:reset_n, fifo_qd_p1:reset_n, fifo_qd_p2:reset_n, fifo_qd_p3:reset_n, fifo_qe:reset_n, irq_mapper:reset, irq_mapper_001:reset, jtag_uart_1a:rst_n, jtag_uart_1f:rst_n, mem_info:reset, mm_interconnect_0:cpu_1a_reset_reset_bridge_in_reset_reset, oc_ram_1f:reset, rst_translator:in_reset, sdram_controller:reset_n, sys_id_1a:reset_n, sysid_1f:reset_n, timer_1a:reset_n, timer_1f:reset_n]
+	wire         rst_controller_reset_out_reset_req;                           // rst_controller:reset_req -> [cpu_1a:reset_req, cpu_1f:reset_req, mem_info:reset_req, oc_ram_1f:reset_req, rst_translator:reset_req_in]
 	wire         cpu_1a_debug_reset_request_reset;                             // cpu_1a:debug_reset_request -> [rst_controller:reset_in1, rst_controller_001:reset_in1]
 	wire         cpu_1f_debug_reset_request_reset;                             // cpu_1f:debug_reset_request -> [rst_controller:reset_in2, rst_controller_001:reset_in2]
 	wire         rst_controller_001_reset_out_reset;                           // rst_controller_001:reset_out -> [mm_interconnect_0:pll_inclk_interface_reset_reset_bridge_in_reset_reset, pll:reset]
@@ -819,6 +826,20 @@ module FTOP_MSOC (
 		.freeze     (1'b0)                                      // (terminated)
 	);
 
+	FTOP_MSOC_oc_ram_1f oc_ram_1f (
+		.clk        (pll_c0_clk),                                //   clk1.clk
+		.address    (mm_interconnect_0_oc_ram_1f_s1_address),    //     s1.address
+		.clken      (mm_interconnect_0_oc_ram_1f_s1_clken),      //       .clken
+		.chipselect (mm_interconnect_0_oc_ram_1f_s1_chipselect), //       .chipselect
+		.write      (mm_interconnect_0_oc_ram_1f_s1_write),      //       .write
+		.readdata   (mm_interconnect_0_oc_ram_1f_s1_readdata),   //       .readdata
+		.writedata  (mm_interconnect_0_oc_ram_1f_s1_writedata),  //       .writedata
+		.byteenable (mm_interconnect_0_oc_ram_1f_s1_byteenable), //       .byteenable
+		.reset      (rst_controller_reset_out_reset),            // reset1.reset
+		.reset_req  (rst_controller_reset_out_reset_req),        //       .reset_req
+		.freeze     (1'b0)                                       // (terminated)
+	);
+
 	FTOP_MSOC_pll pll (
 		.clk                (clk_clk),                                   //       inclk_interface.clk
 		.reset              (rst_controller_001_reset_out_reset),        // inclk_interface_reset.reset
@@ -1211,6 +1232,13 @@ module FTOP_MSOC (
 		.mem_info_s1_byteenable                                (mm_interconnect_0_mem_info_s1_byteenable),                     //                                                .byteenable
 		.mem_info_s1_chipselect                                (mm_interconnect_0_mem_info_s1_chipselect),                     //                                                .chipselect
 		.mem_info_s1_clken                                     (mm_interconnect_0_mem_info_s1_clken),                          //                                                .clken
+		.oc_ram_1f_s1_address                                  (mm_interconnect_0_oc_ram_1f_s1_address),                       //                                    oc_ram_1f_s1.address
+		.oc_ram_1f_s1_write                                    (mm_interconnect_0_oc_ram_1f_s1_write),                         //                                                .write
+		.oc_ram_1f_s1_readdata                                 (mm_interconnect_0_oc_ram_1f_s1_readdata),                      //                                                .readdata
+		.oc_ram_1f_s1_writedata                                (mm_interconnect_0_oc_ram_1f_s1_writedata),                     //                                                .writedata
+		.oc_ram_1f_s1_byteenable                               (mm_interconnect_0_oc_ram_1f_s1_byteenable),                    //                                                .byteenable
+		.oc_ram_1f_s1_chipselect                               (mm_interconnect_0_oc_ram_1f_s1_chipselect),                    //                                                .chipselect
+		.oc_ram_1f_s1_clken                                    (mm_interconnect_0_oc_ram_1f_s1_clken),                         //                                                .clken
 		.pll_pll_slave_address                                 (mm_interconnect_0_pll_pll_slave_address),                      //                                   pll_pll_slave.address
 		.pll_pll_slave_write                                   (mm_interconnect_0_pll_pll_slave_write),                        //                                                .write
 		.pll_pll_slave_read                                    (mm_interconnect_0_pll_pll_slave_read),                         //                                                .read

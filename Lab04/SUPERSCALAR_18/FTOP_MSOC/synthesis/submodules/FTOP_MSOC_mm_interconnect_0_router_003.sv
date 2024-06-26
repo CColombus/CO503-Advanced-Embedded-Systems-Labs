@@ -50,9 +50,9 @@ module FTOP_MSOC_mm_interconnect_0_router_003_default_decode
                DEFAULT_DESTID = 43 
    )
   (output [96 - 91 : 0] default_destination_id,
-   output [50-1 : 0] default_wr_channel,
-   output [50-1 : 0] default_rd_channel,
-   output [50-1 : 0] default_src_channel
+   output [51-1 : 0] default_wr_channel,
+   output [51-1 : 0] default_rd_channel,
+   output [51-1 : 0] default_src_channel
   );
 
   assign default_destination_id = 
@@ -63,7 +63,7 @@ module FTOP_MSOC_mm_interconnect_0_router_003_default_decode
       assign default_src_channel = '0;
     end
     else begin : default_channel_assignment
-      assign default_src_channel = 50'b1 << DEFAULT_CHANNEL;
+      assign default_src_channel = 51'b1 << DEFAULT_CHANNEL;
     end
   endgenerate
 
@@ -73,8 +73,8 @@ module FTOP_MSOC_mm_interconnect_0_router_003_default_decode
       assign default_rd_channel = '0;
     end
     else begin : default_rw_channel_assignment
-      assign default_wr_channel = 50'b1 << DEFAULT_WR_CHANNEL;
-      assign default_rd_channel = 50'b1 << DEFAULT_RD_CHANNEL;
+      assign default_wr_channel = 51'b1 << DEFAULT_WR_CHANNEL;
+      assign default_rd_channel = 51'b1 << DEFAULT_RD_CHANNEL;
     end
   endgenerate
 
@@ -103,7 +103,7 @@ module FTOP_MSOC_mm_interconnect_0_router_003
     // -------------------
     output                          src_valid,
     output reg [110-1    : 0] src_data,
-    output reg [50-1 : 0] src_channel,
+    output reg [51-1 : 0] src_channel,
     output                          src_startofpacket,
     output                          src_endofpacket,
     input                           src_ready
@@ -119,7 +119,7 @@ module FTOP_MSOC_mm_interconnect_0_router_003
     localparam PKT_PROTECTION_H = 100;
     localparam PKT_PROTECTION_L = 98;
     localparam ST_DATA_W = 110;
-    localparam ST_CHANNEL_W = 50;
+    localparam ST_CHANNEL_W = 51;
     localparam DECODER_TYPE = 0;
 
     localparam PKT_TRANS_WRITE = 66;
@@ -172,7 +172,7 @@ module FTOP_MSOC_mm_interconnect_0_router_003
     assign src_startofpacket = sink_startofpacket;
     assign src_endofpacket   = sink_endofpacket;
     wire [PKT_DEST_ID_W-1:0] default_destid;
-    wire [50-1 : 0] default_src_channel;
+    wire [51-1 : 0] default_src_channel;
 
 
 
@@ -205,55 +205,55 @@ module FTOP_MSOC_mm_interconnect_0_router_003
 
     // ( 0x0 .. 0x20 )
     if ( {address[RG:PAD0],{PAD0{1'b0}}} == 17'h0   ) begin
-            src_channel = 50'b000001000;
+            src_channel = 51'b000001000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 29;
     end
 
     // ( 0x40 .. 0x60 )
     if ( {address[RG:PAD1],{PAD1{1'b0}}} == 17'h40   ) begin
-            src_channel = 50'b000100000;
+            src_channel = 51'b000100000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 32;
     end
 
     // ( 0x60 .. 0x80 )
     if ( {address[RG:PAD2],{PAD2{1'b0}}} == 17'h60   ) begin
-            src_channel = 50'b000010000;
+            src_channel = 51'b000010000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 38;
     end
 
     // ( 0x80 .. 0x84 )
     if ( {address[RG:PAD3],{PAD3{1'b0}}} == 17'h80  && read_transaction  ) begin
-            src_channel = 50'b100000000;
+            src_channel = 51'b100000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 37;
     end
 
     // ( 0x84 .. 0x88 )
     if ( {address[RG:PAD4],{PAD4{1'b0}}} == 17'h84  && read_transaction  ) begin
-            src_channel = 50'b010000000;
+            src_channel = 51'b010000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 34;
     end
 
     // ( 0x88 .. 0x8c )
     if ( {address[RG:PAD5],{PAD5{1'b0}}} == 17'h88  && read_transaction  ) begin
-            src_channel = 50'b001000000;
+            src_channel = 51'b001000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 31;
     end
 
     // ( 0x8c .. 0x90 )
     if ( {address[RG:PAD6],{PAD6{1'b0}}} == 17'h8c  && write_transaction  ) begin
-            src_channel = 50'b000000100;
+            src_channel = 51'b000000100;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 39;
     end
 
     // ( 0xa0 .. 0xc0 )
     if ( {address[RG:PAD7],{PAD7{1'b0}}} == 17'ha0   ) begin
-            src_channel = 50'b000000010;
+            src_channel = 51'b000000010;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 35;
     end
 
     // ( 0x10000 .. 0x10400 )
     if ( {address[RG:PAD8],{PAD8{1'b0}}} == 17'h10000   ) begin
-            src_channel = 50'b000000001;
+            src_channel = 51'b000000001;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 43;
     end
 

@@ -3,7 +3,7 @@
 # Machine generated for CPU 'cpu_1f' in SOPC Builder design 'FTOP_MSOC'
 # SOPC Builder design path: ../../FTOP_MSOC.sopcinfo
 #
-# Generated: Sat Jun 22 14:00:50 IST 2024
+# Generated: Mon Jun 24 17:13:13 IST 2024
 
 # DO NOT MODIFY THIS FILE
 #
@@ -49,5 +49,5 @@
 # mem_info
 memory 0x10000 0x10400 cache
 
-# sdram_controller
-memory 0x8000000 0x10000000 cache
+# oc_ram_1f
+memory 0x40000 0x59000 cache

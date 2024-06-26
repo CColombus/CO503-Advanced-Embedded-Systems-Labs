@@ -47,12 +47,12 @@ module FTOP_MSOC_mm_interconnect_0_router_053_default_decode
      parameter DEFAULT_CHANNEL = 0,
                DEFAULT_WR_CHANNEL = -1,
                DEFAULT_RD_CHANNEL = -1,
-               DEFAULT_DESTID = 4 
+               DEFAULT_DESTID = 6 
    )
   (output [96 - 91 : 0] default_destination_id,
-   output [50-1 : 0] default_wr_channel,
-   output [50-1 : 0] default_rd_channel,
-   output [50-1 : 0] default_src_channel
+   output [51-1 : 0] default_wr_channel,
+   output [51-1 : 0] default_rd_channel,
+   output [51-1 : 0] default_src_channel
   );
 
   assign default_destination_id = 
@@ -63,7 +63,7 @@ module FTOP_MSOC_mm_interconnect_0_router_053_default_decode
       assign default_src_channel = '0;
     end
     else begin : default_channel_assignment
-      assign default_src_channel = 50'b1 << DEFAULT_CHANNEL;
+      assign default_src_channel = 51'b1 << DEFAULT_CHANNEL;
     end
   endgenerate
 
@@ -73,8 +73,8 @@ module FTOP_MSOC_mm_interconnect_0_router_053_default_decode
       assign default_rd_channel = '0;
     end
     else begin : default_rw_channel_assignment
-      assign default_wr_channel = 50'b1 << DEFAULT_WR_CHANNEL;
-      assign default_rd_channel = 50'b1 << DEFAULT_RD_CHANNEL;
+      assign default_wr_channel = 51'b1 << DEFAULT_WR_CHANNEL;
+      assign default_rd_channel = 51'b1 << DEFAULT_RD_CHANNEL;
     end
   endgenerate
 
@@ -103,7 +103,7 @@ module FTOP_MSOC_mm_interconnect_0_router_053
     // -------------------
     output                          src_valid,
     output reg [110-1    : 0] src_data,
-    output reg [50-1 : 0] src_channel,
+    output reg [51-1 : 0] src_channel,
     output                          src_startofpacket,
     output                          src_endofpacket,
     input                           src_ready
@@ -119,7 +119,7 @@ module FTOP_MSOC_mm_interconnect_0_router_053
     localparam PKT_PROTECTION_H = 100;
     localparam PKT_PROTECTION_L = 98;
     localparam ST_DATA_W = 110;
-    localparam ST_CHANNEL_W = 50;
+    localparam ST_CHANNEL_W = 51;
     localparam DECODER_TYPE = 1;
 
     localparam PKT_TRANS_WRITE = 66;
@@ -158,7 +158,7 @@ module FTOP_MSOC_mm_interconnect_0_router_053
     assign src_valid         = sink_valid;
     assign src_startofpacket = sink_startofpacket;
     assign src_endofpacket   = sink_endofpacket;
-    wire [50-1 : 0] default_src_channel;
+    wire [51-1 : 0] default_src_channel;
 
 
 
@@ -184,12 +184,12 @@ module FTOP_MSOC_mm_interconnect_0_router_053
 
 
 
-        if (destid == 4 ) begin
-            src_channel = 50'b01;
+        if (destid == 6 ) begin
+            src_channel = 51'b01;
         end
 
-        if (destid == 1 ) begin
-            src_channel = 50'b10;
+        if (destid == 3 ) begin
+            src_channel = 51'b10;
         end
 
 

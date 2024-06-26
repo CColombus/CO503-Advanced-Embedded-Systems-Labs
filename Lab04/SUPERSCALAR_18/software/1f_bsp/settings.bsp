@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jun 24, 2024 3:14:13 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1719222253787</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Jun 24, 2024 5:13:35 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1719229415738</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>D:\SEM6\CO503\Lab04\SUPERSCALAR_18\software\1f_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\FTOP_MSOC.sopcinfo</SopcDesignFile>
@@ -146,7 +146,7 @@
                 <SettingName>hal.linker.exception_stack_memory_region_name</SettingName>
                 <Identifier>none</Identifier>
                 <Type>UnquotedString</Type>
-                <Value>sdram_controller</Value>
+                <Value>oc_ram_1f</Value>
                 <DefaultValue>none</DefaultValue>
                 <DestinationFile>none</DestinationFile>
                 <Description>Name of the existing memory region that will be divided up to create the 'exception_stack' memory region. The selected region name will be adjusted automatically when the BSP is generated to create the 'exception_stack' memory region.</Description>
@@ -182,7 +182,7 @@
                 <SettingName>hal.linker.interrupt_stack_memory_region_name</SettingName>
                 <Identifier>none</Identifier>
                 <Type>UnquotedString</Type>
-                <Value>sdram_controller</Value>
+                <Value>oc_ram_1f</Value>
                 <DefaultValue>none</DefaultValue>
                 <DestinationFile>none</DestinationFile>
                 <Description>Name of the existing memory region that will be divided up to create the 'interrupt_stack' memory region. The selected region name will be adjusted automatically when the BSP is generated to create the 'interrupt_stack' memory region.</Description>
@@ -947,34 +947,34 @@
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>sdram_controller</slaveDescriptor>
-                <addressRange>0x08000000 - 0x0FFFFFFF</addressRange>
-                <addressSpan>134217728</addressSpan>
+                <slaveDescriptor>oc_ram_1f</slaveDescriptor>
+                <addressRange>0x00040000 - 0x00058FFF</addressRange>
+                <addressSpan>102400</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <LinkerSection>
                 <sectionName>.text</sectionName>
-                <regionName>sdram_controller</regionName>
+                <regionName>oc_ram_1f</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.rodata</sectionName>
-                <regionName>sdram_controller</regionName>
+                <regionName>oc_ram_1f</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.rwdata</sectionName>
-                <regionName>sdram_controller</regionName>
+                <regionName>oc_ram_1f</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.bss</sectionName>
-                <regionName>sdram_controller</regionName>
+                <regionName>oc_ram_1f</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.heap</sectionName>
-                <regionName>sdram_controller</regionName>
+                <regionName>oc_ram_1f</regionName>
         </LinkerSection>
         <LinkerSection>
                 <sectionName>.stack</sectionName>
-                <regionName>sdram_controller</regionName>
+                <regionName>oc_ram_1f</regionName>
         </LinkerSection>
         <SoftwarePackageInfo>
                 <name>altera_hostfs</name>

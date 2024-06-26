@@ -69,7 +69,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  25 .sopc_system_name 00000009  00000000  00000000  0000fd2c  2**0
                   CONTENTS, READONLY
- 26 .sopcinfo     00395fce  00000000  00000000  0000fd35  2**0
+ 26 .sopcinfo     0039e77c  00000000  00000000  0000fd35  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 00008000 l    d  .entry	00000000 .entry
@@ -182,7 +182,7 @@ SYMBOL TABLE:
 00009f08 g       *ABS*	00000000 end
 00008160 g     F .exceptions	00000024 alt_instruction_exception_entry
 000095e8 g     F .text	0000000c altera_avalon_fifo_read_event
-0000d000 g       *ABS*	00000000 __alt_stack_pointer
+0000bc00 g       *ABS*	00000000 __alt_stack_pointer
 00009740 g     F .text	00000048 alt_avalon_timer_sc_init
 000096bc g     F .text	0000001c altera_avalon_fifo_read_fifo
 000090f8 g     F .text	000000e4 _free_r
@@ -211,7 +211,7 @@ SYMBOL TABLE:
 00009dec g     O .bss	00000004 alt_envp
 000095f4 g     F .text	00000008 altera_avalon_fifo_read_level
 00009ab8 g     O .rwdata	0000000c qb_p3
-0000d000 g       *ABS*	00000000 __alt_heap_limit
+0000bc00 g       *ABS*	00000000 __alt_heap_limit
 000091dc g     F .text	00000158 _malloc_r
 00009c1c g     O .rwdata	00000004 alt_errno
 00009a7c g       *ABS*	00000000 __flash_rodata_start
@@ -233,7 +233,7 @@ SYMBOL TABLE:
 00008184 g       *ABS*	00000000 __ram_exceptions_end
 00009820 g     F .text	00000038 alt_ic_irq_disable
 000095cc g     F .text	0000000c altera_avalon_fifo_read_ienable
-0000d000 g       *ABS*	00000000 __alt_data_end
+0000bc00 g       *ABS*	00000000 __alt_data_end
 00008020 g     F .exceptions	00000000 alt_exception
 00009aac g     O .rwdata	0000000c qb_p2
 000097cc g     F .text	00000014 _exit
@@ -364,7 +364,7 @@ Disassembly of section .text:
 
 00008184 <_start>:
     8184:	06c00034 	movhi	sp,0
-    8188:	def40014 	ori	sp,sp,53248
+    8188:	deef0014 	ori	sp,sp,48128
     818c:	06800074 	movhi	gp,1
     8190:	d686fe14 	ori	gp,gp,7160
     8194:	00800034 	movhi	r2,0
@@ -1666,7 +1666,7 @@ Disassembly of section .text:
     94f4:	00c00074 	movhi	r3,1
     94f8:	d0a00715 	stw	r2,-32740(gp)
     94fc:	1109883a 	add	r4,r2,r4
-    9500:	18f40004 	addi	r3,r3,-12288
+    9500:	18ef0004 	addi	r3,r3,-17408
     9504:	19000336 	bltu	r3,r4,9514 <sbrk+0x40>
     9508:	d1200715 	stw	r4,-32740(gp)
     950c:	2801703a 	wrctl	status,r5

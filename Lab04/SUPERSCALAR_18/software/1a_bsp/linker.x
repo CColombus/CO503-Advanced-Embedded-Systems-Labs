@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu_1a' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../FTOP_MSOC.sopcinfo
  *
- * Generated: Sat Jun 22 13:55:30 IST 2024
+ * Generated: Mon Jun 24 17:14:38 IST 2024
  */
 
 /*
@@ -51,7 +51,7 @@
 MEMORY
 {
     mem_info : ORIGIN = 0x10000, LENGTH = 1024
-    sdram_controller_BEFORE_RESET : ORIGIN = 0x8000000, LENGTH = 131072
+    sdram_controller_BEFORE_RESET : ORIGIN = 0x8000000, LENGTH = 262144
     reset : ORIGIN = 0x8040000, LENGTH = 32
     sdram_controller : ORIGIN = 0x8040020, LENGTH = 133955552
 }

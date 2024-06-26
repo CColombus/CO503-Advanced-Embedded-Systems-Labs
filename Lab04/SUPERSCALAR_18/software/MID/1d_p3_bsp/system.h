@@ -4,7 +4,7 @@
  * Machine generated for CPU 'CPU_1d_p3_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
  * SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
  *
- * Generated: Mon Jun 24 16:07:17 IST 2024
+ * Generated: Mon Jun 24 17:21:35 IST 2024
  */
 
 /*
@@ -151,8 +151,8 @@
 #define CPU_1D_P3_OC_RAM_0_READ_DURING_WRITE_MODE "DONT_CARE"
 #define CPU_1D_P3_OC_RAM_0_SINGLE_CLOCK_OP 0
 #define CPU_1D_P3_OC_RAM_0_SIZE_MULTIPLE 1
-#define CPU_1D_P3_OC_RAM_0_SIZE_VALUE 20480
-#define CPU_1D_P3_OC_RAM_0_SPAN 20480
+#define CPU_1D_P3_OC_RAM_0_SIZE_VALUE 15360
+#define CPU_1D_P3_OC_RAM_0_SPAN 15360
 #define CPU_1D_P3_OC_RAM_0_TYPE "altera_avalon_onchip_memory2"
 #define CPU_1D_P3_OC_RAM_0_WRITABLE 1
 

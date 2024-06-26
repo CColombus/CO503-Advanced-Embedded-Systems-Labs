@@ -134,7 +134,7 @@ module FTOP_MSOC_CPU_1b_p1_mm_interconnect_0_router_001
     // Figure out the number of bits to mask off for each slave span
     // during address decoding
     // -------------------------------------------------------
-    localparam PAD0 = log2ceil(64'h10000 - 64'h8000); 
+    localparam PAD0 = log2ceil(64'hc000 - 64'h8000); 
     localparam PAD1 = log2ceil(64'h11000 - 64'h10800); 
     // -------------------------------------------------------
     // Work out which address bits are significant based on the
@@ -189,7 +189,7 @@ module FTOP_MSOC_CPU_1b_p1_mm_interconnect_0_router_001
         // Sets the channel and destination ID based on the address
         // --------------------------------------------------
 
-    // ( 0x8000 .. 0x10000 )
+    // ( 0x8000 .. 0xc000 )
     if ( {address[RG:PAD0],{PAD0{1'b0}}} == 17'h8000   ) begin
             src_channel = 5'b10;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 1;

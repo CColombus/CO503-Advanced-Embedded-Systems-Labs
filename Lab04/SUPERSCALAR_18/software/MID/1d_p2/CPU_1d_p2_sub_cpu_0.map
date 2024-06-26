@@ -65,7 +65,7 @@ Memory Configuration
 
 Name             Origin             Length             Attributes
 reset            0x0000000000008000 0x0000000000000020
-CPU_1d_p2_oc_ram_0 0x0000000000008020 0x0000000000004fe0
+CPU_1d_p2_oc_ram_0 0x0000000000008020 0x0000000000003be0
 mem_info         0x0000000010010000 0x0000000000000400
 *default*        0x0000000000000000 0xffffffffffffffff
 
@@ -790,11 +790,11 @@ LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nio
  *(.debug_alt_sim_info)
  .debug_alt_sim_info
                 0x0000000000000000       0x10 ../1d_p2_bsp/obj/HAL/src/crt0.o
-                0x000000000000d000                __alt_data_end = 0xd000
-                0x000000000000d000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x000000000000bc00                __alt_data_end = 0xbc00
+                0x000000000000bc00                PROVIDE (__alt_stack_pointer, __alt_data_end)
                 [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
                 [!provide]                        PROVIDE (__alt_heap_start, end)
-                [!provide]                        PROVIDE (__alt_heap_limit, 0xd000)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0xbc00)
 OUTPUT(CPU_1d_p2_sub_cpu_0.elf elf32-littlenios2)
 
 .debug_ranges   0x0000000000000000      0x130

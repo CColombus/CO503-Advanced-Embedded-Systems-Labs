@@ -3,7 +3,7 @@
 # Machine generated for CPU 'CPU_1c_p2_sub_cpu_0' in SOPC Builder design 'FTOP_MSOC'
 # SOPC Builder design path: ../../../FTOP_MSOC.sopcinfo
 #
-# Generated: Mon Jun 24 16:04:58 IST 2024
+# Generated: Mon Jun 24 17:19:13 IST 2024
 
 # DO NOT MODIFY THIS FILE
 #
@@ -47,7 +47,7 @@
 # by allowing GDB to cache memory contents on the host.
 
 # CPU_1c_p2_oc_ram_0
-memory 0x8000 0xd000 cache
+memory 0x8000 0xbc00 cache
 
 # mem_info
 memory 0x10010000 0x10010400 cache

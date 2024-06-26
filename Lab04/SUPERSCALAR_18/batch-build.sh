@@ -54,7 +54,7 @@ if [ "$answer" == "y" ]; then
 
         # if the bsp generation was successful, print a success message
         if [ $? -eq 0 ]; then
-            echo "\n${GREEN}ALL OKAY!${NC}\n"
+            echo -e "\n${GREEN}ALL OKAY!${NC}\n"
         else
             echo "SOMETHING BAD HAPPEND!"
             exit 1

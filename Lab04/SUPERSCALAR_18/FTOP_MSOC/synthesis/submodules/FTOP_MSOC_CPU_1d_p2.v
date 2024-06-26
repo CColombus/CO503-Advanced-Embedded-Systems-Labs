@@ -57,7 +57,7 @@ module FTOP_MSOC_CPU_1d_p2 (
 	wire   [0:0] mm_interconnect_0_mm_bridge_0_s0_burstcount;             // mm_interconnect_0:mm_bridge_0_s0_burstcount -> mm_bridge_0:s0_burstcount
 	wire         mm_interconnect_0_oc_ram_0_s1_chipselect;                // mm_interconnect_0:oc_ram_0_s1_chipselect -> oc_ram_0:chipselect
 	wire  [31:0] mm_interconnect_0_oc_ram_0_s1_readdata;                  // oc_ram_0:readdata -> mm_interconnect_0:oc_ram_0_s1_readdata
-	wire  [12:0] mm_interconnect_0_oc_ram_0_s1_address;                   // mm_interconnect_0:oc_ram_0_s1_address -> oc_ram_0:address
+	wire  [11:0] mm_interconnect_0_oc_ram_0_s1_address;                   // mm_interconnect_0:oc_ram_0_s1_address -> oc_ram_0:address
 	wire   [3:0] mm_interconnect_0_oc_ram_0_s1_byteenable;                // mm_interconnect_0:oc_ram_0_s1_byteenable -> oc_ram_0:byteenable
 	wire         mm_interconnect_0_oc_ram_0_s1_write;                     // mm_interconnect_0:oc_ram_0_s1_write -> oc_ram_0:write
 	wire  [31:0] mm_interconnect_0_oc_ram_0_s1_writedata;                 // mm_interconnect_0:oc_ram_0_s1_writedata -> oc_ram_0:writedata

@@ -69,7 +69,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  25 .sopc_system_name 00000009  00000000  00000000  0000a4a8  2**0
                   CONTENTS, READONLY
- 26 .sopcinfo     00395fce  00000000  00000000  0000a4b1  2**0
+ 26 .sopcinfo     0039e77c  00000000  00000000  0000a4b1  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 00008000 l    d  .entry	00000000 .entry
@@ -160,7 +160,7 @@ SYMBOL TABLE:
 00008fc8 g       *ABS*	00000000 end
 00008160 g     F .exceptions	00000024 alt_instruction_exception_entry
 000088b4 g     F .text	0000000c altera_avalon_fifo_read_event
-0000d000 g       *ABS*	00000000 __alt_stack_pointer
+0000bc00 g       *ABS*	00000000 __alt_stack_pointer
 00008a0c g     F .text	00000048 alt_avalon_timer_sc_init
 00008988 g     F .text	0000001c altera_avalon_fifo_read_fifo
 00008d90 g     O .rwdata	0000000c qc_p1
@@ -204,7 +204,7 @@ SYMBOL TABLE:
 00008184 g       *ABS*	00000000 __ram_exceptions_end
 00008aec g     F .text	00000038 alt_ic_irq_disable
 00008898 g     F .text	0000000c altera_avalon_fifo_read_ienable
-0000d000 g       *ABS*	00000000 __alt_data_end
+0000bc00 g       *ABS*	00000000 __alt_data_end
 00008020 g     F .exceptions	00000000 alt_exception
 00008d78 g     O .rwdata	0000000c qb_p2
 00008a98 g     F .text	00000014 _exit
@@ -332,7 +332,7 @@ Disassembly of section .text:
 
 00008184 <_start>:
     8184:	06c00034 	movhi	sp,0
-    8188:	def40014 	ori	sp,sp,53248
+    8188:	deef0014 	ori	sp,sp,48128
     818c:	06800074 	movhi	gp,1
     8190:	d6837914 	ori	gp,gp,3556
     8194:	00800034 	movhi	r2,0

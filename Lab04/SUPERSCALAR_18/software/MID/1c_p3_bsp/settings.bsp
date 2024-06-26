@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jun 24, 2024 4:05:31 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1719225331727</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Jun 24, 2024 5:19:51 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1719229791133</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>.\</BspGeneratedLocation>
         <BspSettingsFile>.\software\MID\1c_p3_bsp\settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\..\FTOP_MSOC.sopcinfo</SopcDesignFile>
@@ -900,8 +900,8 @@
         </Setting>
         <MemoryMap>
                 <slaveDescriptor>CPU_1c_p3_oc_ram_0</slaveDescriptor>
-                <addressRange>0x00008000 - 0x0000CFFF</addressRange>
-                <addressSpan>20480</addressSpan>
+                <addressRange>0x00008000 - 0x0000BBFF</addressRange>
+                <addressSpan>15360</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
